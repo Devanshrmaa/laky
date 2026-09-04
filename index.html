@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PYQ Revision Checklist</title>
+  <meta name="description" content="A calm revision tracker built from a topic-frequency analysis of past papers.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="assets/app.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the checklist</a>
+
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <div class="masthead-text">
+        <p class="eyebrow" data-bind="course"></p>
+        <h1 data-bind="heading"></h1>
+        <p class="tagline" data-bind="tagline"></p>
+      </div>
+      <div class="overall" aria-live="polite">
+        <div class="overall-figure">
+          <span class="overall-done" data-bind="overallDone">0</span>
+          <span class="overall-total">of <span data-bind="overallTotal">0</span> topics</span>
+        </div>
+        <div class="meter" role="img" aria-label="Overall progress">
+          <span class="meter-fill" data-bind="overallBar" style="width:0%"></span>
+        </div>
+        <p class="overall-note" data-bind="overallNote"></p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="subjects" aria-label="Subjects">
+    <div class="wrap subjects-inner" data-bind="subjectTabs"></div>
+  </nav>
+
+  <main id="main" class="wrap">
+    <section class="focus" data-bind="focusSection" hidden>
+      <div class="focus-head">
+        <h2>Start here</h2>
+        <p>The heaviest topics you haven't finished yet, in this subject.</p>
+      </div>
+      <ol class="focus-list" data-bind="focusList"></ol>
+    </section>
+
+    <section class="controls" aria-label="Filters">
+      <div class="search-row">
+        <label class="search">
+          <span class="visually-hidden">Search topics</span>
+          <input type="search" id="search" placeholder="Search a topic…" autocomplete="off">
+        </label>
+        <button type="button" class="ghost" data-action="collapse-all">Collapse all</button>
+      </div>
+      <div class="filter-row">
+        <div class="filter-group" role="group" aria-label="Filter by tier">
+          <span class="filter-label">Weight</span>
+          <button type="button" class="chip" data-filter="tier" data-value="all" aria-pressed="true">All</button>
+          <button type="button" class="chip chip-high" data-filter="tier" data-value="HIGH" aria-pressed="false">High</button>
+          <button type="button" class="chip chip-medium" data-filter="tier" data-value="MEDIUM" aria-pressed="false">Medium</button>
+          <button type="button" class="chip chip-low" data-filter="tier" data-value="LOW" aria-pressed="false">Low</button>
+        </div>
+        <div class="filter-group" role="group" aria-label="Filter by status">
+          <span class="filter-label">Status</span>
+          <button type="button" class="chip" data-filter="status" data-value="all" aria-pressed="true">All</button>
+          <button type="button" class="chip" data-filter="status" data-value="todo" aria-pressed="false">Not started</button>
+          <button type="button" class="chip" data-filter="status" data-value="revising" aria-pressed="false">Revising</button>
+          <button type="button" class="chip" data-filter="status" data-value="done" aria-pressed="false">Done</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="subject-summary" data-bind="subjectSummary"></section>
+
+    <div data-bind="chapters"></div>
+    <p class="empty" data-bind="emptyState" hidden>Nothing matches that. Try clearing a filter.</p>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p class="footer-source" data-bind="source"></p>
+      <p class="footer-tier" data-bind="tierRule"></p>
+      <details class="notes">
+        <summary>Notes on the data</summary>
+        <ul data-bind="dataNotes"></ul>
+      </details>
+      <details class="notes">
+        <summary>Backup &amp; restore progress</summary>
+        <p class="muted">Ticks live in this browser only. Copy this out before switching phone or laptop, and paste it back on the other side.</p>
+        <textarea data-bind="backup" rows="4" spellcheck="false" aria-label="Progress backup"></textarea>
+        <div class="backup-actions">
+          <button type="button" class="ghost" data-action="copy-backup">Copy</button>
+          <button type="button" class="ghost" data-action="restore-backup">Restore from box</button>
+          <button type="button" class="ghost danger" data-action="reset">Clear all ticks</button>
+          <span class="backup-msg" data-bind="backupMsg" role="status"></span>
+        </div>
+      </details>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
