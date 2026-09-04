@@ -4,98 +4,135 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PYQ Revision Checklist</title>
-  <meta name="description" content="A calm revision tracker built from a topic-frequency analysis of past papers.">
+  <meta name="description" content="Past-paper topic frequency, turned into a revision plan.">
   <meta name="color-scheme" content="light dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;450;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/app.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%2363339e'/><rect x='6' y='7' width='20' height='3' fill='white'/><rect x='6' y='14' width='13' height='3' fill='white' opacity='.7'/><rect x='6' y='21' width='7' height='3' fill='white' opacity='.4'/></svg>">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to the checklist</a>
+  <a class="skip" href="#work">Skip to the checklist</a>
 
-  <header class="masthead">
-    <div class="wrap masthead-inner">
-      <div class="masthead-text">
-        <p class="eyebrow" data-bind="course"></p>
+  <header class="mast">
+    <div class="shell mast-grid">
+      <div class="mast-id">
+        <p class="stamp"><span data-bind="course"></span><i></i><span data-bind="papersLine"></span></p>
         <h1 data-bind="heading"></h1>
-        <p class="tagline" data-bind="tagline"></p>
+        <p class="lede" data-bind="tagline"></p>
       </div>
-      <div class="overall" aria-live="polite">
-        <div class="overall-figure">
-          <span class="overall-done" data-bind="overallDone">0</span>
-          <span class="overall-total">of <span data-bind="overallTotal">0</span> topics</span>
+
+      <div class="mast-figure">
+        <p class="figure-label">Covered so far</p>
+        <p class="figure"><span data-bind="covPct">0</span><span class="figure-unit">%</span></p>
+        <div class="cov-track" role="img" data-bind="covAria">
+          <span class="cov-fill" data-bind="covFill"></span>
         </div>
-        <div class="meter" role="img" aria-label="Overall progress">
-          <span class="meter-fill" data-bind="overallBar" style="width:0%"></span>
-        </div>
-        <p class="overall-note" data-bind="overallNote"></p>
+        <p class="figure-foot" data-bind="covFoot"></p>
       </div>
     </div>
+
+    <nav class="views shell" aria-label="Views">
+      <button type="button" class="view-tab" data-view="checklist" aria-current="true">Checklist</button>
+      <button type="button" class="view-tab" data-view="papers">Papers</button>
+      <button type="button" class="view-tab" data-view="drill">Drill</button>
+      <button type="button" class="view-tab" data-view="plan">Plan</button>
+      <label class="find">
+        <span class="vh">Search every subject</span>
+        <input type="search" id="find" placeholder="Search all subjects…  /" autocomplete="off">
+      </label>
+    </nav>
   </header>
 
-  <nav class="subjects" aria-label="Subjects">
-    <div class="wrap subjects-inner" data-bind="subjectTabs"></div>
-  </nav>
+  <main id="work" class="shell">
 
-  <main id="main" class="wrap">
-    <section class="focus" data-bind="focusSection" hidden>
-      <div class="focus-head">
-        <h2>Start here</h2>
-        <p>The heaviest topics you haven't finished yet, in this subject.</p>
-      </div>
-      <ol class="focus-list" data-bind="focusList"></ol>
-    </section>
+    <!-- ------------------------------------------------------- checklist -->
+    <div class="layout" data-panel="checklist">
+      <aside class="rail">
+        <h2 class="rail-h">Subjects</h2>
+        <ul class="subject-list" data-bind="subjectList"></ul>
 
-    <section class="controls" aria-label="Filters">
-      <div class="search-row">
-        <label class="search">
-          <span class="visually-hidden">Search topics</span>
-          <input type="search" id="search" placeholder="Search a topic…" autocomplete="off">
-        </label>
-        <button type="button" class="ghost" data-action="collapse-all">Collapse all</button>
-      </div>
-      <div class="filter-row">
-        <div class="filter-group" role="group" aria-label="Filter by tier">
-          <span class="filter-label">Weight</span>
-          <button type="button" class="chip" data-filter="tier" data-value="all" aria-pressed="true">All</button>
-          <button type="button" class="chip chip-high" data-filter="tier" data-value="HIGH" aria-pressed="false">High</button>
-          <button type="button" class="chip chip-medium" data-filter="tier" data-value="MEDIUM" aria-pressed="false">Medium</button>
-          <button type="button" class="chip chip-low" data-filter="tier" data-value="LOW" aria-pressed="false">Low</button>
+        <div class="rail-block" data-bind="railStats"></div>
+
+        <div class="rail-block">
+          <h3 class="rail-h">Filter</h3>
+          <div class="chips" role="group" aria-label="Filter by weight">
+            <button type="button" class="chip" data-filter="tier" data-value="all" aria-pressed="true">All</button>
+            <button type="button" class="chip" data-filter="tier" data-value="HIGH" aria-pressed="false">High</button>
+            <button type="button" class="chip" data-filter="tier" data-value="MEDIUM" aria-pressed="false">Med</button>
+            <button type="button" class="chip" data-filter="tier" data-value="LOW" aria-pressed="false">Low</button>
+          </div>
+          <div class="chips" role="group" aria-label="Filter by status">
+            <button type="button" class="chip" data-filter="status" data-value="all" aria-pressed="true">All</button>
+            <button type="button" class="chip" data-filter="status" data-value="todo" aria-pressed="false">Untouched</button>
+            <button type="button" class="chip" data-filter="status" data-value="revising" aria-pressed="false">Revising</button>
+            <button type="button" class="chip" data-filter="status" data-value="done" aria-pressed="false">Done</button>
+          </div>
+          <button type="button" class="link-btn" data-act="collapse">Collapse all sections</button>
         </div>
-        <div class="filter-group" role="group" aria-label="Filter by status">
-          <span class="filter-label">Status</span>
-          <button type="button" class="chip" data-filter="status" data-value="all" aria-pressed="true">All</button>
-          <button type="button" class="chip" data-filter="status" data-value="todo" aria-pressed="false">Not started</button>
-          <button type="button" class="chip" data-filter="status" data-value="revising" aria-pressed="false">Revising</button>
-          <button type="button" class="chip" data-filter="status" data-value="done" aria-pressed="false">Done</button>
+
+        <div class="rail-block legend">
+          <h3 class="rail-h">Reading a spine</h3>
+          <p class="legend-note">Each topic carries one cell per year from <span data-bind="yearFrom"></span> to <span data-bind="yearTo"></span>. An inked cell means that year's paper asked it — darker where it was asked more than once.</p>
+          <div class="legend-swatches" data-bind="legendSwatches"></div>
         </div>
-      </div>
-    </section>
+      </aside>
 
-    <section class="subject-summary" data-bind="subjectSummary"></section>
+      <section class="work">
+        <div data-bind="nextUp"></div>
+        <div data-bind="chapters"></div>
+        <p class="void" data-bind="voidState" hidden></p>
+      </section>
+    </div>
 
-    <div data-bind="chapters"></div>
-    <p class="empty" data-bind="emptyState" hidden>Nothing matches that. Try clearing a filter.</p>
+    <!-- ---------------------------------------------------------- papers -->
+    <div class="layout" data-panel="papers" hidden>
+      <aside class="rail">
+        <h2 class="rail-h">Sittings</h2>
+        <p class="rail-note">Every paper the analysis drew from, rebuilt from the topics recorded against it.</p>
+        <ul class="sitting-list" data-bind="sittingList"></ul>
+      </aside>
+      <section class="work" data-bind="paperPane"></section>
+    </div>
+
+    <!-- ----------------------------------------------------------- drill -->
+    <div data-panel="drill" hidden>
+      <section class="drill" data-bind="drillPane"></section>
+    </div>
+
+    <!-- ------------------------------------------------------------ plan -->
+    <div data-panel="plan" hidden>
+      <section class="plan" data-bind="planPane"></section>
+    </div>
+
+    <!-- ---------------------------------------------------------- search -->
+    <div data-panel="search" hidden>
+      <section class="work" data-bind="searchPane"></section>
+    </div>
   </main>
 
-  <footer class="footer">
-    <div class="wrap">
-      <p class="footer-source" data-bind="source"></p>
-      <p class="footer-tier" data-bind="tierRule"></p>
-      <details class="notes">
-        <summary>Notes on the data</summary>
-        <ul data-bind="dataNotes"></ul>
-      </details>
-      <details class="notes">
-        <summary>Backup &amp; restore progress</summary>
-        <p class="muted">Ticks live in this browser only. Copy this out before switching phone or laptop, and paste it back on the other side.</p>
-        <textarea data-bind="backup" rows="4" spellcheck="false" aria-label="Progress backup"></textarea>
-        <div class="backup-actions">
-          <button type="button" class="ghost" data-action="copy-backup">Copy</button>
-          <button type="button" class="ghost" data-action="restore-backup">Restore from box</button>
-          <button type="button" class="ghost danger" data-action="reset">Clear all ticks</button>
-          <span class="backup-msg" data-bind="backupMsg" role="status"></span>
-        </div>
-      </details>
+  <footer class="foot">
+    <div class="shell">
+      <p class="foot-src" data-bind="source"></p>
+      <p class="foot-rule" data-bind="tierRule"></p>
+      <div class="foot-grid">
+        <details>
+          <summary>Where these numbers come from</summary>
+          <ul data-bind="dataNotes"></ul>
+        </details>
+        <details>
+          <summary>Move your progress to another device</summary>
+          <p class="muted">Ticks live in this browser only — nothing is uploaded. Copy this out, paste it in on the other device.</p>
+          <textarea data-bind="backup" rows="3" spellcheck="false" aria-label="Progress backup"></textarea>
+          <div class="foot-actions">
+            <button type="button" class="link-btn" data-act="copy">Copy</button>
+            <button type="button" class="link-btn" data-act="restore">Paste and restore</button>
+            <button type="button" class="link-btn warn" data-act="reset">Clear every tick</button>
+            <span class="say" data-bind="say" role="status"></span>
+          </div>
+        </details>
+      </div>
     </div>
   </footer>
 
