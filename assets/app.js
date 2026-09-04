@@ -24,6 +24,8 @@
 
   const state = {
     data: null,
+    papers: [],          // real transcribed papers, when data/papers.json is present
+    paperId: null,
     subjectId: null,
     view: 'checklist',
     tier: 'all',
@@ -450,24 +452,73 @@
       .sort((a, b) => b.year.localeCompare(a.year) || a.session.localeCompare(b.session));
   }
 
-  function paintPapers() {
-    const sittings = sittingIndex();
-    if (!state.sitting || !sittings.some((s) => s.key === state.sitting)) {
-      state.sitting = sittings[0].key;
-    }
+  /** Label a transcribed paper by whatever it actually prints about itself. */
+  function paperLabel(p) {
+    const bits = [];
+    if (p.year) bits.push(p.year);
+    bits.push(p.session);
+    return bits.join(' ');
+  }
 
-    bind('sittingList').replaceChildren(...sittings.map((s) => {
+  const papersFor = (subjectId) => state.papers.filter((p) => p.subjectId === subjectId);
+
+  function paintPapers() {
+    bind('paperSubjects').replaceChildren(...state.data.subjects.map((s) => {
       const li = el('li');
-      const btn = el('button', 'sitting-btn');
+      const btn = el('button', 'subject-btn');
       btn.type = 'button';
-      btn.dataset.sitting = s.key;
-      btn.setAttribute('aria-current', String(s.key === state.sitting));
-      btn.append(el('span', null, `${s.year} ${s.session}`),
-        el('span', 'tally', String(s.asks.length)));
+      btn.dataset.subject = s.id;
+      btn.dataset.hue = s.id;
+      btn.setAttribute('aria-current', String(s.id === state.subjectId));
+      btn.append(el('span', 'subject-swatch'), el('span', null, s.name),
+        el('span', 'tally', String(papersFor(s.id).length || '—')));
       li.append(btn);
       return li;
     }));
 
+    const sittings = sittingIndex();
+    const real = papersFor(state.subjectId);
+    const list = bind('sittingList');
+    list.replaceChildren();
+
+    if (real.length) {
+      list.append(el('li', 'rail-group', 'Papers transcribed in full'));
+      real.forEach((p) => {
+        const li = el('li');
+        const btn = el('button', 'sitting-btn');
+        btn.type = 'button';
+        btn.dataset.paper = p.id;
+        btn.setAttribute('aria-current', String(p.id === state.paperId));
+        const marks = p.questions.reduce((s, q) => s + q.marks, 0);
+        btn.append(el('span', null, `${paperLabel(p)} · ${p.code}`),
+          el('span', 'tally', `${marks}m`));
+        li.append(btn);
+        list.append(li);
+      });
+    }
+
+    list.append(el('li', 'rail-group', 'Sittings from the frequency analysis'));
+    sittings.forEach((s) => {
+      const li = el('li');
+      const btn = el('button', 'sitting-btn');
+      btn.type = 'button';
+      btn.dataset.sitting = s.key;
+      btn.setAttribute('aria-current', String(!state.paperId && s.key === state.sitting));
+      btn.append(el('span', null, `${s.year} ${s.session}`),
+        el('span', 'tally', String(s.asks.length)));
+      li.append(btn);
+      list.append(li);
+    });
+
+    if (state.paperId) {
+      const paper = state.papers.find((p) => p.id === state.paperId);
+      if (paper) return paintRealPaper(paper);
+      state.paperId = null;
+    }
+
+    if (!state.sitting || !sittings.some((s) => s.key === state.sitting)) {
+      state.sitting = sittings[0].key;
+    }
     const sitting = sittings.find((s) => s.key === state.sitting);
     const pane = bind('paperPane');
     pane.replaceChildren();
@@ -505,6 +556,81 @@
         const meta = el('span', 'qmeta');
         meta.append(tierTag(a.topic), document.createTextNode(` ${a.topic.timesAsked}×`));
         row.append(meta);
+        group.append(row);
+      });
+      pane.append(group);
+    });
+  }
+
+  /** The real thing: a paper as it was actually printed, with its marks. */
+  function paintRealPaper(paper) {
+    const subj = subjectById(paper.subjectId);
+    const pane = bind('paperPane');
+    pane.replaceChildren();
+    pane.dataset.hue = paper.subjectId;
+
+    const total = paper.questions.reduce((s, q) => s + q.marks, 0);
+    const covered = paper.questions.filter((q) =>
+      q.topics.length && q.topics.every((t) => statusOf(subj.id, t) === 'done'));
+    const coveredMarks = covered.reduce((s, q) => s + q.marks, 0);
+
+    const head = el('div', 'paper-head');
+    head.append(el('p', 'paper-kicker',
+      `${subj.name} · paper code ${paper.code}${paper.series ? ` · series ${paper.series}` : ''}`));
+    head.append(el('h2', null, paper.year
+      ? `${paper.year} ${paper.session} paper`
+      : `${paper.session} paper · ${paper.code}`));
+
+    const facts = el('p', 'paper-facts');
+    facts.append(el('span', null, `${paper.maxMarks} marks`),
+      el('span', null, `${paper.hours} hours`),
+      el('span', null, `${paper.questions.length} questions`));
+    if (paper.regulation) facts.append(el('span', null, paper.regulation));
+    head.append(facts);
+
+    if (paper.yearNote) {
+      head.append(el('p', 'paper-note', `Dated from the paper itself — ${paper.yearNote}.`));
+    }
+    head.append(el('p', null,
+      `You've covered ${coveredMarks} of the ${total} marks on this paper.`));
+    if (paper.incomplete) {
+      head.append(el('p', 'paper-warn', paper.incomplete));
+    }
+    pane.append(head);
+
+    const parts = [...new Set(paper.questions.map((q) => q.part))];
+    parts.forEach((part) => {
+      const group = el('div', 'paper-subject');
+      const partMarks = paper.questions
+        .filter((q) => q.part === part).reduce((s, q) => s + q.marks, 0);
+      const h = el('h3');
+      h.append(el('span', null, `Part ${part}`), el('span', 'part-marks', `${partMarks} marks`));
+      group.append(h);
+
+      paper.questions.filter((q) => q.part === part).forEach((q) => {
+        const row = el('div', 'paper-q real');
+        const done = q.topics.length &&
+          q.topics.every((t) => statusOf(subj.id, t) === 'done');
+        row.dataset.status = done ? 'done' : 'todo';
+        row.append(el('span', 'qn', q.n));
+
+        const mid = el('span', 'qname');
+        mid.append(el('span', 'qtext', q.text));
+        if (q.topics.length) {
+          const chips = el('span', 'qtopics');
+          q.topics.forEach((tid) => {
+            const topic = topicsOf(subj).find((t) => t.id === tid);
+            if (!topic) return;
+            const chip = el('button', 'qtopic', topic.name);
+            chip.type = 'button';
+            chip.dataset.tick = tid;
+            chip.dataset.status = statusOf(subj.id, tid);
+            chip.title = `${LABEL[statusOf(subj.id, tid)]} — click to change`;
+            chips.append(chip);
+          });
+          mid.append(chips);
+        }
+        row.append(mid, el('span', 'qmeta', `${q.marks}`));
         group.append(row);
       });
       pane.append(group);
@@ -796,6 +922,7 @@
       state.subjectId = d.subject;
       state.openChapters.clear();
       state.openTopics.clear();
+      state.paperId = null;
       if (state.view === 'drill') buildQueue();
       paintAll();
       return;
@@ -839,7 +966,8 @@
       return;
     }
 
-    if (d.sitting) { state.sitting = d.sitting; paintPapers(); return; }
+    if (d.sitting) { state.sitting = d.sitting; state.paperId = null; paintPapers(); return; }
+    if (d.paper) { state.paperId = d.paper; paintPapers(); return; }
 
     if (d.revive) {
       const [subjectId, topicId] = d.revive.split('/');
@@ -928,10 +1056,17 @@
 
   /* ================================================================= boot */
 
-  fetch('data/topics.json')
-    .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
-    .then((data) => {
+  Promise.all([
+    fetch('data/topics.json').then((r) => {
+      if (!r.ok) throw new Error(`topics.json: HTTP ${r.status}`);
+      return r.json();
+    }),
+    // Optional: the site still works as a checklist without the paper transcripts.
+    fetch('data/papers.json').then((r) => (r.ok ? r.json() : null)).catch(() => null),
+  ])
+    .then(([data, papers]) => {
       state.data = data;
+      state.papers = papers && Array.isArray(papers.papers) ? papers.papers : [];
       state.subjectId = data.subjects[0].id;
       state.progress = readProgress();
       try { state.prefs = JSON.parse(localStorage.getItem(KEY_PREFS)) || {}; }

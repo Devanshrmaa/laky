@@ -88,9 +88,13 @@
     <!-- ---------------------------------------------------------- papers -->
     <div class="layout" data-panel="papers" hidden>
       <aside class="rail">
-        <h2 class="rail-h">Sittings</h2>
-        <p class="rail-note">Every paper the analysis drew from, rebuilt from the topics recorded against it.</p>
-        <ul class="sitting-list" data-bind="sittingList"></ul>
+        <h2 class="rail-h">Subject</h2>
+        <ul class="subject-list" data-bind="paperSubjects"></ul>
+        <div class="rail-block">
+          <h2 class="rail-h">Papers</h2>
+          <p class="rail-note">Transcribed papers carry their real questions and marks. The rest are rebuilt from the topics recorded against each sitting.</p>
+          <ul class="sitting-list" data-bind="sittingList"></ul>
+        </div>
       </aside>
       <section class="work" data-bind="paperPane"></section>
     </div>

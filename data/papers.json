@@ -1,0 +1,5086 @@
+{
+  "meta": {
+    "source": "Photographs of the original BDS question papers.",
+    "note": "Questions are transcribed as printed, with the marks the paper awards them. Papers are identified by their printed paper code; a year is only recorded where one is legibly written on the paper.",
+    "subjects": {
+      "pharmacology": 19,
+      "dental-materials": 18
+    },
+    "totalPapers": 37,
+    "totalQuestions": 518,
+    "totalMarks": 2302
+  },
+  "papers": [
+    {
+      "id": "pharmacology-5743-2083",
+      "subjectId": "pharmacology",
+      "code": "5743",
+      "series": "2083",
+      "session": "Annual",
+      "regulation": "New Regulation",
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Enumerate various Non-Steroidal Anti-inflammatory Drugs. Discuss briefly mechanism of action, uses and adverse effects of Aspirin.",
+          "marks": 9,
+          "topics": [
+            "nsaids-aspirin-classify-moa-uses-ae"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Preanaesthetic medication.",
+          "marks": 4,
+          "topics": [
+            "pre-anaesthetic-medication"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Phenytoin.",
+          "marks": 4,
+          "topics": [
+            "antiepileptics-phenytoin-classification"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Drug tolerance.",
+          "marks": 4,
+          "topics": [
+            "pharmacodynamics-antagonism-synergism-tolerance-tachyphylaxis"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Antacids.",
+          "marks": 4,
+          "topics": [
+            "antacids"
+          ]
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Explain why: Adrenaline is used in anaphylactic shock.",
+          "marks": 2,
+          "topics": [
+            "treatment-of-anaphylactic-shock"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Explain why: Propranolol is contraindicated in bronchial asthma.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Explain why: Morphine is contraindicated in head injury.",
+          "marks": 2,
+          "topics": [
+            "opioid-analgesics-morphine"
+          ]
+        },
+        {
+          "n": "3d",
+          "part": "A",
+          "text": "Explain why: Tetracyclines are avoided during pregnancy and lactation.",
+          "marks": 2,
+          "topics": [
+            "broad-spectrum-tetracyclines-macrolides-azithromycin-doxycycline"
+          ]
+        },
+        {
+          "n": "3e",
+          "part": "A",
+          "text": "Explain why: Isoniazid is used with vit. B6.",
+          "marks": 2,
+          "topics": [
+            "tuberculosis-tb-rifampicin-dots-6-month-regimen"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Enumerate various Penicillins. Discuss briefly mechanism of action, uses and adverse effects of Amoxicillin.",
+          "marks": 9,
+          "topics": [
+            "penicillins-classify-amoxicillin-extended-spectrum"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Heparin.",
+          "marks": 4,
+          "topics": [
+            "coagulants-anticoagulants-heparin-lmwh-warfarin-vit-k"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Oral Hypoglycemics.",
+          "marks": 5,
+          "topics": [
+            "diabetes-insulin-oral-hypoglycemics-metformin-sulfonylureas"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Fluconazole.",
+          "marks": 4,
+          "topics": [
+            "antifungal-candidiasis-treatment-fluconazole-oral-thrush"
+          ]
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Discuss briefly: Dentifrices.",
+          "marks": 5,
+          "topics": [
+            "dentifrices"
+          ]
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Discuss briefly: Treatment of Aphthous Stomatitis.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Discuss briefly: Styptics.",
+          "marks": 4,
+          "topics": [
+            "styptics-local-hemostatics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-6554-2031",
+      "subjectId": "pharmacology",
+      "code": "6554",
+      "series": "2031",
+      "session": "Suppl.",
+      "regulation": null,
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify local anaesthetics. Describe the mechanism of action, various routes of administration, uses and adverse effects of Lignocaine.",
+          "marks": 11,
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: O.R.S. (Oral Rehydration Solution).",
+          "marks": 4,
+          "topics": [
+            "ors-oral-rehydration-solution"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: COX-2 Inhibitors.",
+          "marks": 4,
+          "topics": [
+            "nsaids-aspirin-classify-moa-uses-ae"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Centrally acting muscle relaxants.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Discuss briefly: Teratogenicity.",
+          "marks": 4,
+          "topics": [
+            "adverse-drug-reactions-teratogenicity"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Discuss briefly: Non-sedative antihistaminics.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Discuss briefly: Adrenaline.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Enumerate various antitubercular drugs. Discuss briefly mechanism of action, pharmacokinetics, uses, adverse effects and important drug interactions of Rifampicin.",
+          "marks": 11,
+          "topics": [
+            "tuberculosis-tb-rifampicin-dots-6-month-regimen"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Discuss briefly: Anaphylactic shock.",
+          "marks": 4,
+          "topics": [
+            "treatment-of-anaphylactic-shock"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Discuss briefly: Amoxycillin.",
+          "marks": 4,
+          "topics": [
+            "penicillins-classify-amoxicillin-extended-spectrum"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Discuss briefly: Antiseptics used in dentistry.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Short note: Vitamin-C (Ascorbic acid).",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Short note: Oral candidiasis.",
+          "marks": 4,
+          "topics": [
+            "antifungal-candidiasis-treatment-fluconazole-oral-thrush"
+          ]
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Short note: Astringents.",
+          "marks": 4,
+          "topics": [
+            "astringents"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-7172-2074",
+      "subjectId": "pharmacology",
+      "code": "7172",
+      "series": "2074",
+      "session": "Annual",
+      "regulation": "New Regulation",
+      "year": "2018",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify Penicillins. Write M.O.A., uses and side effects of Extended Spectrum Penicillins.",
+          "marks": 10,
+          "topics": [
+            "penicillins-classify-amoxicillin-extended-spectrum"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Different routes of drug administration.",
+          "marks": 2,
+          "topics": [
+            "routes-of-administration-parenteral-advantages-disadvantages"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Essential Drug concept.",
+          "marks": 2,
+          "topics": [
+            "essential-drug-concept-fdcs"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Lignocaine.",
+          "marks": 2,
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Naproxen.",
+          "marks": 2,
+          "topics": [
+            "nsaids-aspirin-classify-moa-uses-ae"
+          ]
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "text": "Short note: Paracetamol.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Write treatment of: Iron deficiency anaemia.",
+          "marks": 3,
+          "topics": [
+            "hematinics-iron-b12-folic-acid"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Write treatment of: Peptic ulcer (H. Pylori associated).",
+          "marks": 3,
+          "topics": [
+            "peptic-ulcer-drugs-ppis-h2-blockers-omeprazole-pantoprazole"
+          ]
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Write treatment of: Moderate Amebiasis.",
+          "marks": 3,
+          "topics": [
+            "antiamoebic-metronidazole"
+          ]
+        },
+        {
+          "n": "3d",
+          "part": "A",
+          "text": "Write treatment of: Ulcerative gingivitis.",
+          "marks": 3,
+          "topics": [
+            "anug-acute-necrotising-ulcerative-gingivitis-treatment"
+          ]
+        },
+        {
+          "n": "3e",
+          "part": "A",
+          "text": "Write treatment of: Diabetic ketoacidosis.",
+          "marks": 3,
+          "topics": [
+            "diabetes-insulin-oral-hypoglycemics-metformin-sulfonylureas"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Classify Local anaesthetics. Write their M.O.A., uses and side effects.",
+          "marks": 10,
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Bleaching agents.",
+          "marks": 3,
+          "topics": [
+            "bleaching-agents"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Styptics.",
+          "marks": 3,
+          "topics": [
+            "styptics-local-hemostatics"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Aminoglycosides.",
+          "marks": 3,
+          "topics": [
+            "aminoglycosides-gentamicin-streptomycin"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: Methyldopa.",
+          "marks": 3,
+          "topics": [
+            "antihypertensives-ace-inhibitors-classification"
+          ]
+        },
+        {
+          "n": "5e",
+          "part": "B",
+          "text": "Short note: Newer Antihistamines.",
+          "marks": 3,
+          "topics": []
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Write treatment of: Chemotherapy induced vomiting.",
+          "marks": 2,
+          "topics": [
+            "antiemetics-prokinetics-metoclopramide-domperidone"
+          ]
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Write treatment of: Six months treatment of T.B.",
+          "marks": 2,
+          "topics": [
+            "tuberculosis-tb-rifampicin-dots-6-month-regimen"
+          ]
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Write treatment of: Acute Angina.",
+          "marks": 2,
+          "topics": [
+            "angina-nitrates-gtn-treatment-of-acute-angina"
+          ]
+        },
+        {
+          "n": "6d",
+          "part": "B",
+          "text": "Write treatment of: Viral Diarrhoea.",
+          "marks": 2,
+          "topics": [
+            "ors-oral-rehydration-solution"
+          ]
+        },
+        {
+          "n": "6e",
+          "part": "B",
+          "text": "Write treatment of: Arsenic Poisoning.",
+          "marks": 2,
+          "topics": [
+            "poisoning-treatment-organophosphorus-iron-morphine-arsenic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-6334-2082",
+      "subjectId": "pharmacology",
+      "code": "6334",
+      "series": "2082",
+      "session": "Annual",
+      "regulation": "New Regulation",
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify Antiepileptic drugs. Write M.O.A., uses and side effects of Phenytoin Sodium.",
+          "marks": 10,
+          "topics": [
+            "antiepileptics-phenytoin-classification"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Metoclopramide.",
+          "marks": 4,
+          "topics": [
+            "antiemetics-prokinetics-metoclopramide-domperidone"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Teratogenic drugs.",
+          "marks": 4,
+          "topics": [
+            "adverse-drug-reactions-teratogenicity"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Penicillamine.",
+          "marks": 4,
+          "topics": [
+            "dimercaprol-bal-chelating-agents"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Antiplatelet drugs.",
+          "marks": 4,
+          "topics": [
+            "coagulants-anticoagulants-heparin-lmwh-warfarin-vit-k"
+          ]
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "text": "Short note: Organophosphorus Poisoning.",
+          "marks": 4,
+          "topics": [
+            "poisoning-treatment-organophosphorus-iron-morphine-arsenic"
+          ]
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Explain why: Beta-2 Agonist used in Acute Asthma.",
+          "marks": 1,
+          "topics": []
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Explain why: N-Acetylcysteine used for treatment of Paracetamol Poisoning.",
+          "marks": 1,
+          "topics": [
+            "poisoning-treatment-organophosphorus-iron-morphine-arsenic"
+          ]
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Explain why: Streptokinase used for treatment of Myocardial infarction.",
+          "marks": 1,
+          "topics": [
+            "coagulants-anticoagulants-heparin-lmwh-warfarin-vit-k"
+          ]
+        },
+        {
+          "n": "3d",
+          "part": "A",
+          "text": "Explain why: Dantrolene sodium used for treatment of Malignant Hyperthermia.",
+          "marks": 1,
+          "topics": []
+        },
+        {
+          "n": "3e",
+          "part": "A",
+          "text": "Explain why: Lignocaine used as L.A.",
+          "marks": 1,
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Classify Antidiabetic drugs. Write M.O.A., uses and side effects of Insulin.",
+          "marks": 10,
+          "topics": [
+            "diabetes-insulin-oral-hypoglycemics-metformin-sulfonylureas"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Frusemide.",
+          "marks": 4,
+          "topics": [
+            "diuretics-frusemide-thiazides-high-ceiling"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Fluoroquinolones.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Bleaching agents.",
+          "marks": 4,
+          "topics": [
+            "bleaching-agents"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: Anticaries drugs.",
+          "marks": 4,
+          "topics": [
+            "dental-caries-plaque-drugs"
+          ]
+        },
+        {
+          "n": "5e",
+          "part": "B",
+          "text": "Short note: Dapsone.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Fill in the blank: Mature plaque appears ______ while fresh plaque appears ______.",
+          "marks": 1,
+          "topics": [
+            "dental-caries-plaque-drugs"
+          ]
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Fill in the blank: Detergents ______ surface tension between Oil and Water.",
+          "marks": 1,
+          "topics": [
+            "dentifrices"
+          ]
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Fill in the blank: Strontium chloride is added to treat ______.",
+          "marks": 1,
+          "topics": [
+            "dentifrices"
+          ]
+        },
+        {
+          "n": "6d",
+          "part": "B",
+          "text": "Fill in the blank: Carbamide peroxide added to ______ dentifrices.",
+          "marks": 1,
+          "topics": [
+            "bleaching-agents"
+          ]
+        },
+        {
+          "n": "6e",
+          "part": "B",
+          "text": "Fill in the blank: Sodium chloride used for ______.",
+          "marks": 1,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-7808-2089",
+      "subjectId": "pharmacology",
+      "code": "7808",
+      "series": "2089",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2019",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify beta blockers. Write uses, adverse effects and contraindications of Propranolol.",
+          "marks": 10,
+          "topics": []
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Lidocaine.",
+          "marks": 5,
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Styptics.",
+          "marks": 5,
+          "topics": [
+            "styptics-local-hemostatics"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Mouth washes.",
+          "marks": 5,
+          "topics": [
+            "mouthwashes"
+          ]
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Explain why: Oxygen is given along with Nitrous oxide for general anaesthesia.",
+          "marks": 2,
+          "topics": [
+            "general-anaesthetics-halothane-n2o"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Explain why: Aspirin is stopped before tooth extraction.",
+          "marks": 2,
+          "topics": [
+            "nsaids-aspirin-classify-moa-uses-ae"
+          ]
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Explain why: Atropine is used for organophosphate poisoning.",
+          "marks": 2,
+          "topics": [
+            "poisoning-treatment-organophosphorus-iron-morphine-arsenic"
+          ]
+        },
+        {
+          "n": "3d",
+          "part": "A",
+          "text": "Explain why: Desferrioxamine is used in iron poisoning.",
+          "marks": 2,
+          "topics": [
+            "dimercaprol-bal-chelating-agents"
+          ]
+        },
+        {
+          "n": "3e",
+          "part": "A",
+          "text": "Explain why: As an antacid aluminium hydroxide is used with magnesium hydroxide.",
+          "marks": 2,
+          "topics": [
+            "antacids"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Enumerate beta lactam antibiotics. Discuss in brief mechanism of action, antibacterial spectrum, pharmacokinetics, therapeutic uses and adverse effects of amoxycillin.",
+          "marks": 10,
+          "topics": [
+            "penicillins-classify-amoxicillin-extended-spectrum"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: High Ceiling Diuretics.",
+          "marks": 4,
+          "topics": [
+            "diuretics-frusemide-thiazides-high-ceiling"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Calcium channel Blockers.",
+          "marks": 5,
+          "topics": [
+            "calcium-channel-blockers-ccbs"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Sulfonylureas.",
+          "marks": 4,
+          "topics": [
+            "diabetes-insulin-oral-hypoglycemics-metformin-sulfonylureas"
+          ]
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Discuss briefly: General toxicity of anticancer drugs.",
+          "marks": 4,
+          "topics": [
+            "anticancer-drugs-cyclophosphamide-toxicity"
+          ]
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Discuss briefly: Vitamin-D.",
+          "marks": 4,
+          "topics": [
+            "vitamin-d-calcium"
+          ]
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Discuss briefly: Drug treatment for acute necrotising ulcerative gingivitis.",
+          "marks": 4,
+          "topics": [
+            "anug-acute-necrotising-ulcerative-gingivitis-treatment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-6499-2013",
+      "subjectId": "pharmacology",
+      "code": "6499",
+      "series": "2013",
+      "session": "Supplementary",
+      "regulation": "New Regulation",
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify Beta blockers. Write M.O.A., uses and side effects of Propranolol.",
+          "marks": 10,
+          "topics": []
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Potency and efficacy of drug.",
+          "marks": 4,
+          "topics": [
+            "pharmacodynamics-antagonism-synergism-tolerance-tachyphylaxis"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Diffusion hypoxia.",
+          "marks": 4,
+          "topics": [
+            "general-anaesthetics-halothane-n2o"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Thrombolytic drugs.",
+          "marks": 4,
+          "topics": [
+            "coagulants-anticoagulants-heparin-lmwh-warfarin-vit-k"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Desferrioxamine.",
+          "marks": 4,
+          "topics": [
+            "dimercaprol-bal-chelating-agents"
+          ]
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "text": "Short note: Domperidone.",
+          "marks": 4,
+          "topics": [
+            "antiemetics-prokinetics-metoclopramide-domperidone"
+          ]
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Explain why: Adrenaline combined with Lignocaine for local anaesthesia.",
+          "marks": 1,
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Explain why: Physostigmine used for Atropine poisoning.",
+          "marks": 1,
+          "topics": [
+            "poisoning-treatment-organophosphorus-iron-morphine-arsenic"
+          ]
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Explain why: Propranolol not used for Bronchial asthma.",
+          "marks": 1,
+          "topics": []
+        },
+        {
+          "n": "3d",
+          "part": "A",
+          "text": "Explain why: Atypical antipsychotic preferred for Schizophrenia.",
+          "marks": 1,
+          "topics": []
+        },
+        {
+          "n": "3e",
+          "part": "A",
+          "text": "Explain why: Montelukast not used for Acute attack of Asthma.",
+          "marks": 1,
+          "topics": []
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Classify Penicillins. Write M.O.A., uses and side effects of Aminopenicillins.",
+          "marks": 10,
+          "topics": [
+            "penicillins-classify-amoxicillin-extended-spectrum"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Six month's treatment of T.B.",
+          "marks": 4,
+          "topics": [
+            "tuberculosis-tb-rifampicin-dots-6-month-regimen"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Severe toothache.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Disclosing agents.",
+          "marks": 4,
+          "topics": [
+            "dental-caries-plaque-drugs"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: Dentifrices.",
+          "marks": 4,
+          "topics": [
+            "dentifrices"
+          ]
+        },
+        {
+          "n": "5e",
+          "part": "B",
+          "text": "Short note: IIIrd Gen. Cephalosporins.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Fill in the blank: Nitrates dilate ______ more than ______.",
+          "marks": 1,
+          "topics": [
+            "angina-nitrates-gtn-treatment-of-acute-angina"
+          ]
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Fill in the blank: Saccharine is ______ times more sweet than sugar.",
+          "marks": 1,
+          "topics": [
+            "dentifrices"
+          ]
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Fill in the blank: ______ Diuretics are preferred in Cerebral oedema.",
+          "marks": 1,
+          "topics": [
+            "diuretics-frusemide-thiazides-high-ceiling"
+          ]
+        },
+        {
+          "n": "6d",
+          "part": "B",
+          "text": "Fill in the blank: ______ is D.O.C. for Morphine poisoning.",
+          "marks": 1,
+          "topics": [
+            "poisoning-treatment-organophosphorus-iron-morphine-arsenic"
+          ]
+        },
+        {
+          "n": "6e",
+          "part": "B",
+          "text": "Fill in the blank: ______ is preferred for Diabetic coma.",
+          "marks": 1,
+          "topics": [
+            "diabetes-insulin-oral-hypoglycemics-metformin-sulfonylureas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-6697-2087",
+      "subjectId": "pharmacology",
+      "code": "6697",
+      "series": "2087",
+      "session": "Annual",
+      "regulation": "New Regulation",
+      "year": "2017",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Write the uses, adverse effects and contraindications of Morphine.",
+          "marks": 10,
+          "topics": [
+            "opioid-analgesics-morphine"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Write mechanism of action: Lignocaine as local anaesthetic.",
+          "marks": 3,
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Write mechanism of action: Low dose Aspirin as Anti-platelet drug.",
+          "marks": 3,
+          "topics": [
+            "nsaids-aspirin-classify-moa-uses-ae"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Write mechanism of action: Vitamin K as Haemostatic agent.",
+          "marks": 3,
+          "topics": [
+            "coagulants-anticoagulants-heparin-lmwh-warfarin-vit-k"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Write mechanism of action: Atropine as smooth muscle relaxant.",
+          "marks": 3,
+          "topics": []
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Short note: Plasma protein binding.",
+          "marks": 5,
+          "topics": [
+            "pharmacokinetics-bioavailability-first-pass-metabolism-half-life"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Short note: Oral Rehydration Solution (ORS).",
+          "marks": 4,
+          "topics": [
+            "ors-oral-rehydration-solution"
+          ]
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Short note: Dimercaprol (British Anti-Lewisite).",
+          "marks": 4,
+          "topics": [
+            "dimercaprol-bal-chelating-agents"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Enumerate the various Corticosteroids. Discuss briefly the pharmacological actions, adverse effects, indications and contraindications of Hydrocortisone.",
+          "marks": 10,
+          "topics": [
+            "corticosteroids-hydrocortisone-uses-ae"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Calcium Channel Blockers.",
+          "marks": 5,
+          "topics": [
+            "calcium-channel-blockers-ccbs"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Cotrimoxazole.",
+          "marks": 5,
+          "topics": []
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Aciclovir.",
+          "marks": 4,
+          "topics": [
+            "antiviral-acyclovir-hiv"
+          ]
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Discuss briefly: Treatment of acute necrotising ulcerative gingivitis.",
+          "marks": 3,
+          "topics": [
+            "anug-acute-necrotising-ulcerative-gingivitis-treatment"
+          ]
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Discuss briefly: Obtundents.",
+          "marks": 4,
+          "topics": [
+            "obtundents"
+          ]
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Discuss briefly: Mouth washes.",
+          "marks": 4,
+          "topics": [
+            "mouthwashes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-7855-2081",
+      "subjectId": "pharmacology",
+      "code": "7855",
+      "series": "2081",
+      "session": "Annual",
+      "regulation": "New Regulation",
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "Question 5 is marked 4×5=20 but only four parts are legible in the photograph.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Enumerate drugs used for Anti-inflammatory action. Describe their mechanism of action, uses and side-effects.",
+          "marks": 10,
+          "topics": [
+            "nsaids-aspirin-classify-moa-uses-ae"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Half-life.",
+          "marks": 4,
+          "topics": [
+            "pharmacokinetics-bioavailability-first-pass-metabolism-half-life"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Lansoprazole.",
+          "marks": 4,
+          "topics": [
+            "peptic-ulcer-drugs-ppis-h2-blockers-omeprazole-pantoprazole"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Propranolol.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Salbutamol.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "text": "Short note: Vitamin-D.",
+          "marks": 4,
+          "topics": [
+            "vitamin-d-calcium"
+          ]
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Fill in the blank: Effect of Morphine can be reversed by ______.",
+          "marks": 1,
+          "topics": [
+            "opioid-analgesics-morphine"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Fill in the blank: ______ is drug of choice for Anaphylactic shock.",
+          "marks": 1,
+          "topics": [
+            "treatment-of-anaphylactic-shock"
+          ]
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Fill in the blank: ______ is chelating agent for Iron.",
+          "marks": 1,
+          "topics": [
+            "dimercaprol-bal-chelating-agents"
+          ]
+        },
+        {
+          "n": "3d",
+          "part": "A",
+          "text": "Fill in the blank: Gum hyperplasia is caused by ______.",
+          "marks": 1,
+          "topics": [
+            "antiepileptics-phenytoin-classification"
+          ]
+        },
+        {
+          "n": "3e",
+          "part": "A",
+          "text": "Fill in the blank: Malignant Hyperthermia can be caused by ______.",
+          "marks": 1,
+          "topics": [
+            "general-anaesthetics-halothane-n2o"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Classify Anti-hypertensive drugs. Give mechanism of action, uses and side-effects of Captopril.",
+          "marks": 10,
+          "topics": [
+            "antihypertensives-ace-inhibitors-classification"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Extended spectrum Penicillin.",
+          "marks": 4,
+          "topics": [
+            "penicillins-classify-amoxicillin-extended-spectrum"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Aminoglycosides.",
+          "marks": 4,
+          "topics": [
+            "aminoglycosides-gentamicin-streptomycin"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Mouthwashes.",
+          "marks": 4,
+          "topics": [
+            "mouthwashes"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: Mummifying agents.",
+          "marks": 4,
+          "topics": [
+            "mummifying-agents"
+          ]
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Fill in the blank: Drug of choice for Diabetic coma is ______.",
+          "marks": 1,
+          "topics": [
+            "diabetes-insulin-oral-hypoglycemics-metformin-sulfonylureas"
+          ]
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Fill in the blank: Clonidine acts via ______ at vasomotor centre.",
+          "marks": 1,
+          "topics": [
+            "antihypertensives-ace-inhibitors-classification"
+          ]
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Fill in the blank: ______ is an arteriolar dilator with little effect on venous capacitance.",
+          "marks": 1,
+          "topics": [
+            "antihypertensives-ace-inhibitors-classification"
+          ]
+        },
+        {
+          "n": "6d",
+          "part": "B",
+          "text": "Fill in the blank: Treatment of Adult Hypothyroidism is ______.",
+          "marks": 1,
+          "topics": [
+            "thyroid-hypothyroidism"
+          ]
+        },
+        {
+          "n": "6e",
+          "part": "B",
+          "text": "Fill in the blank: ______ antibiotics are preferred for gram negative organisms.",
+          "marks": 1,
+          "topics": [
+            "aminoglycosides-gentamicin-streptomycin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-7385-2025",
+      "subjectId": "pharmacology",
+      "code": "7385",
+      "series": "2025",
+      "session": "Annual",
+      "regulation": "New Regulation",
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Enumerate Aminoglycosides. Write mechanism of action, uses & side effects.",
+          "marks": 10,
+          "topics": [
+            "aminoglycosides-gentamicin-streptomycin"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Beta Blocker.",
+          "marks": 3,
+          "topics": []
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Atropine.",
+          "marks": 3,
+          "topics": []
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Physiological Antagonism.",
+          "marks": 3,
+          "topics": [
+            "pharmacodynamics-antagonism-synergism-tolerance-tachyphylaxis"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Diazepam.",
+          "marks": 3,
+          "topics": [
+            "sedatives-hypnotics-diazepam-benzodiazepines"
+          ]
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "text": "Short note: ORS.",
+          "marks": 3,
+          "topics": [
+            "ors-oral-rehydration-solution"
+          ]
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Write treatment of: Morphine Poisoning.",
+          "marks": 2,
+          "topics": [
+            "poisoning-treatment-organophosphorus-iron-morphine-arsenic"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Write treatment of: Acute Angina.",
+          "marks": 2,
+          "topics": [
+            "angina-nitrates-gtn-treatment-of-acute-angina"
+          ]
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Write treatment of: Acute Bronchial Asthma.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "3d",
+          "part": "A",
+          "text": "Write treatment of: Rickets.",
+          "marks": 2,
+          "topics": [
+            "vitamin-d-calcium"
+          ]
+        },
+        {
+          "n": "3e",
+          "part": "A",
+          "text": "Write treatment of: Bleeding Gums.",
+          "marks": 2,
+          "topics": [
+            "styptics-local-hemostatics"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Enumerate various antihypertensive drugs. Write mechanism of action, uses and side effects of 'ACEI'.",
+          "marks": 10,
+          "topics": [
+            "antihypertensives-ace-inhibitors-classification"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Teratogenicity.",
+          "marks": 3,
+          "topics": [
+            "adverse-drug-reactions-teratogenicity"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Non-sedating Antihistamines.",
+          "marks": 3,
+          "topics": []
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Proton pump inhibitors.",
+          "marks": 3,
+          "topics": [
+            "peptic-ulcer-drugs-ppis-h2-blockers-omeprazole-pantoprazole"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: Side effects of Glucocorticoids.",
+          "marks": 3,
+          "topics": [
+            "corticosteroids-hydrocortisone-uses-ae"
+          ]
+        },
+        {
+          "n": "5e",
+          "part": "B",
+          "text": "Short note: Vit-C.",
+          "marks": 3,
+          "topics": []
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Write treatment of: Typhoid.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Write treatment of: Hypoglycemia.",
+          "marks": 2,
+          "topics": [
+            "diabetes-insulin-oral-hypoglycemics-metformin-sulfonylureas"
+          ]
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Write treatment of: Status Epilepticus.",
+          "marks": 2,
+          "topics": [
+            "antiepileptics-phenytoin-classification"
+          ]
+        },
+        {
+          "n": "6d",
+          "part": "B",
+          "text": "Write treatment of: Iron Poisoning.",
+          "marks": 2,
+          "topics": [
+            "poisoning-treatment-organophosphorus-iron-morphine-arsenic"
+          ]
+        },
+        {
+          "n": "6e",
+          "part": "B",
+          "text": "Write treatment of: Multibacillary Leprosy.",
+          "marks": 2,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-7496-2080",
+      "subjectId": "pharmacology",
+      "code": "7496",
+      "series": "2080",
+      "session": "Annual",
+      "regulation": "New Regulation",
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Enumerate drugs used for treatment of peptic ulcer. Write M.O.A., uses and adverse effects of Omeprazole.",
+          "marks": 10,
+          "topics": [
+            "peptic-ulcer-drugs-ppis-h2-blockers-omeprazole-pantoprazole"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Write in brief about: Astringent.",
+          "marks": 4,
+          "topics": [
+            "astringents"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Write in brief about: Lignocaine.",
+          "marks": 4,
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Write in brief about: Styptics.",
+          "marks": 4,
+          "topics": [
+            "styptics-local-hemostatics"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Write in brief about: Cox II-inhibitors.",
+          "marks": 4,
+          "topics": [
+            "nsaids-aspirin-classify-moa-uses-ae"
+          ]
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "text": "Write in brief about: Ascorbic acid.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Fill in the blank: Heparin overdose is treated by ______.",
+          "marks": 1,
+          "topics": [
+            "coagulants-anticoagulants-heparin-lmwh-warfarin-vit-k"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Fill in the blank: Cromolyn Sodium is used for treatment ______.",
+          "marks": 1,
+          "topics": []
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Fill in the blank: Benzodiazepine acts through ______ receptor.",
+          "marks": 1,
+          "topics": [
+            "sedatives-hypnotics-diazepam-benzodiazepines"
+          ]
+        },
+        {
+          "n": "3d",
+          "part": "A",
+          "text": "Fill in the blank: Morphine ______ pupil size.",
+          "marks": 1,
+          "topics": [
+            "opioid-analgesics-morphine"
+          ]
+        },
+        {
+          "n": "3e",
+          "part": "A",
+          "text": "Fill in the blank: ______ is used to treat copper toxicity.",
+          "marks": 1,
+          "topics": [
+            "dimercaprol-bal-chelating-agents"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Write M.O.A., uses and side effects of ACEI.",
+          "marks": 10,
+          "topics": [
+            "antihypertensives-ace-inhibitors-classification"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Bumetanide.",
+          "marks": 4,
+          "topics": [
+            "diuretics-frusemide-thiazides-high-ceiling"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Insulins (Short acting).",
+          "marks": 4,
+          "topics": [
+            "diabetes-insulin-oral-hypoglycemics-metformin-sulfonylureas"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: ARB (Angiotensin-Receptor blockers).",
+          "marks": 4,
+          "topics": [
+            "antihypertensives-ace-inhibitors-classification"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: Desensitizing agent.",
+          "marks": 4,
+          "topics": [
+            "dentifrices"
+          ]
+        },
+        {
+          "n": "5e",
+          "part": "B",
+          "text": "Short note: Drugs for Dental plaque.",
+          "marks": 4,
+          "topics": [
+            "dental-caries-plaque-drugs"
+          ]
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Fill in the blank: Bacitracin acts by ______.",
+          "marks": 1,
+          "topics": []
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Fill in the blank: Fluoroquinolones act by ______.",
+          "marks": 1,
+          "topics": []
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Fill in the blank: 'ROM' Regimen for Paucibacillary Leprosy includes ______.",
+          "marks": 1,
+          "topics": []
+        },
+        {
+          "n": "6d",
+          "part": "B",
+          "text": "Fill in the blank: Zidovudine after phosphorylation in host cell inhibits ______.",
+          "marks": 1,
+          "topics": [
+            "antiviral-acyclovir-hiv"
+          ]
+        },
+        {
+          "n": "6e",
+          "part": "B",
+          "text": "Fill in the blank: Terbinafine is a non-competitive inhibitor of ______.",
+          "marks": 1,
+          "topics": [
+            "antifungal-candidiasis-treatment-fluconazole-oral-thrush"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-020501-annual-2022",
+      "subjectId": "pharmacology",
+      "code": "020501",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2022",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Enumerate various opioid analgesics. Discuss in brief pharmacological actions, adverse effects, indications and contraindications of morphine.",
+          "marks": 10,
+          "topics": [
+            "opioid-analgesics-morphine"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Bioavailability of drugs.",
+          "marks": 4,
+          "topics": [
+            "pharmacokinetics-bioavailability-first-pass-metabolism-half-life"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Astringents.",
+          "marks": 4,
+          "topics": [
+            "astringents"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Drug Antagonism.",
+          "marks": 4,
+          "topics": [
+            "pharmacodynamics-antagonism-synergism-tolerance-tachyphylaxis"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Halothane.",
+          "marks": 4,
+          "topics": [
+            "general-anaesthetics-halothane-n2o"
+          ]
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "text": "Short note: Rifampicin.",
+          "marks": 4,
+          "topics": [
+            "tuberculosis-tb-rifampicin-dots-6-month-regimen"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "B",
+          "text": "Enumerate various drugs for peptic ulcer. Discuss in brief the mechanism of action, pharmacokinetics and adverse effects of pantoprazole.",
+          "marks": 10,
+          "topics": [
+            "peptic-ulcer-drugs-ppis-h2-blockers-omeprazole-pantoprazole"
+          ]
+        },
+        {
+          "n": "4a",
+          "part": "B",
+          "text": "Short note: Kinetics of elimination of drugs.",
+          "marks": 4,
+          "topics": [
+            "kinetics-of-elimination-zero-first-order"
+          ]
+        },
+        {
+          "n": "4b",
+          "part": "B",
+          "text": "Short note: ACE Inhibitors.",
+          "marks": 4,
+          "topics": [
+            "antihypertensives-ace-inhibitors-classification"
+          ]
+        },
+        {
+          "n": "4c",
+          "part": "B",
+          "text": "Short note: Mast cell stabilizers.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "4d",
+          "part": "B",
+          "text": "Short note: Dimercaprol (British Anti-Lewisite).",
+          "marks": 4,
+          "topics": [
+            "dimercaprol-bal-chelating-agents"
+          ]
+        },
+        {
+          "n": "4e",
+          "part": "B",
+          "text": "Short note: Fluconazole.",
+          "marks": 4,
+          "topics": [
+            "antifungal-candidiasis-treatment-fluconazole-oral-thrush"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "C",
+          "text": "Multiple choice questions (10 items): preferred diuretic for mobilizing oedema in CHF; maturation factor; antiepileptic drug; most important toxicity of Streptomycin; penicillins except; antiemetic; cardioselective beta blockers except; migraine prophylaxis except; Phase IV clinical trial; sulphonamide mechanism.",
+          "marks": 10,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-020501-annual-dec",
+      "subjectId": "pharmacology",
+      "code": "020501",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2023",
+      "yearNote": "'Dec' written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify Antiepileptic drugs. Give the mechanism of action, uses and adverse effects of Phenytoin.",
+          "marks": 10,
+          "topics": [
+            "antiepileptics-phenytoin-classification"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: First pass metabolism.",
+          "marks": 4,
+          "topics": [
+            "pharmacokinetics-bioavailability-first-pass-metabolism-half-life"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Uses and adverse effects of Aspirin.",
+          "marks": 4,
+          "topics": [
+            "nsaids-aspirin-classify-moa-uses-ae"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Proton pump inhibitors.",
+          "marks": 4,
+          "topics": [
+            "peptic-ulcer-drugs-ppis-h2-blockers-omeprazole-pantoprazole"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Role of nitrates in angina.",
+          "marks": 4,
+          "topics": [
+            "angina-nitrates-gtn-treatment-of-acute-angina"
+          ]
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "text": "Short note: Low molecular weight Heparin.",
+          "marks": 4,
+          "topics": [
+            "coagulants-anticoagulants-heparin-lmwh-warfarin-vit-k"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "B",
+          "text": "Classify local anaesthetics. Give the uses, adverse effects and techniques of giving Lignocaine.",
+          "marks": 10,
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques"
+          ]
+        },
+        {
+          "n": "4a",
+          "part": "B",
+          "text": "Short note: Astringents.",
+          "marks": 4,
+          "topics": [
+            "astringents"
+          ]
+        },
+        {
+          "n": "4b",
+          "part": "B",
+          "text": "Short note: Cyclophosphamide.",
+          "marks": 4,
+          "topics": [
+            "anticancer-drugs-cyclophosphamide-toxicity"
+          ]
+        },
+        {
+          "n": "4c",
+          "part": "B",
+          "text": "Short note: Fluconazole.",
+          "marks": 4,
+          "topics": [
+            "antifungal-candidiasis-treatment-fluconazole-oral-thrush"
+          ]
+        },
+        {
+          "n": "4d",
+          "part": "B",
+          "text": "Short note: Sulfonylureas.",
+          "marks": 4,
+          "topics": [
+            "diabetes-insulin-oral-hypoglycemics-metformin-sulfonylureas"
+          ]
+        },
+        {
+          "n": "4e",
+          "part": "B",
+          "text": "Short note: Disclosing agents.",
+          "marks": 4,
+          "topics": [
+            "dental-caries-plaque-drugs"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "C",
+          "text": "Multiple choice questions (10 items): route for adrenaline in anaphylaxis; reversal of diazepam CNS depression; chlorpromazine-induced parkinsonism; AT1 blocker; drug of choice for cerebral malaria; prodrug; monitoring plasma drug concentration; therapeutic index; second gas effect; non-hepatotoxic antitubercular.",
+          "marks": 10,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-020501-suppl",
+      "subjectId": "pharmacology",
+      "code": "020501",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": null,
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": "One short note in question 2 is illegible in the photograph.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Enumerate various penicillins. Discuss in brief mechanism of action, therapeutic uses and adverse drug effects of amoxycillin.",
+          "marks": 10,
+          "topics": [
+            "penicillins-classify-amoxicillin-extended-spectrum"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Mouthwashes.",
+          "marks": 4,
+          "topics": [
+            "mouthwashes"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Antacids.",
+          "marks": 4,
+          "topics": [
+            "antacids"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Teratogenicity.",
+          "marks": 4,
+          "topics": [
+            "adverse-drug-reactions-teratogenicity"
+          ]
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "text": "Short note: Drugs for anaphylactic shock.",
+          "marks": 4,
+          "topics": [
+            "treatment-of-anaphylactic-shock"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "B",
+          "text": "Enumerate various local anaesthetics. Discuss in brief the mechanism of action, uses and adverse effects of lignocaine.",
+          "marks": 10,
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques"
+          ]
+        },
+        {
+          "n": "4a",
+          "part": "B",
+          "text": "Short note: Drugs for Status epilepticus.",
+          "marks": 4,
+          "topics": [
+            "antiepileptics-phenytoin-classification"
+          ]
+        },
+        {
+          "n": "4b",
+          "part": "B",
+          "text": "Short note: Uses and contraindications of glucocorticoids.",
+          "marks": 4,
+          "topics": [
+            "corticosteroids-hydrocortisone-uses-ae"
+          ]
+        },
+        {
+          "n": "4c",
+          "part": "B",
+          "text": "Short note: Selective COX-2 Inhibitors.",
+          "marks": 4,
+          "topics": [
+            "nsaids-aspirin-classify-moa-uses-ae"
+          ]
+        },
+        {
+          "n": "4d",
+          "part": "B",
+          "text": "Short note: Alcohol based hand sanitizer.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "4e",
+          "part": "B",
+          "text": "Short note: Local hemostatics (Styptics).",
+          "marks": 4,
+          "topics": [
+            "styptics-local-hemostatics"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "C",
+          "text": "Multiple choice questions (10 items): high plasma protein binding; adrenaline with a local anaesthetic; drug for absence seizure; H2 receptor blocker; low dose aspirin; ondansetron; skeletal muscle relaxant; second gas effect; most effective drug in parkinsonism; most important toxicity of amphotericin B.",
+          "marks": 10,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-7223-2088",
+      "subjectId": "pharmacology",
+      "code": "7223",
+      "series": "2088",
+      "session": "Annual",
+      "regulation": "New Regulation",
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Enumerate various non-steroidal anti-inflammatory drugs. Describe briefly mechanism of action, therapeutic uses, adverse effects and contraindications of Aspirin.",
+          "marks": 10,
+          "topics": [
+            "nsaids-aspirin-classify-moa-uses-ae"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Organophosphates poisoning.",
+          "marks": 5,
+          "topics": [
+            "poisoning-treatment-organophosphorus-iron-morphine-arsenic"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Antacids.",
+          "marks": 5,
+          "topics": [
+            "antacids"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Competitive antagonism.",
+          "marks": 5,
+          "topics": [
+            "pharmacodynamics-antagonism-synergism-tolerance-tachyphylaxis"
+          ]
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Explain why: Lignocaine is many times used with adrenaline for local anaesthesia.",
+          "marks": 2,
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Explain why: Neostigmine is preferred over physostigmine for myasthenia gravis.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Explain why: Folic acid and Vit. B12 are used together to treat megaloblastic anaemia.",
+          "marks": 2,
+          "topics": [
+            "hematinics-iron-b12-folic-acid"
+          ]
+        },
+        {
+          "n": "3d",
+          "part": "A",
+          "text": "Explain why: Atracurium can be safely used in patients with impaired renal functions.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "3e",
+          "part": "A",
+          "text": "Explain why: Benzodiazepines are preferred over barbiturates as hypnotics and sedatives.",
+          "marks": 2,
+          "topics": [
+            "sedatives-hypnotics-diazepam-benzodiazepines"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Enumerate various antidiabetic drugs. Discuss briefly the mechanism of action, pharmacokinetics, adverse effects and therapeutic uses of Metformin.",
+          "marks": 10,
+          "topics": [
+            "diabetes-insulin-oral-hypoglycemics-metformin-sulfonylureas"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Angiotensin Converting Enzyme Inhibitors.",
+          "marks": 5,
+          "topics": [
+            "antihypertensives-ace-inhibitors-classification"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Glyceryl trinitrate (Nitroglycerine).",
+          "marks": 4,
+          "topics": [
+            "angina-nitrates-gtn-treatment-of-acute-angina"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Azithromycin.",
+          "marks": 4,
+          "topics": [
+            "broad-spectrum-tetracyclines-macrolides-azithromycin-doxycycline"
+          ]
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Describe briefly: Fluconazole.",
+          "marks": 4,
+          "topics": [
+            "antifungal-candidiasis-treatment-fluconazole-oral-thrush"
+          ]
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Describe briefly: Mummifying agents.",
+          "marks": 4,
+          "topics": [
+            "mummifying-agents"
+          ]
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Describe briefly: Drug treatment of aphthous stomatitis.",
+          "marks": 4,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-6029-2020",
+      "subjectId": "pharmacology",
+      "code": "6029",
+      "series": "2020",
+      "session": "Suppl.",
+      "regulation": "New Regulation",
+      "year": "2020",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify local anaesthetics. Write mechanism of action, pharmacological actions and adverse effects of Lidocaine.",
+          "marks": 10,
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Prodrugs.",
+          "marks": 5,
+          "topics": [
+            "prodrugs-loading-dose"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Loading dose.",
+          "marks": 5,
+          "topics": [
+            "prodrugs-loading-dose"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Drug synergism.",
+          "marks": 5,
+          "topics": [
+            "pharmacodynamics-antagonism-synergism-tolerance-tachyphylaxis"
+          ]
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Mention two examples: Drugs having high first pass metabolism.",
+          "marks": 2,
+          "topics": [
+            "pharmacokinetics-bioavailability-first-pass-metabolism-half-life"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Mention two examples: Bronchodilators.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Mention two examples: Skeletal muscle relaxants.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "3d",
+          "part": "A",
+          "text": "Mention two examples: Opioid analgesics.",
+          "marks": 2,
+          "topics": [
+            "opioid-analgesics-morphine"
+          ]
+        },
+        {
+          "n": "3e",
+          "part": "A",
+          "text": "Mention two examples: Intravenous general anaesthetics.",
+          "marks": 2,
+          "topics": [
+            "general-anaesthetics-halothane-n2o"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Enumerate various corticosteroids. Discuss briefly pharmacological actions, pharmacokinetics, therapeutic uses, adverse effects and contraindications of hydrocortisone.",
+          "marks": 11,
+          "topics": [
+            "corticosteroids-hydrocortisone-uses-ae"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Discuss briefly: Thiazides.",
+          "marks": 4,
+          "topics": [
+            "diuretics-frusemide-thiazides-high-ceiling"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Discuss briefly: IIIrd generation cephalosporins.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Discuss briefly: Rifampicin.",
+          "marks": 4,
+          "topics": [
+            "tuberculosis-tb-rifampicin-dots-6-month-regimen"
+          ]
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Short note: Mummifying agents.",
+          "marks": 4,
+          "topics": [
+            "mummifying-agents"
+          ]
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Short note: Dentifrices.",
+          "marks": 4,
+          "topics": [
+            "dentifrices"
+          ]
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Short note: Dimercaprol (British Anti-Lewisite).",
+          "marks": 4,
+          "topics": [
+            "dimercaprol-bal-chelating-agents"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-7608-2085",
+      "subjectId": "pharmacology",
+      "code": "7608",
+      "series": "2085",
+      "session": "Annual",
+      "regulation": "New Regulation",
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify antiepileptic drugs. Write M.O.A., uses and side effects of phenytoin.",
+          "marks": 10,
+          "topics": [
+            "antiepileptics-phenytoin-classification"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Receptor antagonism.",
+          "marks": 3,
+          "topics": [
+            "pharmacodynamics-antagonism-synergism-tolerance-tachyphylaxis"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Bioavailability.",
+          "marks": 3,
+          "topics": [
+            "pharmacokinetics-bioavailability-first-pass-metabolism-half-life"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Pilocarpine.",
+          "marks": 3,
+          "topics": []
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Atenolol.",
+          "marks": 3,
+          "topics": []
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "text": "Short note: Vit-D.",
+          "marks": 3,
+          "topics": [
+            "vitamin-d-calcium"
+          ]
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Write treatment of: Anaphylactic shock.",
+          "marks": 2,
+          "topics": [
+            "treatment-of-anaphylactic-shock"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Write treatment of: Status asthmaticus.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Write treatment of: Morphine poisoning.",
+          "marks": 2,
+          "topics": [
+            "poisoning-treatment-organophosphorus-iron-morphine-arsenic"
+          ]
+        },
+        {
+          "n": "3d",
+          "part": "A",
+          "text": "Write treatment of: Diarrhoea.",
+          "marks": 2,
+          "topics": [
+            "ors-oral-rehydration-solution"
+          ]
+        },
+        {
+          "n": "3e",
+          "part": "A",
+          "text": "Write treatment of: Acute angina.",
+          "marks": 2,
+          "topics": [
+            "angina-nitrates-gtn-treatment-of-acute-angina"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Classify extended spectrum penicillin. Write MOA, uses and S/E of ampicillin.",
+          "marks": 10,
+          "topics": [
+            "penicillins-classify-amoxicillin-extended-spectrum"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Obtundants.",
+          "marks": 3,
+          "topics": [
+            "obtundents"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: ACEI.",
+          "marks": 3,
+          "topics": [
+            "antihypertensives-ace-inhibitors-classification"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Adverse effects.",
+          "marks": 3,
+          "topics": [
+            "adverse-drug-reactions-teratogenicity"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: Ibuprofen.",
+          "marks": 3,
+          "topics": [
+            "nsaids-aspirin-classify-moa-uses-ae"
+          ]
+        },
+        {
+          "n": "5e",
+          "part": "B",
+          "text": "Short note: Spironolactone.",
+          "marks": 3,
+          "topics": [
+            "diuretics-frusemide-thiazides-high-ceiling"
+          ]
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Write treatment of: Bleeding after tooth extraction.",
+          "marks": 2,
+          "topics": [
+            "styptics-local-hemostatics"
+          ]
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Write treatment of: Ulcerative stomatitis.",
+          "marks": 2,
+          "topics": [
+            "anug-acute-necrotising-ulcerative-gingivitis-treatment"
+          ]
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Write treatment of: Multibacillary Leprosy.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "6d",
+          "part": "B",
+          "text": "Write treatment of: Diabetic coma.",
+          "marks": 2,
+          "topics": [
+            "diabetes-insulin-oral-hypoglycemics-metformin-sulfonylureas"
+          ]
+        },
+        {
+          "n": "6e",
+          "part": "B",
+          "text": "Write treatment of: Iron poisoning.",
+          "marks": 2,
+          "topics": [
+            "poisoning-treatment-organophosphorus-iron-morphine-arsenic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-7856-2026",
+      "subjectId": "pharmacology",
+      "code": "7856",
+      "series": "2026",
+      "session": "Supplementary",
+      "regulation": "New Regulation",
+      "year": "2016",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify NSAID. Write MOA, uses and side effects of Aspirin.",
+          "marks": 10,
+          "topics": [
+            "nsaids-aspirin-classify-moa-uses-ae"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Drug Tolerance.",
+          "marks": 3,
+          "topics": [
+            "pharmacodynamics-antagonism-synergism-tolerance-tachyphylaxis"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: 1st Order Kinetics.",
+          "marks": 3,
+          "topics": [
+            "kinetics-of-elimination-zero-first-order"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Pantoprazole.",
+          "marks": 3,
+          "topics": [
+            "peptic-ulcer-drugs-ppis-h2-blockers-omeprazole-pantoprazole"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Neostigmine.",
+          "marks": 3,
+          "topics": []
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "text": "Short note: Adrenaline.",
+          "marks": 3,
+          "topics": []
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Write treatment of: Acute Bronchial Asthma.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Write treatment of: Dental Caries.",
+          "marks": 2,
+          "topics": [
+            "dental-caries-plaque-drugs"
+          ]
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Write treatment of: Migraine.",
+          "marks": 2,
+          "topics": [
+            "drug-treatment-of-migraine"
+          ]
+        },
+        {
+          "n": "3d",
+          "part": "A",
+          "text": "Write treatment of: Megaloblastic Anemia.",
+          "marks": 2,
+          "topics": [
+            "hematinics-iron-b12-folic-acid"
+          ]
+        },
+        {
+          "n": "3e",
+          "part": "A",
+          "text": "Write treatment of: Hypoglycemic Coma.",
+          "marks": 2,
+          "topics": [
+            "diabetes-insulin-oral-hypoglycemics-metformin-sulfonylureas"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Classify Penicillinase resistant Penicillin. Write resistance, MOA, uses and side effects of Penicillin-G.",
+          "marks": 10,
+          "topics": [
+            "penicillins-classify-amoxicillin-extended-spectrum"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Dentifrices.",
+          "marks": 3,
+          "topics": [
+            "dentifrices"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Gentamicin.",
+          "marks": 3,
+          "topics": [
+            "aminoglycosides-gentamicin-streptomycin"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Metoprolol.",
+          "marks": 3,
+          "topics": []
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: Heparin.",
+          "marks": 3,
+          "topics": [
+            "coagulants-anticoagulants-heparin-lmwh-warfarin-vit-k"
+          ]
+        },
+        {
+          "n": "5e",
+          "part": "B",
+          "text": "Short note: Cetirizine.",
+          "marks": 3,
+          "topics": []
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Write treatment of: Scabies.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Write treatment of: Oral candidiasis.",
+          "marks": 2,
+          "topics": [
+            "antifungal-candidiasis-treatment-fluconazole-oral-thrush"
+          ]
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Write treatment of: Enterobiasis.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "6d",
+          "part": "B",
+          "text": "Write treatment of: Headache.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "6e",
+          "part": "B",
+          "text": "Write treatment of: Paracetamol poisoning.",
+          "marks": 2,
+          "topics": [
+            "poisoning-treatment-organophosphorus-iron-morphine-arsenic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-6938-2101",
+      "subjectId": "pharmacology",
+      "code": "6938",
+      "series": "2101",
+      "session": "Annual",
+      "regulation": null,
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1a",
+          "part": "A",
+          "text": "Discuss briefly: Advantages and disadvantages of Parenteral routes of drug administration.",
+          "marks": 4,
+          "topics": [
+            "routes-of-administration-parenteral-advantages-disadvantages"
+          ]
+        },
+        {
+          "n": "1b",
+          "part": "A",
+          "text": "Discuss briefly: Pre-anaesthetic medication.",
+          "marks": 4,
+          "topics": [
+            "pre-anaesthetic-medication"
+          ]
+        },
+        {
+          "n": "1c",
+          "part": "A",
+          "text": "Discuss briefly: Phenytoin.",
+          "marks": 4,
+          "topics": [
+            "antiepileptics-phenytoin-classification"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Write briefly about: Adrenaline.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Write briefly about: Benzodiazepines.",
+          "marks": 4,
+          "topics": [
+            "sedatives-hypnotics-diazepam-benzodiazepines"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Write briefly about: Warfarin.",
+          "marks": 4,
+          "topics": [
+            "coagulants-anticoagulants-heparin-lmwh-warfarin-vit-k"
+          ]
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Short note: Fixed Dose Combinations (FDCs).",
+          "marks": 3,
+          "topics": [
+            "essential-drug-concept-fdcs"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Short note: Anti-emetics.",
+          "marks": 4,
+          "topics": [
+            "antiemetics-prokinetics-metoclopramide-domperidone"
+          ]
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Short note: Non-sedative Antihistaminics.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Enumerate various Corticosteroids. Discuss briefly mechanism of action, adverse effects, indications and contraindications of Hydrocortisone.",
+          "marks": 11,
+          "topics": [
+            "corticosteroids-hydrocortisone-uses-ae"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Calcium channel blockers.",
+          "marks": 4,
+          "topics": [
+            "calcium-channel-blockers-ccbs"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Rifampicin.",
+          "marks": 4,
+          "topics": [
+            "tuberculosis-tb-rifampicin-dots-6-month-regimen"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Desferrioxamine.",
+          "marks": 4,
+          "topics": [
+            "dimercaprol-bal-chelating-agents"
+          ]
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Discuss briefly: High Ceiling diuretics.",
+          "marks": 4,
+          "topics": [
+            "diuretics-frusemide-thiazides-high-ceiling"
+          ]
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Discuss briefly: Hand sanitizer.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Discuss briefly: Drugs for acute necrotising ulcerative gingivitis.",
+          "marks": 4,
+          "topics": [
+            "anug-acute-necrotising-ulcerative-gingivitis-treatment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-7190-2032",
+      "subjectId": "pharmacology",
+      "code": "7190",
+      "series": "2032",
+      "session": "Suppl.",
+      "regulation": null,
+      "year": "2022",
+      "yearNote": "'Feb–March 2022' written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1a",
+          "part": "A",
+          "text": "Discuss briefly: Adverse Drug Effects.",
+          "marks": 4,
+          "topics": [
+            "adverse-drug-reactions-teratogenicity"
+          ]
+        },
+        {
+          "n": "1b",
+          "part": "A",
+          "text": "Discuss briefly: Oral Rehydration Solution (ORS).",
+          "marks": 4,
+          "topics": [
+            "ors-oral-rehydration-solution"
+          ]
+        },
+        {
+          "n": "1c",
+          "part": "A",
+          "text": "Discuss briefly: Succinylcholine.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Write briefly about: Therapeutic uses and adverse effects of anticholinergic drugs.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Write briefly about: Halothane.",
+          "marks": 4,
+          "topics": [
+            "general-anaesthetics-halothane-n2o"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Write briefly about: Teratogenicity.",
+          "marks": 4,
+          "topics": [
+            "adverse-drug-reactions-teratogenicity"
+          ]
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Short note: Ibuprofen.",
+          "marks": 4,
+          "topics": [
+            "nsaids-aspirin-classify-moa-uses-ae"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Short note: Vitamin-K.",
+          "marks": 4,
+          "topics": [
+            "coagulants-anticoagulants-heparin-lmwh-warfarin-vit-k"
+          ]
+        },
+        {
+          "n": "3c",
+          "part": "A",
+          "text": "Short note: Combination of adrenaline with lignocaine.",
+          "marks": 3,
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Enumerate various Antidiabetics. Discuss briefly mechanism of action, pharmacokinetics, adverse effects and uses of Metformin.",
+          "marks": 11,
+          "topics": [
+            "diabetes-insulin-oral-hypoglycemics-metformin-sulfonylureas"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Discuss briefly: Cardioselective beta blockers.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Discuss briefly: Amoxycillin.",
+          "marks": 4,
+          "topics": [
+            "penicillins-classify-amoxicillin-extended-spectrum"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Discuss briefly: Vitamin-D.",
+          "marks": 4,
+          "topics": [
+            "vitamin-d-calcium"
+          ]
+        },
+        {
+          "n": "6a",
+          "part": "B",
+          "text": "Short note: Dimercaprol (British anti-lewisite).",
+          "marks": 4,
+          "topics": [
+            "dimercaprol-bal-chelating-agents"
+          ]
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Short note: Anti-septics.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "6c",
+          "part": "B",
+          "text": "Short note: Styptics.",
+          "marks": 4,
+          "topics": [
+            "styptics-local-hemostatics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-7607-2085",
+      "subjectId": "dental-materials",
+      "code": "7607",
+      "series": "2085",
+      "session": "Annual",
+      "regulation": "New Regulation",
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "One short note in this question is hidden in the photograph.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify impression materials. Discuss the composition, manipulation and uses of irreversible hydrocolloids.",
+          "marks": 10,
+          "topics": [
+            "hydrocolloids-alginate-irreversible-agar-reversible"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Creep and flow.",
+          "marks": 4,
+          "topics": [
+            "creep-and-flow"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Porosity in acrylics.",
+          "marks": 4,
+          "topics": [
+            "porosity-in-acrylics"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Tarnish and corrosion.",
+          "marks": 4,
+          "topics": [
+            "tarnish-and-corrosion"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Silver Amalgam.",
+          "marks": 4,
+          "topics": [
+            "high-copper-amalgam-composition-properties-vs-low-copper"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Multiple choice (5 items): example of a physical property; the weakest gypsum product; what composite contains; material set by physical means; largest component of amalgam alloy.",
+          "marks": 5,
+          "topics": []
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Define dental alloys and classify them. Discuss in detail the alternatives to cast metal technology.",
+          "marks": 10,
+          "topics": [
+            "base-metal-alloys-co-cr-ni-cr-vitallium"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Properties of Compomers.",
+          "marks": 4,
+          "topics": [
+            "composite-resins-classify-hybrid-composition"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Electroformed dies.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Memory wires.",
+          "marks": 4,
+          "topics": [
+            "titanium"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: Expansion in dental investments.",
+          "marks": 4,
+          "topics": [
+            "expansion-in-investments-setting-thermal-hygroscopic"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "B",
+          "text": "Multiple choice (5 items): alloys below the eutectic composition; cement for bonding orthodontic brackets; stainless steel corrosion; mouth-temperature wax; strength of dental investment.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-6937-2101",
+      "subjectId": "dental-materials",
+      "code": "6937",
+      "series": "2101",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2021",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "One short note in this question is hidden in the photograph.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "What are the chemical and physical stages of polymerization? Add a note on types of curing cycles.",
+          "marks": 10,
+          "topics": [
+            "denture-base-resins-classify-compression-moulding-processing"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Dimension of colour.",
+          "marks": 4,
+          "topics": [
+            "color-dimensions-of-color-hue-chroma-value"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Allergic reaction to dental materials.",
+          "marks": 4,
+          "topics": [
+            "biocompatibility-of-dental-materials-allergic-reactions"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Titanium and its alloys.",
+          "marks": 4,
+          "topics": [
+            "titanium"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Direct aesthetic restorative materials.",
+          "marks": 4,
+          "topics": [
+            "composite-resins-classify-hybrid-composition"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Multiple choice (5 items): setting expansion of casting investment; purity of gold; smear layer removal; wavelength of a visible light cure unit; which cements are truly adhesive to tooth structure.",
+          "marks": 5,
+          "topics": []
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Define and classify dental ceramics. Discuss methods used to strengthen dental ceramics.",
+          "marks": 10,
+          "topics": [
+            "dental-ceramics-classify-strengthening-mechanisms"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Direct filling gold.",
+          "marks": 4,
+          "topics": [
+            "direct-filling-gold-types-mat-gold-foil-cohesive-gold"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Hardness tests.",
+          "marks": 4,
+          "topics": [
+            "hardness-tests-brinell-vickers-knoop"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Mercury toxicity.",
+          "marks": 4,
+          "topics": [
+            "mercury-toxicity"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: Abrasives and polishing agents.",
+          "marks": 4,
+          "topics": [
+            "abrasives-and-polishing-agents"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "B",
+          "text": "Multiple choice (5 items): initial setting time of type I impression paste; Bowen's salt; crosslinking agent in PMMA; wax component resisting cracking and flaking; temperature limit for gypsum bonded investments.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-6553-2031",
+      "subjectId": "dental-materials",
+      "code": "6553",
+      "series": "2031",
+      "session": "Suppl.",
+      "regulation": null,
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "One short note in this question is hidden in the photograph.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "What are denture base resins? Discuss their physical properties and also the differences between heat and chemically activated denture base resins.",
+          "marks": 10,
+          "topics": [
+            "denture-base-resins-classify-compression-moulding-processing"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Synersis, imbibition and hysteresis in hydrocolloid impression materials.",
+          "marks": 5,
+          "topics": [
+            "hydrocolloids-alginate-irreversible-agar-reversible"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Accelerators and retarders in gypsum.",
+          "marks": 5,
+          "topics": [
+            "classification-setting-expansion-hygroscopic-vs-normal"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Essential components of dental composites.",
+          "marks": 5,
+          "topics": [
+            "composite-resins-classify-hybrid-composition"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Classification of dental amalgam.",
+          "marks": 5,
+          "topics": [
+            "high-copper-amalgam-composition-properties-vs-low-copper"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Multiple choice (5 items): the dominant colour of an object; material for a temporary crown; primary impression material in complete denture; alginate based separating medium; Electralloy.",
+          "marks": 5,
+          "topics": []
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "What are dental ceramics and their applications in dentistry? Discuss various methods of strengthening ceramics.",
+          "marks": 10,
+          "topics": [
+            "dental-ceramics-classify-strengthening-mechanisms"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Principles of sprue design and attachment.",
+          "marks": 4,
+          "topics": [
+            "sprue-former-design"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Desirable properties of dental casting alloys.",
+          "marks": 4,
+          "topics": [
+            "base-metal-alloys-co-cr-ni-cr-vitallium"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Differentiate soldering, brazing and welding.",
+          "marks": 4,
+          "topics": [
+            "soldering-and-welding-brazing-heat-sources"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: Principles of cutting, grinding and polishing.",
+          "marks": 4,
+          "topics": [
+            "abrasives-and-polishing-agents"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "B",
+          "text": "Multiple choice (5 items): where setting expansion of gypsum is an advantage; frozen slab technique; porcelain under varying light (metamerism); porcelain denture teeth; the component responsible for allergy in dental casting alloys.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-7189-2032",
+      "subjectId": "dental-materials",
+      "code": "7189",
+      "series": "2032",
+      "session": "Suppl.",
+      "regulation": null,
+      "year": "2022",
+      "yearNote": "'Feb–March 2022' written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "One short note in this question is hidden in the photograph.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "What are the various final impression materials? Write the composition, setting reaction, properties and uses of zinc oxide eugenol impression material.",
+          "marks": 10,
+          "topics": [
+            "zinc-oxide-eugenol-zoe-composition-setting-uses"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Dentin bonding agents.",
+          "marks": 4,
+          "topics": [
+            "adhesion-bonding-agents-dentine-bonding"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Expansion in investment material.",
+          "marks": 4,
+          "topics": [
+            "expansion-in-investments-setting-thermal-hygroscopic"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Hardness.",
+          "marks": 4,
+          "topics": [
+            "hardness-tests-brinell-vickers-knoop"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: 18-8 Stainless steel.",
+          "marks": 4,
+          "topics": [
+            "stainless-steel-18-8"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Multiple choice (5 items): dimension describing lightness and darkness; stage of polymerization where most reaction occurs; what alginates are; how powders of dental plaster and dental stone differ.",
+          "marks": 5,
+          "topics": []
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Classify and discuss dental cements in detail.",
+          "marks": 10,
+          "topics": [
+            "classification-of-dental-cements"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Soldering and welding.",
+          "marks": 4,
+          "topics": [
+            "soldering-and-welding-brazing-heat-sources"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Gypsum bonded investment.",
+          "marks": 4,
+          "topics": [
+            "gypsum-bonded-investments"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Composite resins.",
+          "marks": 4,
+          "topics": [
+            "composite-resins-classify-hybrid-composition"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: Biocompatibility of dental materials.",
+          "marks": 4,
+          "topics": [
+            "biocompatibility-of-dental-materials-allergic-reactions"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "B",
+          "text": "Multiple choice (5 items): what impression wax includes; type of hypersensitivity shown by dental materials; what investment setting expansion compensates for.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-7384-2025",
+      "subjectId": "dental-materials",
+      "code": "7384",
+      "series": "2025",
+      "session": "Annual",
+      "regulation": "New Regulation",
+      "year": "2015",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "One short note in this question is hidden in the photograph.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify gypsum products used in dentistry. Write the differences between Alfa and Beta hemihydrate. Write in detail about the control of setting time and setting expansion of gypsum products.",
+          "marks": 10,
+          "topics": [
+            "classification-setting-expansion-hygroscopic-vs-normal",
+            "differences-dental-plaster-vs-stone-vs-hemihydrate"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Transformation toughening.",
+          "marks": 4,
+          "topics": [
+            "dental-ceramics-classify-strengthening-mechanisms"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Mercury toxicity.",
+          "marks": 4,
+          "topics": [
+            "mercury-toxicity"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Calcium hydroxide cement.",
+          "marks": 4,
+          "topics": [
+            "calcium-hydroxide-cement"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Blue Inlay wax.",
+          "marks": 4,
+          "topics": [
+            "inlay-casting-wax-properties-composition-classification"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Multiple choice (5 items): effect of zinc oxide eugenol on the pulp; what outstanding clinical performance of amalgam relates to; what modulus of elasticity means; hysteresis in hydrocolloid gel; use of dimethyl-p-toluidine.",
+          "marks": 5,
+          "topics": []
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Classify impression materials. Discuss inelastic and irreversible impression materials in detail.",
+          "marks": 10,
+          "topics": [
+            "hydrocolloids-alginate-irreversible-agar-reversible"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Soldering and brazing.",
+          "marks": 4,
+          "topics": [
+            "soldering-and-welding-brazing-heat-sources"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Modes of implant attachment with bone.",
+          "marks": 4,
+          "topics": [
+            "dental-implants-materials-attachment-modes"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Porosities in metal castings.",
+          "marks": 4,
+          "topics": [
+            "casting-defects-porosity-suck-back"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: pH of dental cements.",
+          "marks": 4,
+          "topics": [
+            "classification-of-dental-cements"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "B",
+          "text": "Multiple choice (5 items): coefficient of thermal expansion of metal ceramic alloy; 18-8 stainless steel orthodontic wire; accelerator in zinc oxide eugenol paste; implants penetrating one cortical plate; inlay wax for the direct technique.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-6165-2086",
+      "subjectId": "dental-materials",
+      "code": "6165",
+      "series": "2086",
+      "session": "Annual",
+      "regulation": "New Regulation",
+      "year": "2017",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "One short note in this question is hidden in the photograph.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify impression materials. Write in detail about zinc-oxide eugenol impression material.",
+          "marks": 10,
+          "topics": [
+            "zinc-oxide-eugenol-zoe-composition-setting-uses"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Hardness.",
+          "marks": 4,
+          "topics": [
+            "hardness-tests-brinell-vickers-knoop"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Hygroscopic setting expansion.",
+          "marks": 4,
+          "topics": [
+            "classification-setting-expansion-hygroscopic-vs-normal"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Mat gold and gold foil.",
+          "marks": 4,
+          "topics": [
+            "direct-filling-gold-types-mat-gold-foil-cohesive-gold"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: High copper amalgams.",
+          "marks": 4,
+          "topics": [
+            "high-copper-amalgam-composition-properties-vs-low-copper"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Multiple choice (5 items): which impression material is elastic; where synersis is seen; die stone as a type of gypsum product; the strongest component of dental amalgam; the inorganic filler in microfilled composites.",
+          "marks": 5,
+          "topics": []
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Classify dental waxes. Discuss in detail the properties and uses of inlay wax.",
+          "marks": 10,
+          "topics": [
+            "inlay-casting-wax-properties-composition-classification"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Metal ceramic bonding.",
+          "marks": 4,
+          "topics": [
+            "metal-ceramic-bonding-alloys"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: CAD-CAM.",
+          "marks": 4,
+          "topics": [
+            "cad-cam"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Electropolishing.",
+          "marks": 4,
+          "topics": [
+            "abrasives-and-polishing-agents"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: GIC as luting agent.",
+          "marks": 4,
+          "topics": [
+            "glass-ionomer-cement-gic-classify-modifications-setting",
+            "luting-agents-liners-bases"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "B",
+          "text": "Multiple choice (5 items): metal that does not protect against corrosion; carbon content of cobalt-chromium alloy; burnout hold time when casting noble metal alloys; hardest abrasive; what Vitallium is an alloy of.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-6696-2087",
+      "subjectId": "dental-materials",
+      "code": "6696",
+      "series": "2087",
+      "session": "Annual",
+      "regulation": "New Regulation",
+      "year": "2017",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "One short note in this question is hidden in the photograph.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify rubber base impression materials. Describe addition silicone in detail.",
+          "marks": 10,
+          "topics": [
+            "elastomers-rubber-base-classify-addition-silicone-condensation-silicone"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Bio-compatibility of dental materials.",
+          "marks": 4,
+          "topics": [
+            "biocompatibility-of-dental-materials-allergic-reactions"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Trituration.",
+          "marks": 4,
+          "topics": [
+            "trituration"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Gold foil and powdered gold.",
+          "marks": 4,
+          "topics": [
+            "direct-filling-gold-types-mat-gold-foil-cohesive-gold"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Bonding agents.",
+          "marks": 4,
+          "topics": [
+            "adhesion-bonding-agents-dentine-bonding"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Multiple choice (5 items): how dental stone and dental plaster differ; which material has the longest shelf life; oxidizing agent in polysulfide; where alginate deteriorates rapidly; average polymerization shrinkage of self-cure resin.",
+          "marks": 5,
+          "topics": []
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Classify dental cements. Explain in detail about GI and its modifications.",
+          "marks": 10,
+          "topics": [
+            "glass-ionomer-cement-gic-classify-modifications-setting"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Utility waxes.",
+          "marks": 4,
+          "topics": [
+            "utility-waxes-processing-waxes"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: CAD-CAM.",
+          "marks": 4,
+          "topics": [
+            "cad-cam"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Transformation toughening.",
+          "marks": 4,
+          "topics": [
+            "dental-ceramics-classify-strengthening-mechanisms"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: Stainless steel.",
+          "marks": 4,
+          "topics": [
+            "stainless-steel-18-8"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "B",
+          "text": "Multiple choice (5 items): what Vitallium is an alloy of; what decreases the fusion temperature of casting gold alloy; best gas for melting an alloy; main reason for localized shrinkage porosity; metal that does not protect against corrosion.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-6899-2028",
+      "subjectId": "dental-materials",
+      "code": "6899",
+      "series": "2028",
+      "session": "Suppl.",
+      "regulation": "New Regulation",
+      "year": "2017",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "One short note in this question is hidden in the photograph.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify denture base materials. Describe heat cured acrylic resins in detail.",
+          "marks": 10,
+          "topics": [
+            "denture-base-resins-classify-compression-moulding-processing"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Laminate technique.",
+          "marks": 4,
+          "topics": [
+            "denture-base-resins-classify-compression-moulding-processing"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Tarnish and corrosion.",
+          "marks": 4,
+          "topics": [
+            "tarnish-and-corrosion"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Optical properties of dental materials.",
+          "marks": 4,
+          "topics": [
+            "color-dimensions-of-color-hue-chroma-value"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Manipulation and properties of dental amalgam.",
+          "marks": 4,
+          "topics": [
+            "trituration",
+            "high-copper-amalgam-composition-properties-vs-low-copper"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Multiple choice (5 items): strongest phase in amalgam; matrix of commonly used composites; what modulus of elasticity indicates; accelerator in zinc oxide eugenol impression paste; which has a different chemical formula.",
+          "marks": 5,
+          "topics": []
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Define ceramics. Give the classification of dental ceramics and describe all ceramic materials in detail.",
+          "marks": 10,
+          "topics": [
+            "dental-ceramics-classify-strengthening-mechanisms"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Porosities in casting.",
+          "marks": 4,
+          "topics": [
+            "casting-defects-porosity-suck-back"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Classify and discuss abrasive wear.",
+          "marks": 4,
+          "topics": [
+            "abrasives-and-polishing-agents"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Liners and bases.",
+          "marks": 4,
+          "topics": [
+            "luting-agents-liners-bases"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: Casting machines.",
+          "marks": 4,
+          "topics": [
+            "casting-defects-porosity-suck-back"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "B",
+          "text": "Multiple choice (5 items): pH of polycarboxylate liquid; wrought iron alloys in dentistry; principal hardener in noble metal casting alloys; major constituent of inlay pattern wax; effect of higher firing temperature in porcelain.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-6341-2027",
+      "subjectId": "dental-materials",
+      "code": "6341",
+      "series": "2027",
+      "session": "Suppl.",
+      "regulation": "New Regulation",
+      "year": "2014",
+      "yearNote": "'Suppl. 2014' written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "One short note in this question is hidden in the photograph.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "What are denture base resins? Give their uses and write in detail about the compression moulding technique.",
+          "marks": 10,
+          "topics": [
+            "denture-base-resins-classify-compression-moulding-processing"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Ductility and malleability.",
+          "marks": 4,
+          "topics": [
+            "stress-strain-modulus-of-elasticity"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Denture bonding agents.",
+          "marks": 4,
+          "topics": [
+            "adhesion-bonding-agents-dentine-bonding"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Manipulation of direct filling gold.",
+          "marks": 4,
+          "topics": [
+            "direct-filling-gold-types-mat-gold-foil-cohesive-gold"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Condensation and addition silicones.",
+          "marks": 4,
+          "topics": [
+            "elastomers-rubber-base-classify-addition-silicone-condensation-silicone"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Multiple choice (5 items): weakest component of dental amalgam; which property is time dependent; hydrocolloid properties except; how plaster of Paris and dental stone differ; porcelain appearing different under different lights.",
+          "marks": 5,
+          "topics": []
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Classify dental casting investment materials and discuss in detail about gypsum bonded investments.",
+          "marks": 10,
+          "topics": [
+            "gypsum-bonded-investments"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Metal-free ceramics.",
+          "marks": 4,
+          "topics": [
+            "dental-ceramics-classify-strengthening-mechanisms"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Polishing agents.",
+          "marks": 4,
+          "topics": [
+            "abrasives-and-polishing-agents"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Soldering.",
+          "marks": 4,
+          "topics": [
+            "soldering-and-welding-brazing-heat-sources"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: Reinforced GIC.",
+          "marks": 4,
+          "topics": [
+            "glass-ionomer-cement-gic-classify-modifications-setting"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "B",
+          "text": "Multiple choice (5 items): what a gate spatula is used to mix, and four further items.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-6498-2013",
+      "subjectId": "dental-materials",
+      "code": "6498",
+      "series": "2013",
+      "session": "Supplementary",
+      "regulation": "New Regulation",
+      "year": "2018",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "Parts of questions 2 and 5 are hidden by an overlapping sheet.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "What are hydrocolloids? Write the composition and properties of reversible hydrocolloids.",
+          "marks": 10,
+          "topics": [
+            "hydrocolloids-alginate-irreversible-agar-reversible"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Polymerization shrinkage in denture base resins.",
+          "marks": 5,
+          "topics": [
+            "polymerization-shrinkage"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Setting expansion of gypsum products.",
+          "marks": 5,
+          "topics": [
+            "classification-setting-expansion-hygroscopic-vs-normal"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Dentine bonding agents.",
+          "marks": 5,
+          "topics": [
+            "adhesion-bonding-agents-dentine-bonding"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "What are implants? Discuss the types of implants. Describe the materials used for implants.",
+          "marks": 10,
+          "topics": [
+            "dental-implants-materials-attachment-modes"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: All ceramic restorations.",
+          "marks": 5,
+          "topics": [
+            "dental-ceramics-classify-strengthening-mechanisms"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Various heat sources used for soldering.",
+          "marks": 5,
+          "topics": [
+            "soldering-and-welding-brazing-heat-sources"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: GIC.",
+          "marks": 5,
+          "topics": [
+            "glass-ionomer-cement-gic-classify-modifications-setting"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "B",
+          "text": "Multiple choice (10 items): parent compound of polycarboxylate cement; a solution of resins and rosin in an acrylic solvent; requirement for an alloy fused to porcelain; why inhibitors are added to denture base monomers; and further items.",
+          "marks": 10,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-7222-2088",
+      "subjectId": "dental-materials",
+      "code": "7222",
+      "series": "2088",
+      "session": "Annual",
+      "regulation": "New Regulation",
+      "year": "2018",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "Part B could not be read; only Part A and the closing MCQs are legible.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "How do you classify the impression materials? Discuss the dimensional stability of hydrocolloid impression materials along with the methods of disinfection for hydrocolloid impression materials.",
+          "marks": 10,
+          "topics": [
+            "hydrocolloids-alginate-irreversible-agar-reversible",
+            "disinfection-of-impression-materials"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Hygroscopic setting expansion.",
+          "marks": 4,
+          "topics": [
+            "classification-setting-expansion-hygroscopic-vs-normal"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Tarnish and corrosion.",
+          "marks": 4,
+          "topics": [
+            "tarnish-and-corrosion"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Acid-etch technique.",
+          "marks": 4,
+          "topics": [
+            "acid-etch-technique-adhesives"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Mercury toxicity.",
+          "marks": 4,
+          "topics": [
+            "mercury-toxicity"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "B",
+          "text": "Multiple choice (5 items): what ceramic steel is; which is not a noble metal; ADA specification number of orthodontic wire.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-6028",
+      "subjectId": "dental-materials",
+      "code": "6028",
+      "series": null,
+      "session": "Suppl.",
+      "regulation": null,
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "Only Part B and the multiple-choice sections are legible in the photographs.",
+      "questions": [
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Multiple choice (5 items): why palladium is added to polyvinyl siloxane; karat of type II gold alloys; activator in light cure resins; which material accelerates reparative dentin; what the proportional limit is.",
+          "marks": 5,
+          "topics": []
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Give the composition, properties and manipulation techniques of inlay casting waxes. Also explain the various causes of wax distortion and its remedies.",
+          "marks": 10,
+          "topics": [
+            "inlay-casting-wax-properties-composition-classification"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "B",
+          "text": "Short note: Solidification shrinkage porosities.",
+          "marks": 4,
+          "topics": [
+            "casting-defects-porosity-suck-back"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "Short note: Austenitic (18-8) stainless steel.",
+          "marks": 4,
+          "topics": [
+            "stainless-steel-18-8"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "B",
+          "text": "Short note: Zinc polycarboxylate cement.",
+          "marks": 4,
+          "topics": [
+            "classification-of-dental-cements"
+          ]
+        },
+        {
+          "n": "5d",
+          "part": "B",
+          "text": "Short note: All ceramic restorations.",
+          "marks": 4,
+          "topics": [
+            "dental-ceramics-classify-strengthening-mechanisms"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "B",
+          "text": "Multiple choice (5 items): cutting edges of carbon steel instruments, and further items.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-7855-dm",
+      "subjectId": "dental-materials",
+      "code": "7855",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": "New Regulation",
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "One short note in this question is hidden in the photograph.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify gypsum products. Differentiate between α-hemihydrate and β-hemihydrate.",
+          "marks": 10,
+          "topics": [
+            "differences-dental-plaster-vs-stone-vs-hemihydrate",
+            "classification-setting-expansion-hygroscopic-vs-normal"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Hue, chroma, value.",
+          "marks": 4,
+          "topics": [
+            "color-dimensions-of-color-hue-chroma-value"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Separating media.",
+          "marks": 4,
+          "topics": [
+            "separating-media"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Synersis and imbibition.",
+          "marks": 4,
+          "topics": [
+            "hydrocolloids-alginate-irreversible-agar-reversible"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Trituration.",
+          "marks": 4,
+          "topics": [
+            "trituration"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Multiple choice (5 items): what must be added to steel to make it stainless; hardest abrasive; what hygroscopic expansion is a property of; maximum ingredient of inlay casting wax.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-020701-2022",
+      "subjectId": "dental-materials",
+      "code": "020701",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2022",
+      "yearNote": "'Sup 2022' written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "What are the different techniques for fabrication of crowns?",
+          "marks": 10,
+          "topics": [
+            "dental-ceramics-classify-strengthening-mechanisms",
+            "cad-cam"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Methods of strengthening ceramics.",
+          "marks": 4,
+          "topics": [
+            "dental-ceramics-classify-strengthening-mechanisms"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: GIC.",
+          "marks": 4,
+          "topics": [
+            "glass-ionomer-cement-gic-classify-modifications-setting"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Investment materials.",
+          "marks": 4,
+          "topics": [
+            "gypsum-bonded-investments"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Classification of dental waxes.",
+          "marks": 4,
+          "topics": [
+            "inlay-casting-wax-properties-composition-classification"
+          ]
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "text": "Short note: Accelerators and retarders in gypsum.",
+          "marks": 4,
+          "topics": [
+            "classification-setting-expansion-hygroscopic-vs-normal"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "B",
+          "text": "Classify impression materials. What are the prerequisites of impression materials? Discuss in detail silicone impression materials.",
+          "marks": 10,
+          "topics": [
+            "elastomers-rubber-base-classify-addition-silicone-condensation-silicone"
+          ]
+        },
+        {
+          "n": "4a",
+          "part": "B",
+          "text": "Short note: Different steps in clinical manipulation of dental amalgam.",
+          "marks": 4,
+          "topics": [
+            "trituration"
+          ]
+        },
+        {
+          "n": "4b",
+          "part": "B",
+          "text": "Short note: Dental implant materials.",
+          "marks": 4,
+          "topics": [
+            "dental-implants-materials-attachment-modes"
+          ]
+        },
+        {
+          "n": "4c",
+          "part": "B",
+          "text": "Short note: Types of porosities in acrylic dentures and methods to minimize them.",
+          "marks": 4,
+          "topics": [
+            "porosity-in-acrylics"
+          ]
+        },
+        {
+          "n": "4d",
+          "part": "B",
+          "text": "Short note: Tissue conditioners.",
+          "marks": 4,
+          "topics": [
+            "tissue-conditioners"
+          ]
+        },
+        {
+          "n": "4e",
+          "part": "B",
+          "text": "Short note: Biocompatibility in dental materials.",
+          "marks": 4,
+          "topics": [
+            "biocompatibility-of-dental-materials-allergic-reactions"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "C",
+          "text": "Multiple choice (10 items): who GIC is associated with; activator in chemically activated denture base resin; chromium in stainless steel; polycrystalline ceramics; delayed expansion in amalgam; modulus of elasticity; how ceramics fired to metals are processed; impression of hypermobile flabby tissue; setting time of gypsum; acid etching.",
+          "marks": 10,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-020701-jan2023",
+      "subjectId": "dental-materials",
+      "code": "020701",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2023",
+      "yearNote": "'Jan 2023' written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify gypsum products along with their uses. Discuss the factors affecting the setting time of gypsum. Also add a note on water of reaction, dry strength and wet strength of gypsum.",
+          "marks": 10,
+          "topics": [
+            "classification-setting-expansion-hygroscopic-vs-normal",
+            "setting-reaction-stages"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: High copper vs low copper amalgam.",
+          "marks": 4,
+          "topics": [
+            "high-copper-amalgam-composition-properties-vs-low-copper"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Auxiliary dental materials.",
+          "marks": 4,
+          "topics": [
+            "utility-waxes-processing-waxes"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Inelastic and reversible impression materials.",
+          "marks": 4,
+          "topics": [
+            "hydrocolloids-alginate-irreversible-agar-reversible"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Dimensions of colour.",
+          "marks": 4,
+          "topics": [
+            "color-dimensions-of-color-hue-chroma-value"
+          ]
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "text": "Short note: Titanium in dentistry.",
+          "marks": 4,
+          "topics": [
+            "titanium"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "B",
+          "text": "Discuss various denture base resins. Write in detail about the compression molding technique.",
+          "marks": 10,
+          "topics": [
+            "denture-base-resins-classify-compression-moulding-processing"
+          ]
+        },
+        {
+          "n": "4a",
+          "part": "B",
+          "text": "Short note: Discuss modulus of elasticity and wetting in dental materials.",
+          "marks": 4,
+          "topics": [
+            "stress-strain-modulus-of-elasticity"
+          ]
+        },
+        {
+          "n": "4b",
+          "part": "B",
+          "text": "Short note: Classify dental ceramics.",
+          "marks": 4,
+          "topics": [
+            "dental-ceramics-classify-strengthening-mechanisms"
+          ]
+        },
+        {
+          "n": "4c",
+          "part": "B",
+          "text": "Short note: Forms of direct filling gold.",
+          "marks": 4,
+          "topics": [
+            "direct-filling-gold-types-mat-gold-foil-cohesive-gold"
+          ]
+        },
+        {
+          "n": "4d",
+          "part": "B",
+          "text": "Short note: Modified alginates in dentistry.",
+          "marks": 4,
+          "topics": [
+            "hydrocolloids-alginate-irreversible-agar-reversible"
+          ]
+        },
+        {
+          "n": "4e",
+          "part": "B",
+          "text": "Short note: Principles of optimal sprue design.",
+          "marks": 4,
+          "topics": [
+            "sprue-former-design"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "C",
+          "text": "Multiple choice (10 items).",
+          "marks": 10,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-020701-mar2025",
+      "subjectId": "dental-materials",
+      "code": "020701",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2025",
+      "yearNote": "'March, 2025' printed on the paper",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify gypsum products. Write the difference between α and β hemihydrate.",
+          "marks": 10,
+          "topics": [
+            "differences-dental-plaster-vs-stone-vs-hemihydrate",
+            "classification-setting-expansion-hygroscopic-vs-normal"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Suckback porosity.",
+          "marks": 4,
+          "topics": [
+            "casting-defects-porosity-suck-back"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Hardness and toughness.",
+          "marks": 4,
+          "topics": [
+            "hardness-tests-brinell-vickers-knoop"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Agar-agar.",
+          "marks": 4,
+          "topics": [
+            "hydrocolloids-alginate-irreversible-agar-reversible"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Hue, value and chroma.",
+          "marks": 4,
+          "topics": [
+            "color-dimensions-of-color-hue-chroma-value"
+          ]
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "text": "Short note: Addition silicone.",
+          "marks": 4,
+          "topics": [
+            "elastomers-rubber-base-classify-addition-silicone-condensation-silicone"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "B",
+          "text": "Discuss dental amalgam in detail.",
+          "marks": 10,
+          "topics": [
+            "high-copper-amalgam-composition-properties-vs-low-copper"
+          ]
+        },
+        {
+          "n": "4a",
+          "part": "B",
+          "text": "Short note: Acid etching.",
+          "marks": 4,
+          "topics": [
+            "acid-etch-technique-adhesives"
+          ]
+        },
+        {
+          "n": "4b",
+          "part": "B",
+          "text": "Short note: Liner, varnish and base.",
+          "marks": 4,
+          "topics": [
+            "luting-agents-liners-bases"
+          ]
+        },
+        {
+          "n": "4c",
+          "part": "B",
+          "text": "Short note: Inlay wax.",
+          "marks": 4,
+          "topics": [
+            "inlay-casting-wax-properties-composition-classification"
+          ]
+        },
+        {
+          "n": "4d",
+          "part": "B",
+          "text": "Short note: Zinc phosphate cement.",
+          "marks": 4,
+          "topics": [
+            "classification-of-dental-cements"
+          ]
+        },
+        {
+          "n": "4e",
+          "part": "B",
+          "text": "Short note: Polymerization shrinkage.",
+          "marks": 4,
+          "topics": [
+            "polymerization-shrinkage"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "C",
+          "text": "Multiple choice (10 items): softening heat treatment of an alloy; modulus of elasticity; alginate impression material; disadvantage of acrylic denture base; how porcelain binds to metal in a PFM crown; quartz in dental porcelain; stress amalgam resists; weakest phase of amalgam; NiTi alloy; major component of zinc phosphate cement; which cement is adhesive.",
+          "marks": 10,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-020701-aug2025",
+      "subjectId": "dental-materials",
+      "code": "020701",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2025",
+      "yearNote": "'August, 2025' printed on the paper",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": "Section B's questions are hidden behind an overlapping sheet; only their mark allocations are visible.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify dental cements. Discuss in detail zinc phosphate cement.",
+          "marks": 10,
+          "topics": [
+            "classification-of-dental-cements"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Short notes (5 × 4 marks) — the individual notes are hidden in the photograph.",
+          "marks": 20,
+          "topics": []
+        },
+        {
+          "n": "5",
+          "part": "C",
+          "text": "Multiple choice (10 items): how composite resins bond to tooth structure; etching of enamel; loading amalgam performs best under; ADA specification for dental amalgams; what trituration means; what amalgam combines with; lowest strength phase of amalgam; type I gypsum product; what accelerators and retarders control; definition of stress.",
+          "marks": 10,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "dental-materials-020701-mar2026",
+      "subjectId": "dental-materials",
+      "code": "020701",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2026",
+      "yearNote": "'March 2026' written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": "Only Section A question 1 is legible in the photographs.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify gypsum products. Uses of gypsum in dentistry; write in detail about the setting reaction, theories of setting and factors affecting setting time.",
+          "marks": 10,
+          "topics": [
+            "classification-setting-expansion-hygroscopic-vs-normal",
+            "setting-reaction-stages"
+          ]
+        }
+      ]
+    }
+  ]
+}

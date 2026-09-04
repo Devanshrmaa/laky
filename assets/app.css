@@ -625,7 +625,88 @@ main { padding: 2rem 0 5rem; }
 .paper-q .qn { font-family: var(--mono); font-size: 0.75rem; color: var(--ink-3); }
 .paper-q .qmeta { font-family: var(--mono); font-size: 0.72rem; color: var(--ink-3); white-space: nowrap; }
 .paper-q .qnote { font-style: italic; color: var(--ink-3); }
-.paper-q[data-status="done"] .qname { color: var(--ink-3); text-decoration: line-through; text-decoration-color: var(--rule-2); }
+.paper-q[data-status="done"] .qname { color: var(--ink-3); }
+
+/* ------------------------------------------------ a real transcribed paper */
+.rail-group {
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin: 0.9rem 0 0.3rem;
+  padding-left: 0.6rem;
+}
+.rail-group:first-child { margin-top: 0; }
+
+.paper-kicker {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--h3);
+  margin: 0 0 0.35rem;
+}
+
+.paper-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.1rem;
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  color: var(--ink-3);
+  margin: 0.45rem 0 0;
+}
+
+.paper-note { font-size: 0.8rem; color: var(--ink-3); font-style: italic; }
+.paper-warn {
+  font-size: 0.82rem;
+  color: var(--flag);
+  background: var(--flag-wash);
+  border-radius: var(--r);
+  padding: 0.5rem 0.7rem;
+  margin-top: 0.6rem;
+}
+
+.paper-subject h3 .part-marks {
+  margin-left: auto;
+  font-family: var(--mono);
+  color: var(--ink-3);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.paper-q.real {
+  grid-template-columns: 2.2rem minmax(0, 1fr) 2.2rem;
+  align-items: start;
+  padding: 0.55rem 0;
+}
+.paper-q.real .qtext { display: block; line-height: 1.45; }
+.paper-q.real .qmeta {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--ink-2);
+  text-align: right;
+}
+.paper-q.real[data-status="done"] { background: var(--mark-wash); }
+
+.qtopics { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.35rem; }
+.qtopic {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  border: 1px solid var(--rule-2);
+  border-radius: 99px;
+  padding: 0.08rem 0.5rem;
+  color: var(--ink-3);
+  text-align: left;
+}
+.qtopic:hover { border-color: var(--h3); color: var(--h3); }
+.qtopic[data-status="revising"] { border-color: var(--h3); color: var(--h3); }
+.qtopic[data-status="done"] {
+  background: var(--mark);
+  border-color: var(--mark);
+  color: #fff;
+}
 
 /* ----------------------------------------------------------------- drill */
 .drill { max-width: 44rem; margin: 0 auto; }
