@@ -227,9 +227,33 @@
     const cov = coverage(everyTopic());
     const pct = Math.round(cov.pct);
     bind('covPct').textContent = String(pct);
-    bind('covFill').style.width = `${cov.pct}%`;
-    bind('covAria').setAttribute('aria-label',
-      `${pct}% of recorded question appearances covered`);
+
+    // One segment per subject, sized by its share of every question ever asked
+    // and filled as far as that subject has been covered.
+    const track = bind('covTrack');
+    track.replaceChildren(...state.data.subjects.map((s) => {
+      const c = coverage(subjectPairs(s));
+      const seg = el('div', 'cov-seg');
+      seg.dataset.hue = s.id;
+      seg.style.flex = `${c.total} 0 0`;
+      seg.title = `${s.name}: ${Math.round(c.pct)}% of ${c.total} appearances`;
+      const fill = el('span', 'cov-fill');
+      fill.style.width = `${c.pct}%`;
+      seg.append(fill);
+      return seg;
+    }));
+    track.setAttribute('aria-label',
+      `${pct}% of recorded question appearances covered, by subject: ` +
+      state.data.subjects
+        .map((s) => `${s.name} ${Math.round(coverage(subjectPairs(s)).pct)}%`)
+        .join(', '));
+
+    bind('covKey').replaceChildren(...state.data.subjects.map((s) => {
+      const li = el('li');
+      li.dataset.hue = s.id;
+      li.append(el('i'), el('span', null, s.short || s.name));
+      return li;
+    }));
 
     const doneTopics = everyTopic()
       .filter(({ subject, topic }) => statusOf(subject.id, topic.id) === 'done').length;
@@ -247,9 +271,11 @@
       const btn = el('button', 'subject-btn');
       btn.type = 'button';
       btn.dataset.subject = s.id;
+      btn.dataset.hue = s.id;
       btn.setAttribute('aria-current', String(s.id === state.subjectId));
       const done = topicsOf(s).filter((t) => statusOf(s.id, t.id) === 'done').length;
-      btn.append(el('span', null, s.name), el('span', 'tally', `${done}/${topicsOf(s).length}`));
+      btn.append(el('span', 'subject-swatch'), el('span', null, s.name),
+        el('span', 'tally', `${done}/${topicsOf(s).length}`));
       li.append(btn);
       return li;
     }));
@@ -462,6 +488,7 @@
       if (!asks.length) return;
 
       const group = el('div', 'paper-subject');
+      group.dataset.hue = subject.id;
       group.append(el('h3', null, subject.name));
       asks.sort((a, b) => byWeight(a.topic, b.topic));
 
@@ -651,6 +678,7 @@
     state.data.subjects.forEach((s) => {
       const c = coverage(subjectPairs(s));
       const line = el('div', 'bar-row');
+      line.dataset.hue = s.id;
       const track = el('div', 'bar-track');
       const fill = el('span', 'bar-fill');
       fill.style.width = `${c.pct}%`;
@@ -705,6 +733,7 @@
       hits += found.length;
 
       const group = el('div', 'result-group');
+      group.dataset.hue = subj.id;
       group.append(el('h3', null, `${subj.name} — ${found.length}`));
       found.sort(byWeight).forEach((t) => {
         const wrapper = topicRow(subj, t);
@@ -720,6 +749,8 @@
   /* ================================================================ paint */
 
   function paintAll() {
+    // the page takes on the colour of whatever subject is being revised
+    document.body.dataset.hue = state.subjectId;
     paintCoverage();
 
     const searching = state.view === 'checklist' && state.query.length > 0;

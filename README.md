@@ -73,13 +73,37 @@ The look is drawn from the material itself: a stained slide and a marked exam
 booklet. Cool slide-glass greys, `IBM Plex Sans`/`Mono` for the clinical
 register, `Archivo` for the masthead.
 
-**One stain does the work.** How often a topic is asked is encoded as
-haematoxylin violet, light to dark — the ordinal ramp `#c09fe6 → #9061cf →
-#63339e` in light mode, inverted for dark. Green is reserved for *done* and
-never used for weight; a rust tone is reserved for *going cold*. Colour is never
-the only signal: every tier carries its word, every status its label. The
-categorical palette was checked with the `dataviz` skill's validator rather than
-by eye (lightness band, chroma floor, CVD separation, contrast).
+**Colour carries exactly two things.** *Hue* says which subject; *depth of
+stain* says how often the papers asked it. Each subject borrows a colour from
+its own world:
+
+| Subject | Stain | Light | Dark |
+| --- | --- | --- | --- |
+| Pathology | haematoxylin violet | `#6d3bab` | `#9b70da` |
+| Microbiology | culture-plate teal | `#0c84a3` | `#2aa7ab` |
+| Pharmacology | amber drug glass | `#9a6a10` | `#b3882b` |
+| Dental Materials | porcelain rose | `#c62f6d` | `#d96a8a` |
+
+Each hue carries a three-step ramp (`--h1` pale → `--h3` deep) for LOW / MEDIUM
+/ HIGH. Selecting a subject sets `data-hue` on `<body>`, so the whole page —
+tabs, rules, spines, accents — takes on what you're revising. Views that show
+several subjects at once (Papers, Plan, search results) scope `data-hue` per
+group instead, which is where the colour actually earns its place: a mixed
+sitting separates into its subjects at a glance.
+
+Green is reserved for *done* and rust for *going cold*; neither is ever reused
+for weight. Colour is never the only signal — every tier carries its word, every
+subject its name, every status its label.
+
+The four hues were checked with the `dataviz` skill's validator rather than by
+eye, all-pairs, in both modes: lightness band, chroma floor, colour-blind
+separation and contrast. Light passes outright; dark sits at ΔE 6.2 deutan for
+the teal/rose pair, which is inside the band that's legal only when a second
+encoding is present — here every mark is captioned with its subject.
+
+The overall coverage bar in the masthead is **stacked by subject**: one segment
+per subject, as wide as that subject's share of all 955 recorded appearances,
+filled as far as you've covered it. The whole exam, in one 9px strip.
 
 **The signature is the spine** — the small strip on every topic row. One cell per
 year from 2008 to 2027, inked where that year's paper asked it, darker where it

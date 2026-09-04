@@ -2,10 +2,10 @@
    Specimen — a revision checklist that borrows the vernacular of the material
    it covers: a stained slide and a marked exam booklet.
 
-   One stain does the work. Haematoxylin violet encodes how heavily a topic has
-   been asked; a green marker means you've dealt with it. Everything else is
-   slide glass and ink. Colour is never the only signal — a tier always carries
-   its word, a status always carries its label.
+   Colour carries two things and nothing else. Hue says which subject; depth of
+   stain says how often the papers asked it. Green is reserved for done and rust
+   for going cold, and neither is ever reused for weight. Colour is never the
+   only signal — a tier always carries its word, a subject always its name.
    ========================================================================== */
 
 :root {
@@ -22,12 +22,15 @@
   --ink-2:    #4b5364;
   --ink-3:    #7b8496;
 
-  /* haematoxylin ramp — ordinal, validated (see README) */
-  --t-high:   #63339e;
-  --t-med:    #9061cf;
-  --t-low:    #c09fe6;
-  --stain:    #63339e;
-  --stain-wash: #ede6f8;
+  /* Subject sets the hue, frequency sets the depth. h3 = asked most.
+     Four hues, validated all-pairs for CVD and normal-vision separation;
+     every mark also carries its subject or tier in words. Defaults to
+     the Pathology stain until a subject scope says otherwise. */
+  --h3: #6d3bab;
+  --h2: #9366cf;
+  --h1: #c3a3e6;
+  --wash: #efe8f9;
+  --stain: #6d3bab;
 
   /* reserved status */
   --mark:     #118a5f;
@@ -55,11 +58,11 @@
     --ink-2:  #a4adc0;
     --ink-3:  #707a8d;
 
-    --t-high: #c3a0f5;
-    --t-med:  #9a72d4;
-    --t-low:  #7059a5;
-    --stain:  #b795ea;
-    --stain-wash: #241d38;
+    --h3: #9b70da;
+    --h2: #7a55b0;
+    --h1: #5d4186;
+    --wash: #241d38;
+    --stain: #9b70da;
 
     --mark:   #35b285;
     --mark-wash: #14302a;
@@ -68,6 +71,28 @@
 
     --shadow: 0 1px 0 rgb(0 0 0 / 0.3), 0 1px 3px rgb(0 0 0 / 0.35);
   }
+}
+
+/* -------------------------------------------------------- subject stains
+   Each subject borrows a colour from its own world: haematoxylin violet for
+   Pathology, culture-plate teal for Microbiology, amber drug glass for
+   Pharmacology, porcelain rose for Dental Materials. Set `data-hue` on any
+   container to re-stain its subtree; body carries the current subject so the
+   whole page follows what you are revising. */
+[data-hue="pathology"]       { --h3:#6d3bab; --h2:#9366cf; --h1:#c3a3e6; --wash:#efe8f9; --stain:#6d3bab; }
+[data-hue="microbiology"]    { --h3:#0c84a3; --h2:#3ba7c0; --h1:#94cfdd; --wash:#e3f2f6; --stain:#0c84a3; }
+[data-hue="pharmacology"]    { --h3:#9a6a10; --h2:#c0912c; --h1:#e4c583; --wash:#f6edda; --stain:#9a6a10; }
+[data-hue="dental-materials"]{ --h3:#c62f6d; --h2:#dd6d95; --h1:#f1aec5; --wash:#fae6ed; --stain:#c62f6d; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) [data-hue="pathology"],
+  :root:not([data-theme="light"])[data-hue="pathology"]        { --h3:#9b70da; --h2:#7a55b0; --h1:#5d4186; --wash:#241d38; --stain:#9b70da; }
+  :root:not([data-theme="light"]) [data-hue="microbiology"],
+  :root:not([data-theme="light"])[data-hue="microbiology"]     { --h3:#2aa7ab; --h2:#218488; --h1:#1a6467; --wash:#15292c; --stain:#2aa7ab; }
+  :root:not([data-theme="light"]) [data-hue="pharmacology"],
+  :root:not([data-theme="light"])[data-hue="pharmacology"]     { --h3:#b3882b; --h2:#8e6b22; --h1:#6b511b; --wash:#2b2413; --stain:#b3882b; }
+  :root:not([data-theme="light"]) [data-hue="dental-materials"],
+  :root:not([data-theme="light"])[data-hue="dental-materials"] { --h3:#d96a8a; --h2:#ad5069; --h1:#83404f; --wash:#301a21; --stain:#d96a8a; }
 }
 
 /* ------------------------------------------------------------------- base */
@@ -169,25 +194,54 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   line-height: 1;
   letter-spacing: -0.045em;
   font-variant-numeric: tabular-nums;
-  color: var(--stain);
+  color: var(--ink); /* an all-subject figure, so it takes no subject's colour */
 }
-.figure-unit { font-size: 1.6rem; margin-left: 0.05em; }
+.figure-unit { font-size: 1.6rem; margin-left: 0.05em; color: var(--ink-3); }
 
+/* One segment per subject, each as wide as that subject's share of every
+   question ever asked, filled as far as it has been covered. The whole paper,
+   at a glance, in the order you meet the subjects. */
 .cov-track {
-  height: 6px;
+  display: flex;
+  gap: 2px;
+  height: 9px;
   width: 100%;
-  background: var(--sunk);
+  margin-top: 0.6rem;
+}
+.cov-seg {
+  background: var(--wash); /* faint tint, so the four subjects read at 0% too */
   border-radius: var(--r);
   overflow: hidden;
-  margin-top: 0.6rem;
+  min-width: 2px;
 }
 .cov-fill {
   display: block;
   height: 100%;
   width: 0;
-  background: var(--stain);
+  background: var(--h3);
   border-radius: var(--r);
   transition: width 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.cov-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.85rem;
+  justify-content: flex-end;
+  margin: 0.55rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--ink-3);
+}
+.cov-key li { display: flex; align-items: center; gap: 0.3rem; }
+.cov-key i {
+  width: 8px;
+  height: 8px;
+  border-radius: 1px;
+  background: var(--h3);
+  flex: 0 0 auto;
 }
 
 .figure-foot { margin: 0.5rem 0 0; font-size: 0.78rem; color: var(--ink-3); }
@@ -260,8 +314,8 @@ main { padding: 2rem 0 5rem; }
 .subject-btn {
   width: 100%;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: baseline;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
   gap: 0.5rem;
   padding: 0.42rem 0.6rem;
   border-left: 2px solid var(--rule);
@@ -269,10 +323,17 @@ main { padding: 2rem 0 5rem; }
   text-align: left;
   font-size: 0.9rem;
 }
+.subject-swatch {
+  width: 9px;
+  height: 9px;
+  border-radius: 1px;
+  background: var(--h3);
+  flex: 0 0 auto;
+}
 .subject-btn:hover { background: var(--mount); color: var(--ink); }
 .subject-btn[aria-current="true"] {
-  border-left-color: var(--stain);
-  background: var(--mount);
+  border-left-color: var(--h3);
+  background: var(--wash);
   color: var(--ink);
   font-weight: 600;
 }
@@ -443,10 +504,10 @@ main { padding: 2rem 0 5rem; }
   width: 7px;
   height: 12px;
   border-radius: 1px;
-  background: var(--t-low);
+  background: var(--h1);
 }
-.tier[data-tier="HIGH"]::before   { background: var(--t-high); }
-.tier[data-tier="MEDIUM"]::before { background: var(--t-med); }
+.tier[data-tier="HIGH"]::before   { background: var(--h3); }
+.tier[data-tier="MEDIUM"]::before { background: var(--h2); }
 
 .stale-tag { color: var(--flag); }
 
@@ -466,9 +527,9 @@ main { padding: 2rem 0 5rem; }
 
 .spine-cell { background: var(--mount); border-radius: 1px; }
 .spine-cell[data-mark="5"] { background: var(--sunk); }   /* five-year footing */
-.spine-cell[data-ink="1"] { background: var(--t-low); }
-.spine-cell[data-ink="2"] { background: var(--t-med); }
-.spine-cell[data-ink="3"] { background: var(--t-high); }
+.spine-cell[data-ink="1"] { background: var(--h1); }
+.spine-cell[data-ink="2"] { background: var(--h2); }
+.spine-cell[data-ink="3"] { background: var(--h3); }
 
 .spine-wrap { display: grid; justify-items: end; gap: 0.15rem; }
 .spine-axis {
@@ -539,13 +600,16 @@ main { padding: 2rem 0 5rem; }
 
 .paper-subject { margin-bottom: 1.5rem; }
 .paper-subject h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
   font-family: var(--mono);
   font-size: 0.7rem;
   letter-spacing: 0.13em;
   text-transform: uppercase;
-  color: var(--ink-3);
+  color: var(--h3);
   padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--rule);
+  border-bottom: 2px solid var(--h3);
   margin-bottom: 0.3rem;
 }
 
@@ -694,8 +758,8 @@ main { padding: 2rem 0 5rem; }
 
 .bars { display: grid; gap: 0.55rem; margin-bottom: 2rem; }
 .bar-row { display: grid; grid-template-columns: 8.5rem minmax(0, 1fr) 3.4rem; gap: 0.75rem; align-items: center; font-size: 0.85rem; }
-.bar-track { height: 8px; background: var(--sunk); border-radius: var(--r); overflow: hidden; }
-.bar-fill { display: block; height: 100%; background: var(--stain); border-radius: var(--r); }
+.bar-track { height: 8px; background: var(--wash); border-radius: var(--r); overflow: hidden; }
+.bar-fill { display: block; height: 100%; background: var(--h3); border-radius: var(--r); }
 .bar-val { font-family: var(--mono); font-size: 0.76rem; color: var(--ink-2); text-align: right; }
 
 .stale-list { list-style: none; margin: 0; padding: 0; }

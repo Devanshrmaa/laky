@@ -26,9 +26,8 @@
       <div class="mast-figure">
         <p class="figure-label">Covered so far</p>
         <p class="figure"><span data-bind="covPct">0</span><span class="figure-unit">%</span></p>
-        <div class="cov-track" role="img" data-bind="covAria">
-          <span class="cov-fill" data-bind="covFill"></span>
-        </div>
+        <div class="cov-track" role="img" data-bind="covTrack"></div>
+        <ul class="cov-key" data-bind="covKey"></ul>
         <p class="figure-foot" data-bind="covFoot"></p>
       </div>
     </div>
@@ -74,7 +73,7 @@
 
         <div class="rail-block legend">
           <h3 class="rail-h">Reading a spine</h3>
-          <p class="legend-note">Each topic carries one cell per year from <span data-bind="yearFrom"></span> to <span data-bind="yearTo"></span>. An inked cell means that year's paper asked it — darker where it was asked more than once.</p>
+          <p class="legend-note">Each topic carries one cell per year from <span data-bind="yearFrom"></span> to <span data-bind="yearTo"></span>. An inked cell means that year's paper asked it — darker where it was asked more than once. The colour is the subject's own.</p>
           <div class="legend-swatches" data-bind="legendSwatches"></div>
         </div>
       </aside>
