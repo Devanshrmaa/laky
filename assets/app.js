@@ -191,7 +191,7 @@
 
   function paintMasthead() {
     const meta = state.data.meta;
-    document.title = `${meta.title} — ${meta.site}`;
+    document.title = meta.title;
     bind('course').textContent = meta.course;
     bind('heading').textContent = meta.title;
     bind('tagline').textContent = meta.tagline;

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "site": "Laky",
-    "student": "Laky",
+    "site": "Leki",
+    "student": "Leki",
     "course": "BDS — 2nd year",
-    "title": "PYQ Revision Checklist",
-    "tagline": "What the papers actually keep asking.",
+    "title": "Leki Bhai Ki Website",
+    "tagline": "A PYQ revision checklist — what the papers actually keep asking.",
     "source": "Topic-frequency analysis of past BDS papers (ROS study material).",
     "tierRule": "HIGH = asked 7+ times · MEDIUM = 4-6 · LOW = 3 or fewer.",
     "dataNotes": [
