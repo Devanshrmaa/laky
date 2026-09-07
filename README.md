@@ -21,7 +21,7 @@ asked, what actually keeps getting asked — and how much of it have I covered?*
 (untouched → revising → done). "Worth the most right now" ranks what's left by
 how much of the paper it actually buys you.
 
-**Papers** — two kinds. **Transcribed papers** are the real thing: 37 question
+**Papers** — two kinds. **Transcribed papers** are the real thing: 102 question
 papers read off photographs of the originals, with every question as printed and
 the marks it actually carries. Each question links to the topics it covers, so
 you can tick straight from the paper. **Reconstructed sittings** are the rest,
@@ -197,6 +197,8 @@ changes the frequency counts in `topics.json`.
 | --- | --- | --- |
 | Pharmacology | 19 | 339 |
 | Dental Materials | 18 | 179 |
+| Pathology | 32 | 203 |
+| Microbiology | 33 | 153 |
 
 ```jsonc
 {
@@ -234,6 +236,13 @@ changes the frequency counts in `topics.json`.
   March 2026 Dental Materials sittings post-date the analysis in `topics.json`,
   so their questions appear in the Papers view but are not yet counted in any
   topic's `timesAsked`.
+- **Many Pathology and Microbiology papers are one physical sheet.** Older
+  sittings print both subjects on a single paper — Part A for Pathology, Part
+  B for Microbiology, 35 marks a side of a 70-mark paper. Those are split into
+  two paper records here, one per subject, sharing the same printed code and
+  series, so the Papers view's per-subject filtering stays consistent. Newer
+  "modern" sittings (paper code `020601`) split 30/40 instead of 35/35 — that
+  is the real printed split, not a guess.
 - **Questions with no matching topic have an empty `topics` list.** That is not
   an oversight — it is where the syllabus analysis has a gap. Beta blockers and
   adrenaline come up repeatedly in Pharmacology and have no topic to tick,

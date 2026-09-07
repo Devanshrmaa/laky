@@ -4,11 +4,13 @@
     "note": "Questions are transcribed as printed, with the marks the paper awards them. Papers are identified by their printed paper code; a year is only recorded where one is legibly written on the paper.",
     "subjects": {
       "pharmacology": 19,
-      "dental-materials": 18
+      "dental-materials": 18,
+      "pathology": 32,
+      "microbiology": 33
     },
-    "totalPapers": 37,
-    "totalQuestions": 518,
-    "totalMarks": 2302
+    "totalPapers": 102,
+    "totalQuestions": 874,
+    "totalMarks": 4999.0
   },
   "papers": [
     {
@@ -5078,6 +5080,4285 @@
           "topics": [
             "classification-setting-expansion-hygroscopic-vs-normal",
             "setting-reaction-stages"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-6167-2086",
+      "subjectId": "pathology",
+      "code": "6167",
+      "series": "2086",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2016",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Define Necrosis. Enumerate different types of necrosis and describe their morphological changes.",
+          "marks": 8,
+          "topics": [
+            "necrosis-define-types-coagulative-caseous"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Vascular response in Acute Inflammation.",
+          "marks": 3,
+          "topics": [
+            "acute-inflammation-vascular-cellular-events"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Fracture healing.",
+          "marks": 3,
+          "topics": [
+            "fracture-healing-factors-process"
+          ]
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Differentiate: Carcinoma and Sarcoma.",
+          "marks": 2,
+          "topics": [
+            "benign-vs-malignant-tumors-differences"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Differentiate: Primary and Secondary Tuberculosis.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "4a",
+          "part": "A",
+          "text": "Discuss briefly: Peripheral blood, bone marrow and biochemical findings in Iron Deficiency Anemia.",
+          "marks": 4,
+          "topics": [
+            "iron-deficiency-anemia-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "4b",
+          "part": "A",
+          "text": "Discuss briefly: FAB classification of AML.",
+          "marks": 3,
+          "topics": [
+            "leukemia-aml-fab-classification"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "A",
+          "text": "Short note: Morphology of Osteosarcoma.",
+          "marks": 3,
+          "topics": [
+            "osteosarcoma-morphology"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "A",
+          "text": "Short note: Etiopathogenesis of Atherosclerosis.",
+          "marks": 3,
+          "topics": [
+            "atherosclerosis-pathogenesis-risk-factors"
+          ]
+        },
+        {
+          "n": "5c",
+          "part": "A",
+          "text": "Short note: Reed Sternberg Cell.",
+          "marks": 2,
+          "topics": [
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Multiple choice (4 items): formation of granulation tissue; best stain for Amyloid; false statement about haemophilia; sites of pale infarcts except.",
+          "marks": 2,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6167-2086",
+      "subjectId": "microbiology",
+      "code": "6167",
+      "series": "2086",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2016",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7a",
+          "part": "B",
+          "text": "Write briefly: Hot Air Oven.",
+          "marks": 4.5,
+          "topics": [
+            "hot-air-oven-dry-heat"
+          ]
+        },
+        {
+          "n": "7b",
+          "part": "B",
+          "text": "Write briefly: Autoimmunity.",
+          "marks": 4.5,
+          "topics": []
+        },
+        {
+          "n": "8a",
+          "part": "B",
+          "text": "Short note: Lab diagnosis of Diphtheria.",
+          "marks": 4.5,
+          "topics": [
+            "diphtheria-lab-diagnosis-prophylaxis"
+          ]
+        },
+        {
+          "n": "8b",
+          "part": "B",
+          "text": "Short note: Dental caries.",
+          "marks": 4.5,
+          "topics": [
+            "dental-caries-strep-mutans"
+          ]
+        },
+        {
+          "n": "9a",
+          "part": "B",
+          "text": "Short note: Hepatitis B vaccination.",
+          "marks": 4,
+          "topics": [
+            "hepatitis-b-vaccination-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "9b",
+          "part": "B",
+          "text": "Short note: Oral thrush.",
+          "marks": 4,
+          "topics": [
+            "candidiasis-oral-thrush"
+          ]
+        },
+        {
+          "n": "9c",
+          "part": "B",
+          "text": "Short note: Modes of transmission in Parasitic diseases.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): illumination source in electron microscope; Robertson's cooked meat broth; antibody crossing placenta; hypersensitivity type of positive tuberculin test; mediator of scalded skin syndrome; site affected by Corynebacterium diphtheriae; hepatitis virus by feco-oral route; most effective mode of HIV transmission; yeast/yeast-like fungi except; vector of Plasmodium vivax.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-6698-2087",
+      "subjectId": "pathology",
+      "code": "6698",
+      "series": "2087",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2017",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify chemical mediators of acute inflammation. Describe Arachidonic acid metabolism in detail.",
+          "marks": 8,
+          "topics": [
+            "chemical-mediators-arachidonic-acid-classification"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Factors influencing fracture healing.",
+          "marks": 3,
+          "topics": [
+            "fracture-healing-factors-process"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Complications of Thrombus formation.",
+          "marks": 3,
+          "topics": [
+            "thrombosis-fate-virchow-s-triad-pathogenesis"
+          ]
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Differentiate: Metabolic and Dystrophic calcification.",
+          "marks": 2,
+          "topics": [
+            "calcification-metastatic-vs-dystrophic"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Differentiate: Benign and Malignant tumour.",
+          "marks": 2,
+          "topics": [
+            "benign-vs-malignant-tumors-differences"
+          ]
+        },
+        {
+          "n": "4a",
+          "part": "A",
+          "text": "Discuss briefly: Lab diagnosis of Megaloblastic anaemia.",
+          "marks": 4,
+          "topics": [
+            "megaloblastic-anemia-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "4b",
+          "part": "A",
+          "text": "Discuss briefly: Blood and Bone marrow findings of Multiple Myeloma.",
+          "marks": 3,
+          "topics": [
+            "multiple-myeloma-blood-bone-marrow"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "A",
+          "text": "Short note: Ameloblastoma.",
+          "marks": 3,
+          "topics": [
+            "ameloblastoma"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "A",
+          "text": "Short note: Cardiac vegetations.",
+          "marks": 3,
+          "topics": []
+        },
+        {
+          "n": "5c",
+          "part": "A",
+          "text": "Short note: Morphology of Hodgkin's Lymphoma.",
+          "marks": 2,
+          "topics": [
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Multiple choice (4 items): necrosis type by enzymatic digestion; origin of Reed Sternberg cell; sites of keratinised stratified squamous epithelium except; LV wall thickness in LVH.",
+          "marks": 2,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6698-2087",
+      "subjectId": "microbiology",
+      "code": "6698",
+      "series": "2087",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2017",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7a",
+          "part": "B",
+          "text": "Write briefly: Louis Pasteur.",
+          "marks": 4.5,
+          "topics": []
+        },
+        {
+          "n": "7b",
+          "part": "B",
+          "text": "Write briefly: ELISA.",
+          "marks": 4.5,
+          "topics": [
+            "elisa-principle-applications"
+          ]
+        },
+        {
+          "n": "8a",
+          "part": "B",
+          "text": "Short note: Dental caries.",
+          "marks": 4.5,
+          "topics": [
+            "dental-caries-strep-mutans"
+          ]
+        },
+        {
+          "n": "8b",
+          "part": "B",
+          "text": "Short note: Non-suppurative sequelae of Streptococcal infection.",
+          "marks": 4.5,
+          "topics": []
+        },
+        {
+          "n": "9a",
+          "part": "B",
+          "text": "Short note: Hepatitis A vaccination.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "9b",
+          "part": "B",
+          "text": "Short note: Laboratory diagnosis of Fungal infections.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "9c",
+          "part": "B",
+          "text": "Short note: Laboratory diagnosis of Malaria.",
+          "marks": 4,
+          "topics": [
+            "malaria-lab-diagnosis-life-cycle"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items) on general microbiology, immunology and parasitology.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-6032",
+      "subjectId": "pathology",
+      "code": "6032",
+      "series": null,
+      "session": "Annual",
+      "regulation": "Old Syllabus",
+      "year": "2012",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "I",
+          "text": "Comment on: (a) Ghon's complex (b) Healing by first intention (c) Chemical mediators of inflammation.",
+          "marks": 15,
+          "topics": [
+            "acute-inflammation-vascular-cellular-events"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "I",
+          "text": "Discuss briefly: (a) Congestive cardiac failure and liver (b) Diagnosis of Amyloidosis.",
+          "marks": 10,
+          "topics": [
+            "amyloidosis-stains-pathogenesis-diagnosis"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "I",
+          "text": "Describe briefly: (i) Endogenous pigments (ii) Necrosis and its types.",
+          "marks": 10,
+          "topics": [
+            "pigments-endogenous-body-pigments",
+            "necrosis-define-types-coagulative-caseous"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "II",
+          "text": "Short notes: (i) AML (ii) ITP.",
+          "marks": 20,
+          "topics": [
+            "leukemia-aml-fab-classification",
+            "itp-idiopathic-thrombocytopenic-purpura"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "II",
+          "text": "Describe briefly Sickle cell anaemia.",
+          "marks": 10,
+          "topics": []
+        },
+        {
+          "n": "6",
+          "part": "II",
+          "text": "Comment on blood and bone marrow findings in Multiple Myeloma.",
+          "marks": 5,
+          "topics": [
+            "multiple-myeloma-blood-bone-marrow"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-6514",
+      "subjectId": "pathology",
+      "code": "6514",
+      "series": null,
+      "session": "Annual",
+      "regulation": "Old Syllabus",
+      "year": "2013",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "Only the first page (of two) was found in the photographs; questions 3-6 are missing.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "I",
+          "text": "Short notes: (a) Pathogenesis of edema (b) Amyloidosis of spleen (c) Arachidonic acid metabolites.",
+          "marks": 15,
+          "topics": [
+            "edema-pathogenesis-pulmonary-cardiac",
+            "amyloidosis-stains-pathogenesis-diagnosis"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "I",
+          "text": "Comment on: (a) Hypertrophy and Hyperplasia (b) Factors influencing wound healing.",
+          "marks": 10,
+          "topics": [
+            "wound-healing-primary-vs-secondary-factors"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-7869",
+      "subjectId": "microbiology",
+      "code": "7869",
+      "series": null,
+      "session": "Annual",
+      "regulation": "Old Syllabus",
+      "year": "2011",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "I",
+          "text": "Define Hypersensitivity. Give differences between Immediate and Delayed hypersensitivity. Describe Type-I hypersensitivity reactions in detail.",
+          "marks": 10,
+          "topics": [
+            "hypersensitivity-type-i-anaphylaxis"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "I",
+          "text": "Short notes: (a) Chemical disinfectants (b) Normal microbial flora of Oral cavity (c) Louis Pasteur.",
+          "marks": 15,
+          "topics": [
+            "disinfection-definitions-chemical-disinfectants",
+            "normal-oral-microbial-flora"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "I",
+          "text": "Describe briefly (any two): (a) Lesions by Staph. aureus (b) Actinomycosis of Jaw (c) Vincent's Angina.",
+          "marks": 10,
+          "topics": [
+            "staphylococcus-aureus-morphology-virulence",
+            "actinomycosis"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "II",
+          "text": "Discuss lab diagnosis of HIV infection.",
+          "marks": 10,
+          "topics": [
+            "hiv-aids-lab-diagnosis-pathogenesis"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "II",
+          "text": "Describe briefly: (a) Pathogenesis of E. histolytica (b) Life-cycle of Ancylostoma duodenale.",
+          "marks": 10,
+          "topics": [
+            "entamoeba-histolytica-amoebiasis",
+            "hookworm-ancylostoma-duodenale"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "II",
+          "text": "Discuss briefly: (a) Viral inclusion bodies (b) Oral candidiasis (c) Morphological classification of Fungus.",
+          "marks": 15,
+          "topics": [
+            "candidiasis-oral-thrush"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-7612",
+      "subjectId": "pathology",
+      "code": "7612",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": "Old Syllabus",
+      "year": "2011",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1a",
+          "part": "I",
+          "text": "Discuss briefly: Cell derived chemical mediators of Acute inflammation.",
+          "marks": 5,
+          "topics": [
+            "chemical-mediators-arachidonic-acid-classification"
+          ]
+        },
+        {
+          "n": "1b",
+          "part": "I",
+          "text": "Discuss briefly: Type-IV Hypersensitivity reaction.",
+          "marks": 5,
+          "topics": [
+            "hypersensitivity-type-ii-iii-iv"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "I",
+          "text": "Describe briefly: Morphology and fate of Ghon's complex.",
+          "marks": 5,
+          "topics": []
+        },
+        {
+          "n": "2b",
+          "part": "I",
+          "text": "Describe briefly: Enteric fever.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "3",
+          "part": "I",
+          "text": "Tabulate differences between: (a) Apoptosis and Necrosis (b) Dry and Wet gangrene (c) Lepromatous and Tuberculoid leprosy (d) Primary and Secondary amyloidosis.",
+          "marks": 16,
+          "topics": [
+            "apoptosis-define-vs-necrosis",
+            "gangrene-dry-vs-wet"
+          ]
+        },
+        {
+          "n": "4a",
+          "part": "II",
+          "text": "Comment on: Lab diagnosis of Neoplasia.",
+          "marks": 5,
+          "topics": [
+            "lab-diagnosis-of-neoplasia-cancer"
+          ]
+        },
+        {
+          "n": "4b",
+          "part": "II",
+          "text": "Comment on: Etiopathogenesis of Diabetes mellitus.",
+          "marks": 5,
+          "topics": [
+            "diabetes-mellitus-types-pathogenesis-renal-lesions"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "II",
+          "text": "Short notes: (a) Osteogenic sarcoma (b) Scurvy (c) Routes of Metastasis.",
+          "marks": 15,
+          "topics": [
+            "osteosarcoma-morphology",
+            "vitamin-deficiencies-vit-d-vit-a-scurvy",
+            "metastasis-routes-mechanism"
+          ]
+        },
+        {
+          "n": "6a",
+          "part": "II",
+          "text": "Discuss briefly: Lab diagnosis of Neoplasia.",
+          "marks": 5,
+          "topics": [
+            "lab-diagnosis-of-neoplasia-cancer"
+          ]
+        },
+        {
+          "n": "6b",
+          "part": "II",
+          "text": "Discuss briefly: FAB classification of Acute leukemia.",
+          "marks": 5,
+          "topics": [
+            "leukemia-aml-fab-classification"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-7220",
+      "subjectId": "pathology",
+      "code": "7220",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": "Old Syllabus",
+      "year": "2020",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1a",
+          "part": "I",
+          "text": "Discuss briefly: Gangrene.",
+          "marks": 4,
+          "topics": [
+            "gangrene-dry-vs-wet"
+          ]
+        },
+        {
+          "n": "1b",
+          "part": "I",
+          "text": "Discuss briefly: Differentiate Tuberculoid vs Lepromatous Leprosy.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "1c",
+          "part": "I",
+          "text": "Discuss briefly: Diagnosis of Cancer.",
+          "marks": 4,
+          "topics": [
+            "lab-diagnosis-of-neoplasia-cancer"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "I",
+          "text": "Short note: Hypersensitivity Reaction Type II.",
+          "marks": 6,
+          "topics": [
+            "hypersensitivity-type-ii-iii-iv"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "I",
+          "text": "Short note: Hyperplasia.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "3a",
+          "part": "I",
+          "text": "Write briefly: Staining characters and diagnosis of Amyloidosis.",
+          "marks": 5,
+          "topics": [
+            "amyloidosis-stains-pathogenesis-diagnosis"
+          ]
+        },
+        {
+          "n": "3b",
+          "part": "I",
+          "text": "Write briefly: Lesions in Thiamine deficiency.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "3c",
+          "part": "I",
+          "text": "Write briefly: Actinomycosis.",
+          "marks": 4,
+          "topics": [
+            "actinomycosis"
+          ]
+        },
+        {
+          "n": "4a",
+          "part": "II",
+          "text": "Discuss briefly: Morphology of MI — sequential changes.",
+          "marks": 5,
+          "topics": [
+            "myocardial-infarction-mi-ihd"
+          ]
+        },
+        {
+          "n": "4b",
+          "part": "II",
+          "text": "Discuss briefly: Lab diagnosis of Iron deficiency anaemia.",
+          "marks": 5,
+          "topics": [
+            "iron-deficiency-anemia-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "5a",
+          "part": "II",
+          "text": "Short note: CML.",
+          "marks": 5,
+          "topics": [
+            "leukemia-cml-chronic-myeloid-leukemia"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "II",
+          "text": "Short note: Classification of Non-Hodgkin Lymphoma.",
+          "marks": 5,
+          "topics": []
+        },
+        {
+          "n": "6a",
+          "part": "II",
+          "text": "Discuss briefly: DIC.",
+          "marks": 5,
+          "topics": []
+        },
+        {
+          "n": "6b",
+          "part": "II",
+          "text": "Discuss briefly: Christmas disease.",
+          "marks": 5,
+          "topics": [
+            "hemophilia"
+          ]
+        },
+        {
+          "n": "6c",
+          "part": "II",
+          "text": "Discuss briefly: Osteosarcoma.",
+          "marks": 5,
+          "topics": [
+            "osteosarcoma-morphology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-6020",
+      "subjectId": "pathology",
+      "code": "6020",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2012",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "I-1",
+          "part": "A",
+          "text": "Short notes: (a) Pathogenesis of fatty liver (b) Fracture healing.",
+          "marks": 8,
+          "topics": [
+            "fatty-change-liver",
+            "fracture-healing-factors-process"
+          ]
+        },
+        {
+          "n": "I-2",
+          "part": "A",
+          "text": "Comment on: (a) Staining reactions of Amyloid (b) Reversible shock.",
+          "marks": 6,
+          "topics": [
+            "amyloidosis-stains-pathogenesis-diagnosis",
+            "shock-types-septic-etiopathogenesis"
+          ]
+        },
+        {
+          "n": "I-3",
+          "part": "A",
+          "text": "Write briefly: (a) Routes of metastasis (b) Risk factors in essential hypertension.",
+          "marks": 4,
+          "topics": [
+            "metastasis-routes-mechanism"
+          ]
+        },
+        {
+          "n": "II-1",
+          "part": "A",
+          "text": "Comment on: (a) Bone marrow/peripheral smear findings in Iron deficiency anaemia (b) Acute lymphoid leukemia (ALL).",
+          "marks": 7,
+          "topics": [
+            "iron-deficiency-anemia-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "II-2",
+          "part": "A",
+          "text": "Short notes: (a) Fibrous dysplasia (b) Leukemoid reaction.",
+          "marks": 6,
+          "topics": [
+            "leukemoid-reaction"
+          ]
+        },
+        {
+          "n": "II-3",
+          "part": "A",
+          "text": "Write briefly: (a) ITP (b) Amyloidosis of spleen.",
+          "marks": 4,
+          "topics": [
+            "itp-idiopathic-thrombocytopenic-purpura"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6020",
+      "subjectId": "microbiology",
+      "code": "6020",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2012",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "III-1",
+          "part": "B",
+          "text": "Classify streptococci. Enumerate lesions caused by beta-haemolytic group A streptococci (S. pyogenes) and their lab diagnosis.",
+          "marks": 10,
+          "topics": []
+        },
+        {
+          "n": "III-2",
+          "part": "B",
+          "text": "Short notes: (a) Anaphylaxis (b) Moist heat sterilization.",
+          "marks": 8,
+          "topics": [
+            "hypersensitivity-type-i-anaphylaxis",
+            "sterilization-by-moist-heat-autoclave"
+          ]
+        },
+        {
+          "n": "IV-3",
+          "part": "B",
+          "text": "Short notes: (a) Epidemiology and pathogenesis of HIV (b) Clinical presentations of Candida albicans (c) Pathogenesis and lab diagnosis of Entamoeba histolytica.",
+          "marks": 12,
+          "topics": [
+            "hiv-aids-lab-diagnosis-pathogenesis",
+            "candidiasis-oral-thrush",
+            "entamoeba-histolytica-amoebiasis"
+          ]
+        },
+        {
+          "n": "IV-4",
+          "part": "B",
+          "text": "Multiple choice (10 items): major constituent of peptidoglycan; peritrichous flagella; type of immunity from clinical infection; first antibody to appear; primary lymphoid organs; Bacitracin sensitivity of S. pyogenes; diphtheria toxin properties; tetanospasmin properties; recombinant Hepatitis B vaccine antigen; common site of extraintestinal amoebiasis.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-7191-3",
+      "subjectId": "pathology",
+      "code": "7191",
+      "series": "3",
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2022",
+      "yearNote": "'Feb-March 2022' written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Define shock, its types. Discuss etiopathogenesis of septic shock.",
+          "marks": 6,
+          "topics": [
+            "shock-types-septic-etiopathogenesis"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Differentiate: (a) Necrosis and Apoptosis (b) Primary tuberculosis vs Secondary tuberculosis.",
+          "marks": 4,
+          "topics": [
+            "apoptosis-define-vs-necrosis"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Write notes on: (a) Staining characteristics of Amyloid (b) Vascular events in acute inflammation (c) Lab diagnosis of Neoplasia.",
+          "marks": 8,
+          "topics": [
+            "amyloidosis-stains-pathogenesis-diagnosis",
+            "acute-inflammation-vascular-cellular-events",
+            "lab-diagnosis-of-neoplasia-cancer"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "Discuss briefly: (a) Lab diagnosis of Iron deficiency Anaemia (b) Chronic Myeloid Leukaemia (c) Causes of thrombocytopenia.",
+          "marks": 9,
+          "topics": [
+            "iron-deficiency-anemia-lab-diagnosis",
+            "leukemia-cml-chronic-myeloid-leukemia"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "Short notes: (a) Reed Sternberg cells (b) Ameloblastoma (c) Etiopathogenesis of Infective Endocarditis.",
+          "marks": 6,
+          "topics": [
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma",
+            "ameloblastoma"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Multiple choice (4 items): granulomas seen in all except; site of red infarct; factor deficient in Haemophilia A; multiple myeloma features except.",
+          "marks": 2,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "microbiology-7191-3",
+      "subjectId": "microbiology",
+      "code": "7191",
+      "series": "3",
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2022",
+      "yearNote": "'Feb-March 2022' written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "Write briefly: (a) Define sterilization, methods for heat sensitive instruments (b) Type IV hypersensitivity.",
+          "marks": 9,
+          "topics": [
+            "hypersensitivity-type-iv-delayed"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "Short notes: (a) Non-suppurative sequelae of Streptococcal infection (b) Ludwig's angina.",
+          "marks": 9,
+          "topics": []
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Short notes: (a) Morphology of Candida, predisposing factors, clinical manifestations of candidiasis (b) Modes of transmission and lab diagnosis of HIV (c) Morphology of Leishmania donovani and lab diagnosis.",
+          "marks": 12,
+          "topics": [
+            "candidiasis-oral-thrush",
+            "hiv-aids-lab-diagnosis-pathogenesis",
+            "leishmania-kala-azar"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): father of microbiology; bacterial growth phase; bile solubility test; conditions showing Type IV hypersensitivity; causes of sore throat except; acid fastness of M. tuberculosis; DNA virus; disposal of needles/scalpels; enriched culture medium; classification of Taenia solium.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-6744",
+      "subjectId": "pathology",
+      "code": "6744",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2013",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "(a) Enumerate types of necrosis and discuss caseous necrosis in detail (b) Describe wound healing by primary and secondary intention.",
+          "marks": 8,
+          "topics": [
+            "necrosis-define-types-coagulative-caseous",
+            "wound-healing-primary-vs-secondary-factors"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Write short notes: (a) Routes of metastasis (b) Morphology of Primary Tuberculosis.",
+          "marks": 6,
+          "topics": [
+            "metastasis-routes-mechanism"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Discuss briefly: (a) Vitamin D deficiency (b) Embolism.",
+          "marks": 4,
+          "topics": [
+            "vitamin-deficiencies-vit-d-vit-a-scurvy",
+            "embolism-types"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "Discuss briefly lab diagnosis of Megaloblastic Anaemia.",
+          "marks": 4,
+          "topics": [
+            "megaloblastic-anemia-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "FAB classification of Acute Leukaemia.",
+          "marks": 4,
+          "topics": [
+            "leukemia-aml-fab-classification"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Discuss briefly: (a) Morphology of Osteosarcoma (b) Reed Sternberg cell (c) Risk factors for Ischaemic Heart disease.",
+          "marks": 9,
+          "topics": [
+            "osteosarcoma-morphology",
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma",
+            "myocardial-infarction-mi-ihd"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6744",
+      "subjectId": "microbiology",
+      "code": "6744",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2013",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "Discuss briefly: (a) Principle of agglutination reaction, clinical applications (b) Type IV hypersensitivity reaction.",
+          "marks": 9,
+          "topics": [
+            "hypersensitivity-type-iv-delayed"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "(a) Enumerate normal oral flora, discuss pathogenesis of dental caries (b) Write briefly on lab diagnosis of Syphilis.",
+          "marks": 9,
+          "topics": [
+            "normal-oral-microbial-flora",
+            "dental-caries-strep-mutans"
+          ]
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Write briefly: (a) Pathogenicity of Entamoeba histolytica (b) Oral thrush (c) Hepatitis B vaccination.",
+          "marks": 12,
+          "topics": [
+            "entamoeba-histolytica-amoebiasis",
+            "candidiasis-oral-thrush",
+            "hepatitis-b-vaccination-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): peptidoglycan layer thickness; Holder's method temperature/time; heat labile immunoglobulin; cells forming E-rosettes; Protein A cell wall component; Spirochaetaceae genera except; intracytoplasmic inclusion bodies; HBV envelope contents; 40% KOH demonstrates fungus; definitive host of Echinococcus granulosus.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-7856",
+      "subjectId": "pathology",
+      "code": "7856",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2011",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Comment on: (a) Metastatic calcification (b) Chemical carcinogenesis.",
+          "marks": 8,
+          "topics": [
+            "calcification-metastatic-vs-dystrophic",
+            "carcinogenesis-chemical-radiation"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Discuss briefly: (a) Type-I Hypersensitivity (b) Pathogenesis of Pulmonary edema.",
+          "marks": 6,
+          "topics": [
+            "hypersensitivity-type-i",
+            "edema-pathogenesis-pulmonary-cardiac"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Write briefly: (a) Arachidonic acid metabolites (b) Kidney lesions in Diabetes mellitus.",
+          "marks": 4,
+          "topics": [
+            "chemical-mediators-arachidonic-acid-classification",
+            "diabetes-mellitus-types-pathogenesis-renal-lesions"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "Comment: (a) Lab diagnosis of Megaloblastic anaemia (b) Chronic myeloid leukemia.",
+          "marks": 8,
+          "topics": [
+            "megaloblastic-anemia-lab-diagnosis",
+            "leukemia-cml-chronic-myeloid-leukemia"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "Comment: (a) Reed Sternberg cell (b) Dentigerous cyst.",
+          "marks": 4,
+          "topics": [
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Write in brief: (a) Hemophilia (b) Morphology of Infective endocarditis.",
+          "marks": 5,
+          "topics": [
+            "hemophilia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-7856",
+      "subjectId": "microbiology",
+      "code": "7856",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2011",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "(a) Define Antigens, factors affecting Antigenicity (b) Describe IgG and IgM antibodies.",
+          "marks": 10,
+          "topics": [
+            "immunoglobulins-igg-igm"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "(a) Enumerate physical methods of Sterilization, hot air oven principle/uses (b) Describe Prophylaxis against Diphtheria.",
+          "marks": 8,
+          "topics": [
+            "hot-air-oven-dry-heat",
+            "diphtheria-lab-diagnosis-prophylaxis"
+          ]
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Short notes: (a) Epidemiology and Pathogenesis of HBV infection (b) Lab diagnosis of Fungal infections (c) Life-cycle of Leishmania donovani.",
+          "marks": 12,
+          "topics": [
+            "hepatitis-b-vaccination-lab-diagnosis",
+            "leishmania-kala-azar"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): Chinese letter arrangement; LPS major constituent; Ig crossing placenta; Type-I Hypersensitivity mediator; secondary lymphoid organs; haemolysis by Strep. pyogenes; colour of C. diphtheriae colonies; drumstick appearance bacilli; defective satellite virus; infective stage of E. histolytica.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-7173-28",
+      "subjectId": "pathology",
+      "code": "7173",
+      "series": "28",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2016",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "(a) Vascular events of acute inflammation in detail (b) Factors influencing fracture healing.",
+          "marks": 8,
+          "topics": [
+            "acute-inflammation-vascular-cellular-events",
+            "fracture-healing-factors-process"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Describe briefly: (a) Pathogenesis of edema (b) Etiopathogenesis of AIDS.",
+          "marks": 6,
+          "topics": [
+            "edema-pathogenesis-pulmonary-cardiac",
+            "aids-hiv-etiopathogenesis"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Differentiate: (a) Benign & Malignant tumors (b) Tubercular & Typhoid ulcer.",
+          "marks": 4,
+          "topics": [
+            "benign-vs-malignant-tumors-differences"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "Discuss briefly: (a) Peripheral blood, biochemical, bone marrow findings in Iron deficiency anemia (b) FAB classification of AML.",
+          "marks": 7,
+          "topics": [
+            "iron-deficiency-anemia-lab-diagnosis",
+            "leukemia-aml-fab-classification"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "Short notes: (a) Pleomorphic adenoma (b) Morphology of Osteosarcoma (c) Risk factors for Atherosclerosis.",
+          "marks": 8,
+          "topics": [
+            "pleomorphic-adenoma",
+            "osteosarcoma-morphology",
+            "atherosclerosis-pathogenesis-risk-factors"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Multiple choice: (a) ITP caused by (b) commonest histologic type of Hodgkin's disease (c) origin of epithelioid/giant cells in granulomas (d) commonest cyanotic CHD.",
+          "marks": 2,
+          "topics": [
+            "itp-idiopathic-thrombocytopenic-purpura"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-7173-28",
+      "subjectId": "microbiology",
+      "code": "7173",
+      "series": "28",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2016",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "Discuss briefly: (a) Sterilisation by moist heat (b) ELISA.",
+          "marks": 9,
+          "topics": [
+            "sterilization-by-moist-heat-autoclave",
+            "elisa-principle-applications"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "Write short answers: (a) Normal microbial flora of oral cavity, pathogenesis of dental caries and prevention (b) Classify Mycobacteria, lab diagnosis of pulmonary TB.",
+          "marks": 9,
+          "topics": [
+            "normal-oral-microbial-flora",
+            "dental-caries-strep-mutans",
+            "pulmonary-tuberculosis-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Short notes: (a) Hydatid cyst disease (b) Hepatitis B Vaccination (c) Candida.",
+          "marks": 12,
+          "topics": [
+            "hydatid-cyst",
+            "hepatitis-b-vaccination-lab-diagnosis",
+            "candidiasis-oral-thrush"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (5 items): component Mycoplasma lacks; mechanism of Diphtheria toxin; site of Strep. pneumoniae as normal flora; not a bioterrorism agent; not a factor in emerging viral disease.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6033",
+      "subjectId": "microbiology",
+      "code": "6033",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": "Old Syllabus",
+      "year": "2012",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 80,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1a",
+          "part": "I",
+          "text": "Describe laboratory diagnosis of pulmonary tuberculosis (PTB).",
+          "marks": 10,
+          "topics": [
+            "pulmonary-tuberculosis-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "1b",
+          "part": "I",
+          "text": "Discuss BCG vaccine.",
+          "marks": 5,
+          "topics": []
+        },
+        {
+          "n": "2a",
+          "part": "I",
+          "text": "What are antiseptics? Give examples of uses of antiseptics.",
+          "marks": 10,
+          "topics": []
+        },
+        {
+          "n": "2b",
+          "part": "I",
+          "text": "How will you sterilize the following: (i) Dental instruments (ii) Disposable plastic syringes (iii) Glassware.",
+          "marks": 10,
+          "topics": []
+        },
+        {
+          "n": "3",
+          "part": "I",
+          "text": "Give differences between (any two): (a) Prokaryotes and Eukaryotes (b) Innate and Acquired Immunity (c) Active and Passive Immunity.",
+          "marks": 10,
+          "topics": []
+        },
+        {
+          "n": "4",
+          "part": "II",
+          "text": "Discuss morphology, pathogenesis and laboratory diagnosis of Influenza virus type A H1N1.",
+          "marks": 10,
+          "topics": []
+        },
+        {
+          "n": "5",
+          "part": "II",
+          "text": "Describe briefly: (a) Cryptococcal meningitis (b) Laboratory diagnosis of dermatophytes.",
+          "marks": 10,
+          "topics": [
+            "cryptococcus-neoformans",
+            "dermatophytes"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "II",
+          "text": "Discuss briefly: (a) Laboratory diagnosis of Malaria (b) Cysticercosis (c) Oral polio vaccine (OPV).",
+          "marks": 15,
+          "topics": [
+            "malaria-lab-diagnosis-life-cycle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6941",
+      "subjectId": "microbiology",
+      "code": "6941",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": "Old Syllabus",
+      "year": "2013",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "I",
+          "text": "Discuss clinical presentation and diagnosis of Pulmonary tuberculosis.",
+          "marks": 10,
+          "topics": [
+            "pulmonary-tuberculosis-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "I",
+          "text": "Short notes: (a) Autoclave (b) Type-IV hypersensitivity reaction (c) Bacterial growth curve.",
+          "marks": 15,
+          "topics": [
+            "sterilization-by-moist-heat-autoclave",
+            "hypersensitivity-type-iv-delayed",
+            "bacterial-growth-curve"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "I",
+          "text": "Short notes: (a) Non-suppurative sequelae in Streptococcus pyogenes infection (b) IgG.",
+          "marks": 10,
+          "topics": [
+            "immunoglobulins-igg-igm"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "II",
+          "text": "Discuss morphology, pathogenesis and laboratory diagnosis of HSV-1 and 2.",
+          "marks": 10,
+          "topics": []
+        },
+        {
+          "n": "5",
+          "part": "II",
+          "text": "Short notes: (a) Black Water Fever (b) Life-cycle of Ascaris lumbricoides (c) Hepatitis B vaccination.",
+          "marks": 15,
+          "topics": [
+            "hepatitis-b-vaccination-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "II",
+          "text": "Write briefly: (a) Deep fungal infections (b) Cryptococcus neoformans.",
+          "marks": 10,
+          "topics": [
+            "cryptococcus-neoformans"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6800",
+      "subjectId": "microbiology",
+      "code": "6800",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2013",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "I",
+          "text": "Describe the Normal oral microbial flora. Discuss the role of microbial flora in the pathogenesis of dental caries.",
+          "marks": 10,
+          "topics": [
+            "normal-oral-microbial-flora",
+            "dental-caries-strep-mutans"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "I",
+          "text": "Short notes: (a) Disinfection of Plastic ware (b) Innate immunity (c) Delayed hypersensitivity.",
+          "marks": 15,
+          "topics": [
+            "hypersensitivity-type-iv-delayed"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "I",
+          "text": "Comment briefly on: (a) IgA (b) Prevention of Tetanus (c) Louis Pasteur.",
+          "marks": 10,
+          "topics": [
+            "immunoglobulins-igg-igm"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "II",
+          "text": "A HIV positive mother has delivered a full term baby. (a) How shall you investigate the baby for HIV infection? (b) What will you advise the mother regarding baby care?",
+          "marks": 10,
+          "topics": [
+            "hiv-aids-lab-diagnosis-pathogenesis"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "II",
+          "text": "Write briefly: (a) Erythrocytic Schizogony in Plasmodium vivax (b) Differences between Amoebic and Bacillary dysentery (c) Life cycle of Ancylostoma duodenale.",
+          "marks": 15,
+          "topics": [
+            "malaria-lab-diagnosis-life-cycle",
+            "entamoeba-histolytica-amoebiasis",
+            "hookworm-ancylostoma-duodenale"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "II",
+          "text": "Short notes: (a) Oral Thrush (b) 'id' reaction (c) Superficial fungal infections.",
+          "marks": 10,
+          "topics": [
+            "candidiasis-oral-thrush"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-7868",
+      "subjectId": "pathology",
+      "code": "7868",
+      "series": null,
+      "session": "Annual",
+      "regulation": "Old Syllabus",
+      "year": "2011",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "I",
+          "text": "Comment on: (a) Mechanism of Free radical injury (b) Pigments (c) Type-I Hypersensitivity reaction.",
+          "marks": 15,
+          "topics": [
+            "free-radical-injury-hypoxic-injury",
+            "pigments-endogenous-body-pigments",
+            "hypersensitivity-type-i"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "I",
+          "text": "Discuss briefly: (a) Pathogenesis of Amyloidosis (b) Pathogenesis and Morphology of Cardiac edema.",
+          "marks": 10,
+          "topics": [
+            "amyloidosis-stains-pathogenesis-diagnosis",
+            "edema-pathogenesis-pulmonary-cardiac"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "I",
+          "text": "Write notes: (a) Vascular events in Acute inflammation (b) Evolution of tubercle.",
+          "marks": 10,
+          "topics": [
+            "acute-inflammation-vascular-cellular-events"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "II",
+          "text": "Describe in brief: (a) Types of Emboli (b) Fate of Thrombus.",
+          "marks": 10,
+          "topics": [
+            "embolism-types",
+            "thrombosis-fate-virchow-s-triad-pathogenesis"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "II",
+          "text": "Comment on: (a) Osteomyelitis (b) Factors affecting Cutaneous wound healing.",
+          "marks": 10,
+          "topics": [
+            "wound-healing-primary-vs-secondary-factors"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "II",
+          "text": "Short notes: (a) Ameloblastoma (b) Radiation carcinogenesis (c) Scurvy.",
+          "marks": 15,
+          "topics": [
+            "ameloblastoma",
+            "carcinogenesis-chemical-radiation",
+            "vitamin-deficiencies-vit-d-vit-a-scurvy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-7613",
+      "subjectId": "microbiology",
+      "code": "7613",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": "Old Syllabus",
+      "year": "2011",
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify Streptococci. Describe the laboratory diagnosis of Sore throat.",
+          "marks": 10,
+          "topics": [
+            "sore-throat-streptococcus-pyogenes"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Short notes: (i) Autoclave (ii) ELISA (iii) Anaphylaxis.",
+          "marks": 15,
+          "topics": [
+            "sterilization-by-moist-heat-autoclave",
+            "elisa-principle-applications",
+            "hypersensitivity-type-i-anaphylaxis"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Comment briefly: (i) Bacterial growth curve (ii) Transport media (iii) Shick test.",
+          "marks": 10,
+          "topics": [
+            "bacterial-growth-curve"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Short notes: (i) Detection of Viral growth in cell lines (ii) Antirabies vaccination.",
+          "marks": 10,
+          "topics": []
+        },
+        {
+          "n": "5",
+          "part": "B",
+          "text": "Write briefly: (i) Laboratory diagnosis of Kala-azar (ii) Life-cycle of Ancylostoma duodenale (iii) Flagella present in oral cavity.",
+          "marks": 15,
+          "topics": [
+            "leishmania-kala-azar",
+            "hookworm-ancylostoma-duodenale"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "B",
+          "text": "Short notes: (i) Emerging fungal infections (ii) Candida albicans.",
+          "marks": 10,
+          "topics": [
+            "candidiasis-oral-thrush"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-7221",
+      "subjectId": "microbiology",
+      "code": "7221",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": "Old Syllabus",
+      "year": "2020",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Name the micro-organisms included under Viridans streptococci and discuss their role in dental diseases.",
+          "marks": 10,
+          "topics": []
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Short notes: (a) Vapour phase disinfectants (b) ELISA (c) Type-I hypersensitivity reaction.",
+          "marks": 15,
+          "topics": [
+            "elisa-principle-applications",
+            "hypersensitivity-type-i-anaphylaxis"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Comment briefly: (a) Virulence tests for Corynebacterium diphtheriae (b) Passive immunity (c) Gas gangrene and its prevention.",
+          "marks": 10,
+          "topics": [
+            "gas-gangrene-clostridium"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "(a) Enumerate differences between Hepatitis A, Hepatitis B, Hepatitis C and Hepatitis E (b) Write briefly on oral lesions caused by various viruses.",
+          "marks": 10,
+          "topics": []
+        },
+        {
+          "n": "5",
+          "part": "B",
+          "text": "Short notes: (a) Acanthamoeba (b) Hydatid cyst (c) Laboratory diagnosis of Malaria.",
+          "marks": 15,
+          "topics": [
+            "hydatid-cyst",
+            "malaria-lab-diagnosis-life-cycle"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "B",
+          "text": "Short notes: (a) Cryptococcosis (b) 'Id' reaction (c) Fungal infection in AIDS.",
+          "marks": 10,
+          "topics": [
+            "cryptococcus-neoformans"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-6335-2082",
+      "subjectId": "pathology",
+      "code": "6335",
+      "series": "2082",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2012",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Short notes: (a) Fatty Change Liver (b) Cellular events in Acute Inflammation.",
+          "marks": 8,
+          "topics": [
+            "fatty-change-liver",
+            "acute-inflammation-vascular-cellular-events"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Differentiate: (a) Benign and Malignant tumours (b) Dry and Wet gangrene.",
+          "marks": 6,
+          "topics": [
+            "benign-vs-malignant-tumors-differences",
+            "gangrene-dry-vs-wet"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Describe: (a) Metaplasia (b) Vit-D deficiency.",
+          "marks": 4,
+          "topics": [
+            "metaplasia",
+            "vitamin-deficiencies-vit-d-vit-a-scurvy"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "Discuss briefly blood and bone-marrow findings in Megaloblastic anaemia.",
+          "marks": 4,
+          "topics": [
+            "megaloblastic-anemia-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "Differentiate Leukemoid reaction vs Chronic myeloid leukemia.",
+          "marks": 4,
+          "topics": [
+            "leukemoid-reaction",
+            "leukemia-cml-chronic-myeloid-leukemia"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Short notes: (a) Hodgkin's lymphoma (b) Osteomyelitis (c) Morphology of Atherosclerosis.",
+          "marks": 9,
+          "topics": [
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma",
+            "atherosclerosis-pathogenesis-risk-factors"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6335-2082",
+      "subjectId": "microbiology",
+      "code": "6335",
+      "series": "2082",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2012",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "5b",
+          "part": "B",
+          "text": "(a) Define/classify Hypersensitivity, discuss Type III (b) Describe Sterilization by dry heat.",
+          "marks": 10,
+          "topics": [
+            "hypersensitivity-type-ii-iii-iv",
+            "hot-air-oven-dry-heat"
+          ]
+        },
+        {
+          "n": "6b",
+          "part": "B",
+          "text": "Discuss briefly: (a) Etiology and lab diagnosis of Sore throat (b) Non-sporing anaerobes.",
+          "marks": 8,
+          "topics": [
+            "sore-throat-streptococcus-pyogenes"
+          ]
+        },
+        {
+          "n": "7",
+          "part": "B",
+          "text": "Discuss briefly: (a) Lab diagnosis HIV (b) Life cycle of Malarial parasite (c) Oral candidiasis.",
+          "marks": 12,
+          "topics": [
+            "hiv-aids-lab-diagnosis-pathogenesis",
+            "malaria-lab-diagnosis-life-cycle",
+            "candidiasis-oral-thrush"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "Multiple choice (10 items): who invented the hot air oven/steam sterilizer; peptidoglycan major constituent; generation time of E. coli; Type I hypersensitivity mediated by; how Strep. pyogenes is differentiated; how clumping factor is detected; what HIV can infect; viral infections seen in HIV; fungus not a mould; where amoebic ulcers are seen.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-6349-2082",
+      "subjectId": "pathology",
+      "code": "6349",
+      "series": "2082",
+      "session": "Annual",
+      "regulation": "Old Syllabus",
+      "year": "2013",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "I",
+          "text": "Short notes: (a) Metastatic calcification (b) Mechanism of Hypoxic cell injury (c) Phagocytosis.",
+          "marks": 15,
+          "topics": [
+            "calcification-metastatic-vs-dystrophic",
+            "free-radical-injury-hypoxic-injury"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "I",
+          "text": "Comment on: (a) Type II hypersensitivity reaction (b) Miliary tuberculosis.",
+          "marks": 10,
+          "topics": [
+            "hypersensitivity-type-ii-iii-iv"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "I",
+          "text": "Describe briefly: (a) Staining characters of Amyloid (b) Differentiate Dry vs Wet gangrene.",
+          "marks": 10,
+          "topics": [
+            "amyloidosis-stains-pathogenesis-diagnosis",
+            "gangrene-dry-vs-wet"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "II",
+          "text": "Describe in brief: (a) Chronic myeloid leukemia (b) Reed Sternberg cell.",
+          "marks": 10,
+          "topics": [
+            "leukemia-cml-chronic-myeloid-leukemia",
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "II",
+          "text": "Comment: (a) Hereditary spherocytosis (b) Haemophilia-A (c) FAB classification of ALL.",
+          "marks": 15,
+          "topics": [
+            "hemophilia",
+            "leukemia-aml-fab-classification"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "II",
+          "text": "Discuss briefly lab diagnosis of Megaloblastic anaemia.",
+          "marks": 10,
+          "topics": [
+            "megaloblastic-anemia-lab-diagnosis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6759",
+      "subjectId": "microbiology",
+      "code": "6759",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2013",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "Questions 1 and 2 (Part I) are missing from the photographs.",
+      "questions": [
+        {
+          "n": "3",
+          "part": "I",
+          "text": "Discuss briefly: (a) Gas gangrene (b) Virulence factors of Staphylococcus aureus.",
+          "marks": 10,
+          "topics": [
+            "gas-gangrene-clostridium",
+            "staphylococcus-aureus-morphology-virulence"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "II",
+          "text": "Discuss morphology, pathogenesis and laboratory diagnosis of HIV.",
+          "marks": 10,
+          "topics": [
+            "hiv-aids-lab-diagnosis-pathogenesis"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "II",
+          "text": "Short notes: (a) Transfusion Malaria (b) Life cycle of Ancylostoma duodenale (c) Drugs used in HIV/AIDS.",
+          "marks": 15,
+          "topics": [
+            "malaria-lab-diagnosis-life-cycle",
+            "hookworm-ancylostoma-duodenale"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "II",
+          "text": "Write briefly on: (a) Classification of Dermatophytes (b) Candida albicans.",
+          "marks": 10,
+          "topics": [
+            "dermatophytes",
+            "candidiasis-oral-thrush"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-6758-2083",
+      "subjectId": "pathology",
+      "code": "6758",
+      "series": "2083",
+      "session": "Annual",
+      "regulation": "Old Syllabus",
+      "year": "2013",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "I",
+          "text": "Short notes: (a) Pigments of the body (b) Type I hypersensitivity reaction (c) Wound healing.",
+          "marks": 15,
+          "topics": [
+            "pigments-endogenous-body-pigments",
+            "hypersensitivity-type-i",
+            "wound-healing-primary-vs-secondary-factors"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "I",
+          "text": "Differentiate: (a) Benign and Malignant tumors (b) Dry and Wet gangrene.",
+          "marks": 10,
+          "topics": [
+            "benign-vs-malignant-tumors-differences",
+            "gangrene-dry-vs-wet"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "I",
+          "text": "Discuss briefly: (a) Cellular events of Acute Inflammation (b) Vitamin D deficiency.",
+          "marks": 10,
+          "topics": [
+            "acute-inflammation-vascular-cellular-events",
+            "vitamin-deficiencies-vit-d-vit-a-scurvy"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "II",
+          "text": "Describe in brief: (a) Etiopathogenesis of Beta-thalassemia (b) Leukaemoid Reaction.",
+          "marks": 10,
+          "topics": [
+            "leukemoid-reaction"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "II",
+          "text": "Discuss briefly lab diagnosis of Megaloblastic Anaemia.",
+          "marks": 10,
+          "topics": [
+            "megaloblastic-anemia-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "II",
+          "text": "Short notes: (a) ITP (b) Causes of Splenomegaly (c) Hodgkin's Lymphoma.",
+          "marks": 15,
+          "topics": [
+            "itp-idiopathic-thrombocytopenic-purpura",
+            "splenomegaly-causes",
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6515",
+      "subjectId": "microbiology",
+      "code": "6515",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": "Old Syllabus",
+      "year": "2013",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "Only Part I (questions 1-2) is legible; the rest of the paper is hidden under another sheet in the photographs.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "I",
+          "text": "Define Sterilization and Disinfection. Discuss sterilization by moist heat in detail.",
+          "marks": 10,
+          "topics": [
+            "sterilization-by-moist-heat-autoclave"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "I",
+          "text": "Short notes: (a) Bacterial cell wall (b) Pathogenesis and laboratory diagnosis of Diphtheria (c) ELISA.",
+          "marks": 15,
+          "topics": [
+            "bacterial-cell-wall",
+            "diphtheria-lab-diagnosis-prophylaxis",
+            "elisa-principle-applications"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-6500",
+      "subjectId": "pathology",
+      "code": "6500",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2013",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Describe briefly: (i) Necrosis and its types (ii) Fracture healing.",
+          "marks": 8,
+          "topics": [
+            "necrosis-define-types-coagulative-caseous",
+            "fracture-healing-factors-process"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Short notes: (i) Vitamin-A deficiency (ii) Metastasis.",
+          "marks": 6,
+          "topics": [
+            "metastasis-routes-mechanism"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Discuss in brief: (a) Morphology of Pleomorphic adenoma (b) Ghon's complex.",
+          "marks": 4,
+          "topics": [
+            "pleomorphic-adenoma"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "Discuss briefly etiopathogenesis of Thalassemia.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "FAB classification of acute Leukemias.",
+          "marks": 4,
+          "topics": [
+            "leukemia-aml-fab-classification"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Short notes: (i) Causes of Splenomegaly (ii) Ameloblastoma (iii) Morphology of Ischemic heart disease.",
+          "marks": 9,
+          "topics": [
+            "splenomegaly-causes",
+            "ameloblastoma",
+            "myocardial-infarction-mi-ihd"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6500",
+      "subjectId": "microbiology",
+      "code": "6500",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2013",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "(a) Discuss Cell mediated immune response (CMI), its role in protection against infection, delayed hypersensitivity and methods of detection of CMI. (b) Discuss briefly toxins and enzymes produced by Staphylococcus aureus.",
+          "marks": 10,
+          "topics": [
+            "hypersensitivity-type-iv-delayed",
+            "staphylococcus-aureus-morphology-virulence"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "Short notes: (a) IgG and IgM immunoglobulins (b) Bacterial flagella.",
+          "marks": 8,
+          "topics": [
+            "immunoglobulins-igg-igm"
+          ]
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Discuss briefly: (a) Laboratory diagnosis of Hepatitis B Virus (HBV) infection (b) Laboratory diagnosis of fungal infections (c) Life-cycle of Giardia lamblia.",
+          "marks": 12,
+          "topics": [
+            "hepatitis-b-vaccination-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): who discovered M. tuberculosis and V. cholerae; major constituent of LPS; organisms with 37 degrees C optimum; Ig binding mast cells/basophils; non-suppurative sequelae of S. pyogenes; coagulase reacting factor; cells infected by HIV; fungal infections in HIV; tests differentiating C. albicans; reservoir host of E. histolytica.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-6926",
+      "subjectId": "pathology",
+      "code": "6926",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2014",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "Question 1 (Sub-Part I) is missing from the photographs.",
+      "questions": [
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Short notes: (a) Type-II Hypersensitivity Reaction (b) Vitamin C Deficiency.",
+          "marks": 6,
+          "topics": [
+            "hypersensitivity-type-ii-iii-iv"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Describe briefly: (a) Fracture Healing (b) Fate of Thrombus.",
+          "marks": 4,
+          "topics": [
+            "fracture-healing-factors-process",
+            "thrombosis-fate-virchow-s-triad-pathogenesis"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "Discuss briefly lab findings in Iron deficiency anaemia.",
+          "marks": 3,
+          "topics": [
+            "iron-deficiency-anemia-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "Describe briefly: (a) Lab findings in CML (b) Morphology of Hodgkin's Lymphoma.",
+          "marks": 8,
+          "topics": [
+            "leukemia-cml-chronic-myeloid-leukemia",
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Short notes: (a) Hemophilia (b) Osteomyelitis (c) Causes of Splenomegaly.",
+          "marks": 6,
+          "topics": [
+            "hemophilia",
+            "splenomegaly-causes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6926",
+      "subjectId": "microbiology",
+      "code": "6926",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2014",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "(a) Define Sterilization, methods of moist heat sterilization (b) Differentiate Active vs Passive immunity.",
+          "marks": 9,
+          "topics": [
+            "sterilization-by-moist-heat-autoclave"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "Discuss briefly: (a) Etiology and lab diagnosis of Sore throat (b) Culture of M. tuberculosis.",
+          "marks": 9,
+          "topics": [
+            "sore-throat-streptococcus-pyogenes"
+          ]
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Write briefly: (a) Free living amoebae (b) Cryptococcus neoformans (c) Bacteriophage.",
+          "marks": 12,
+          "topics": [
+            "cryptococcus-neoformans",
+            "bacteriophage"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): India ink staining demonstrates; sterilizing disposable plastic items; Ig binding mast cells; HLA type with rheumatoid arthritis; all are CoNS except; Leptospirosis diagnosis; drugs effective against HIV; markers of high HBV infectivity; 10% KOH demonstrates fungus in; definitive host for Pinworm.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-6030",
+      "subjectId": "pathology",
+      "code": "6030",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2020",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Define infarction, its etio pathogenesis and discuss various types of infarcts.",
+          "marks": 6,
+          "topics": []
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Differentiate between: (a) Healing by primary and secondary intention (b) Dystrophic and metastatic calcification.",
+          "marks": 6,
+          "topics": [
+            "wound-healing-primary-vs-secondary-factors",
+            "calcification-metastatic-vs-dystrophic"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Short notes: (a) Type IV hypersensitivity reaction (b) Cytokines.",
+          "marks": 6,
+          "topics": [
+            "hypersensitivity-type-iv-delayed"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "Short notes: (a) Squamous cell Carcinoma (b) Tuberculous Osteomyelitis (c) Atheroma.",
+          "marks": 6,
+          "topics": [
+            "atherosclerosis-pathogenesis-risk-factors"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "Discuss briefly: (a) Lab diagnosis of microcytic hypochromic anemia (b) Etiopathogenesis of infective endocarditis (c) Reed Sternberg cell.",
+          "marks": 9,
+          "topics": [
+            "iron-deficiency-anemia-lab-diagnosis",
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Multiple choice (4 items): Ewing sarcoma age group; Haemophilia A deficiency; Tetralogy of Fallot features except; commonest benign salivary gland tumor.",
+          "marks": 2,
+          "topics": [
+            "hemophilia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6030",
+      "subjectId": "microbiology",
+      "code": "6030",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2020",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "Write briefly: (a) Hot air oven (b) Autoimmunity.",
+          "marks": 9,
+          "topics": [
+            "hot-air-oven-dry-heat"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "Short notes: (a) Actinomycosis (b) Steps in lab diagnosis of pulmonary TB.",
+          "marks": 9,
+          "topics": [
+            "actinomycosis",
+            "pulmonary-tuberculosis-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Short notes: (a) Clinical manifestations, lab diagnosis, prevention of mumps (b) Lab diagnosis of fungal diseases (c) Life cycle and lab diagnosis of Entamoeba histolytica.",
+          "marks": 12,
+          "topics": [
+            "entamoeba-histolytica-amoebiasis"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): disinfection of blood spillage; Lowenstein Jensen medium isolates; Optochin susceptibility test; Type I hypersensitivity mediated by; site affected by Corynebacterium diphtheriae; acid fastness of M. tuberculosis; antiviral drugs in HIV post-exposure prophylaxis; plastic waste colour bag; media for fungi isolation; classification of Ascaris lumbricoides.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-6939-2101",
+      "subjectId": "pathology",
+      "code": "6939",
+      "series": "2101",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2021",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Define Necrosis. Enumerate its types and describe coagulative necrosis.",
+          "marks": 6,
+          "topics": [
+            "necrosis-define-types-coagulative-caseous"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Differentiate between: (a) Benign and Malignant Tumours (b) Exudate and Transudate.",
+          "marks": 4,
+          "topics": [
+            "benign-vs-malignant-tumors-differences"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Short notes: (a) Fracture healing (b) Type I Hypersensitivity Reaction (c) Granulomatous inflammation (d) Routes of Metastasis.",
+          "marks": 8,
+          "topics": [
+            "fracture-healing-factors-process",
+            "hypersensitivity-type-i",
+            "granulomatous-inflammation-granuloma-tubercle",
+            "metastasis-routes-mechanism"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "Discuss briefly: (a) Peripheral blood and bone marrow findings in Megaloblastic anaemia (b) FAB classification of Acute Leukaemia (c) Hemophilia.",
+          "marks": 9,
+          "topics": [
+            "megaloblastic-anemia-lab-diagnosis",
+            "leukemia-aml-fab-classification",
+            "hemophilia"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "Short notes: (a) Osteosarcoma (b) Etiopathogenesis of Atherosclerosis (c) Burkitt Lymphoma.",
+          "marks": 6,
+          "topics": [
+            "osteosarcoma-morphology",
+            "atherosclerosis-pathogenesis-risk-factors"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Multiple choice (4 items): most specific stain for Amyloid; microcytic hypochromic anaemia seen in; commonest vessel in MI; scurvy deficiency.",
+          "marks": 2,
+          "topics": [
+            "amyloidosis-stains-pathogenesis-diagnosis",
+            "myocardial-infarction-mi-ihd"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6939-2101",
+      "subjectId": "microbiology",
+      "code": "6939",
+      "series": "2101",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2021",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "Write briefly: (a) Anaphylactic shock (b) Real Time PCR.",
+          "marks": 9,
+          "topics": [
+            "hypersensitivity-type-i-anaphylaxis"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "Short notes: (a) Toxic shock syndrome (b) Tetanus — clinical features and prophylaxis.",
+          "marks": 9,
+          "topics": []
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Short notes: (a) Fungal causes of oral lesions & lab diagnosis (b) Clinical presentation, lab diagnosis, prevention of measles (c) Mode of transmission & lab diagnosis of malaria.",
+          "marks": 12,
+          "topics": [
+            "malaria-lab-diagnosis-life-cycle"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): Gram positive cocci; Chinese letter pattern arrangement; PCR cycle steps except; disinfectant for blood spillage; microbiological waste colour bag; M. tuberculosis diagnosis except; oral lesions viral infections except; respiratory tract viruses except; fungus culture media; protozoan parasites except.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-7857",
+      "subjectId": "pathology",
+      "code": "7857",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2016",
+      "yearNote": "'Supple. 2016' written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": "Questions 2 and 3 are only partly legible in the photographs and are not transcribed here; only question 1 is included.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "(a) Describe briefly cellular events in acute inflammation (b) Viral Hepatitis B (VHB).",
+          "marks": 8,
+          "topics": [
+            "acute-inflammation-vascular-cellular-events"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-7857",
+      "subjectId": "microbiology",
+      "code": "7857",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2016",
+      "yearNote": "'Supple. 2016' written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "(a) What are the methods of sterilisation? Briefly write on physical methods of sterilisation (b) Write briefly on Innate immunity.",
+          "marks": 9,
+          "topics": [
+            "disinfection-definitions-chemical-disinfectants"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "(a) Discuss the morphology of Staphylococcus aureus. Enumerate the virulence factors and discuss lab diagnosis (b) Enumerate normal microbial flora of oral cavity. Write briefly on dental caries.",
+          "marks": 9,
+          "topics": [
+            "staphylococcus-aureus-morphology-virulence",
+            "normal-oral-microbial-flora",
+            "dental-caries-strep-mutans"
+          ]
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Short notes: (a) H.B.V. Vaccination (b) Oral lesion of systemic mycoses (c) Cerebral Malaria.",
+          "marks": 12,
+          "topics": [
+            "hepatitis-b-vaccination-lab-diagnosis",
+            "malaria-lab-diagnosis-life-cycle"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items) on bacterial growth, immunology, vaccines and mycology.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-6555-2031",
+      "subjectId": "pathology",
+      "code": "6555",
+      "series": "2031",
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2021",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Define Infarction. Discuss its Etiopathogenesis. Differentiate between Red infarct and White infarct.",
+          "marks": 6,
+          "topics": []
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Differentiate between: (a) Benign and Malignant Tumors (b) Congestion and Haemorrhage (c) Exudate and Transudate.",
+          "marks": 6,
+          "topics": [
+            "benign-vs-malignant-tumors-differences"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Short notes: (a) Type IV Hypersensitivity (b) Fracture Healing.",
+          "marks": 6,
+          "topics": [
+            "hypersensitivity-type-iv-delayed",
+            "fracture-healing-factors-process"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "Short notes: (a) Dental caries (b) Osteomyelitis (c) Pathological changes in Acute MI.",
+          "marks": 6,
+          "topics": [
+            "dental-caries-strep-mutans",
+            "myocardial-infarction-mi-ihd"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "Discuss briefly: (a) Differences between EML and Leukemoid reaction (b) Idiopathic Thrombocytopenic Purpura (c) Classification of Hodgkin's Lymphoma.",
+          "marks": 9,
+          "topics": [
+            "leukemoid-reaction",
+            "itp-idiopathic-thrombocytopenic-purpura",
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Multiple choice (4 items): macrocytes seen in all except; commonest tumor of minor salivary gland; oncogenic viruses in humans; wear & tear pigment.",
+          "marks": 2,
+          "topics": [
+            "pleomorphic-adenoma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6555-2031",
+      "subjectId": "microbiology",
+      "code": "6555",
+      "series": "2031",
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2021",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "Write briefly: (a) High level disinfectants used in hospitals (b) Structure and function of IgM antibody.",
+          "marks": 9,
+          "topics": [
+            "immunoglobulins-igg-igm"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "Write briefly: (a) Vincent's angina (b) Laboratory diagnosis of pulmonary tuberculosis.",
+          "marks": 9,
+          "topics": [
+            "pulmonary-tuberculosis-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Short notes: (a) Mode of transmission and lab diagnosis of HIV (b) Clinical features and lab diagnosis of Cryptococcus neoformans (c) Life Cycle and mode of infection of Taenia solium.",
+          "marks": 12,
+          "topics": [
+            "hiv-aids-lab-diagnosis-pathogenesis",
+            "cryptococcus-neoformans"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): bacterial spores for autoclave control; PCR steps except; first Ig to appear; Ig mediating Type-I hypersensitivity; distinguishing S. aureus characteristics; COVID-19 transmission route; culture medium for fungi; plastic biomedical waste colour bag; infective stage of malaria; infective stage of Ascaris lumbricoides.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-7454-2029",
+      "subjectId": "pathology",
+      "code": "7454",
+      "series": "2029",
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2019",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Define Amyloidosis, write down its chemical nature and special stains for its demonstration.",
+          "marks": 8,
+          "topics": [
+            "amyloidosis-stains-pathogenesis-diagnosis"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Short notes: (a) Laboratory diagnosis of Neoplasia (b) Septic shock.",
+          "marks": 6,
+          "topics": [
+            "lab-diagnosis-of-neoplasia-cancer",
+            "shock-types-septic-etiopathogenesis"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Write down: (a) Healing by secondary intention (b) Ghon's Complex.",
+          "marks": 4,
+          "topics": [
+            "wound-healing-primary-vs-secondary-factors"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "Short notes: (a) Ewing's sarcoma (b) Morphology of Nodular sclerosis variant of Hodgkin's Lymphoma (c) Leukemoid reaction.",
+          "marks": 6,
+          "topics": [
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma",
+            "leukemoid-reaction"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "Discuss briefly: (a) Pathologic changes in Myocardial infarction (b) Laboratory diagnosis of Megaloblastic Anemia (c) Reticulocyte.",
+          "marks": 9,
+          "topics": [
+            "myocardial-infarction-mi-ihd",
+            "megaloblastic-anemia-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Multiple choice (4 items): Tetralogy of Fallot except; commonest malignant salivary gland tumor; conditions with increased basophils; fatty liver mechanisms except.",
+          "marks": 2,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "microbiology-7454-2029",
+      "subjectId": "microbiology",
+      "code": "7454",
+      "series": "2029",
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2019",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "Write briefly: (a) Robert Koch (b) Immune Response.",
+          "marks": 9,
+          "topics": []
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "Short notes: (a) Dental plaque (b) Pathogenesis and laboratory diagnosis of pulmonary tuberculosis.",
+          "marks": 9,
+          "topics": [
+            "dental-caries-strep-mutans",
+            "pulmonary-tuberculosis-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Short notes: (a) Measles virus (b) Fungi causing oral lesions (c) Pathogenesis and laboratory diagnosis of Entamoeba histolytica.",
+          "marks": 12,
+          "topics": [
+            "entamoeba-histolytica-amoebiasis"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): sterilization of disposable plastic items; Arthus reaction hypersensitivity type; Penicillin resistance in S. aureus; test to identify Strep. pneumoniae; anaerobic bacilli except; diagnosis of herpes virus; cells infected by HIV-1; yeast/yeast-like fungus except; definitive mosquito host of P. vivax; test for diagnosis of syphilis.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-6940",
+      "subjectId": "pathology",
+      "code": "6940",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": "Old Syllabus",
+      "year": "2013",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "I",
+          "text": "Discuss briefly: (a) Free radical injury (b) Fatty change (c) Factors affecting wound healing.",
+          "marks": 15,
+          "topics": [
+            "free-radical-injury-hypoxic-injury",
+            "fatty-change-liver",
+            "wound-healing-primary-vs-secondary-factors"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "I",
+          "text": "Short notes: (a) Routes of Metastasis (b) Vascular events of Acute Inflammation.",
+          "marks": 10,
+          "topics": [
+            "metastasis-routes-mechanism",
+            "acute-inflammation-vascular-cellular-events"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "I",
+          "text": "Describe in brief: (a) Ghon's complex (b) Stains for Amyloid.",
+          "marks": 10,
+          "topics": [
+            "amyloidosis-stains-pathogenesis-diagnosis"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "II",
+          "text": "Discuss briefly the laboratory findings in Iron-deficiency anaemia.",
+          "marks": 10,
+          "topics": [
+            "iron-deficiency-anemia-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "II",
+          "text": "Short notes: (a) FAB classification of Acute Myeloid Laukaemia (AML) (b) Haemophilia (c) Chronic Myeloid Leukaemia (CML).",
+          "marks": 15,
+          "topics": [
+            "leukemia-aml-fab-classification",
+            "hemophilia",
+            "leukemia-cml-chronic-myeloid-leukemia"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "II",
+          "text": "Describe briefly: (a) Reed-Sternberg Cell (RS Cell) (b) Blood and Bone marrow findings in Multiple Myeloma.",
+          "marks": 10,
+          "topics": [
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma",
+            "multiple-myeloma-blood-bone-marrow"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-020601-2022",
+      "subjectId": "pathology",
+      "code": "020601",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2022",
+      "yearNote": "'Sub 2022' written on the paper by hand",
+      "maxMarks": 30,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Define WHO criteria for diagnosis of diabetes mellitus. Classify diabetes mellitus & describe the pathogenesis of Type-II diabetes mellitus.",
+          "marks": 10,
+          "topics": [
+            "diabetes-mellitus-types-pathogenesis-renal-lesions"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Short notes: a) Define & describe granulomatous inflammation, enumerate its common causes b) Define thrombosis & describe its etiopathogenesis c) Describe the mechanism of type III hypersensitivity reaction d) Define neoplasia & enumerate differences between benign & malignant tumours e) Define necrosis & describe different patterns of necrosis.",
+          "marks": 20,
+          "topics": [
+            "granulomatous-inflammation-granuloma-tubercle",
+            "thrombosis-fate-virchow-s-triad-pathogenesis",
+            "hypersensitivity-type-ii-iii-iv",
+            "benign-vs-malignant-tumors-differences",
+            "necrosis-define-types-coagulative-caseous"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-020601-2022",
+      "subjectId": "microbiology",
+      "code": "020601",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2022",
+      "yearNote": "'Sub 2022' written on the paper by hand",
+      "maxMarks": 40,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "3",
+          "part": "B",
+          "text": "A 62-year-old male presented to the chest OPD with history of cough, fever, night sweats and blood in sputum. His chest X-ray revealed areas of consolidation. Sputum was collected and acid fast staining done which revealed acid fast bacilli. (i) What is the probable clinical diagnosis and most probable causative agent? (ii) Discuss the pathogenesis of the disease. (iii) Discuss sample collection and laboratory diagnosis of the condition.",
+          "marks": 10,
+          "topics": [
+            "pulmonary-tuberculosis-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Short notes: a) Contributions of Sir Robert Koch b) Laboratory diagnosis of HIV c) Oral lesions of systemic mycosis d) Laboratory diagnosis of Entamoeba histolytica e) ELISA.",
+          "marks": 20,
+          "topics": [
+            "hiv-aids-lab-diagnosis-pathogenesis",
+            "entamoeba-histolytica-amoebiasis",
+            "elisa-principle-applications"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "C",
+          "text": "Multiple choice (10 items): hallmark of chronic inflammation; stains for amyloid except; cytokine secreted by TH1 cells; commonest site of distant hematogenous metastasis; dysplasia characterized by all except; and further items.",
+          "marks": 10,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-020601-suppl",
+      "subjectId": "pathology",
+      "code": "020601",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2023",
+      "yearNote": "'Sup 2023' written on the paper by hand",
+      "maxMarks": 30,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": "Part of Section A (questions 4 and 5) could not be clearly read from the photographs; the visible MCQ items are grouped as one entry.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Define necrosis. Enumerate its types and describe the mechanism of hypoxic cell injury and phagocytosis.",
+          "marks": 8,
+          "topics": [
+            "necrosis-define-types-coagulative-caseous",
+            "free-radical-injury-hypoxic-injury"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Differentiate between Benign and Type I and Type II Diabetes Mellitus.",
+          "marks": 4,
+          "topics": [
+            "diabetes-mellitus-types-pathogenesis-renal-lesions"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Multiple choice (b): Which of the following are not labile cells.",
+          "marks": 0,
+          "topics": []
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Multiple choice (c): Brown tumor of bone is seen in.",
+          "marks": 0,
+          "topics": []
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Multiple choice (d): Which cell is not seen in Hodgkins lymphoma.",
+          "marks": 0,
+          "topics": [
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Multiple choice (5 items): calcification in necrotic tissue; not labile cells; brown tumor of bone seen in; cell not in Hodgkin's lymphoma.",
+          "marks": 2,
+          "topics": [
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-020601-suppl",
+      "subjectId": "microbiology",
+      "code": "020601",
+      "series": null,
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2023",
+      "yearNote": "'Sup 2023' written on the paper by hand",
+      "maxMarks": 40,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": "Sections after question 8 could not be clearly read from the photographs; the remaining MCQ items are grouped as one entry.",
+      "questions": [
+        {
+          "n": "7a",
+          "part": "B",
+          "text": "Write briefly on: What are the methods of sterilisation? Physical methods of sterilisation.",
+          "marks": 4.5,
+          "topics": [
+            "disinfection-definitions-chemical-disinfectants"
+          ]
+        },
+        {
+          "n": "7b",
+          "part": "B",
+          "text": "Write briefly on: Innate immunity.",
+          "marks": 4.5,
+          "topics": []
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "Discuss the morphology of Staphylococcus aureus. Enumerate the virulence factors and discuss lab diagnosis. Enumerate normal microbial flora of oral cavity. Write briefly on dental carries.",
+          "marks": 9,
+          "topics": [
+            "staphylococcus-aureus-morphology-virulence",
+            "normal-oral-microbial-flora",
+            "dental-caries-strep-mutans"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): which bacterial spores are used for sterilization control in autoclave; steps of PCR except; first Ig to appear in response to antigen; Ig mediating Type-I hypersensitivity; distinguishing S. aureus characteristics; COVID-19 transmission; fungal culture medium; plastic biomedical waste colour bag; infective stage in malaria; infective stage of Ascaris lumbricoides.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-7611-2011",
+      "subjectId": "pathology",
+      "code": "7611",
+      "series": "2011",
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2011",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1a",
+          "part": "A",
+          "text": "Discuss briefly: Etiological classification of Shock with appropriate examples.",
+          "marks": 4,
+          "topics": [
+            "shock-types-septic-etiopathogenesis"
+          ]
+        },
+        {
+          "n": "1b",
+          "part": "A",
+          "text": "Discuss briefly: Chemical Carcinogenesis.",
+          "marks": 4,
+          "topics": [
+            "carcinogenesis-chemical-radiation"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Tabulate differences between Necrosis and Apoptosis.",
+          "marks": 3,
+          "topics": [
+            "apoptosis-define-vs-necrosis"
+          ]
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Healing by primary union.",
+          "marks": 3,
+          "topics": [
+            "wound-healing-primary-vs-secondary-factors"
+          ]
+        },
+        {
+          "n": "3a",
+          "part": "A",
+          "text": "Write notes: Rickets.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "3b",
+          "part": "A",
+          "text": "Write notes: Dysplasia.",
+          "marks": 2,
+          "topics": []
+        },
+        {
+          "n": "4a",
+          "part": "A",
+          "text": "Comment on: Morphology of Myocardial infarction.",
+          "marks": 4,
+          "topics": [
+            "myocardial-infarction-mi-ihd"
+          ]
+        },
+        {
+          "n": "4b",
+          "part": "A",
+          "text": "Comment on: Osteoclastoma.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "5a",
+          "part": "A",
+          "text": "Short notes: Etiopathogenesis of Atherosclerosis.",
+          "marks": 3,
+          "topics": [
+            "atherosclerosis-pathogenesis-risk-factors"
+          ]
+        },
+        {
+          "n": "5b",
+          "part": "A",
+          "text": "Short notes: Blood and Bone marrow findings in Megaloblastic anaemia.",
+          "marks": 3,
+          "topics": [
+            "megaloblastic-anemia-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "6a",
+          "part": "A",
+          "text": "Causes of Granulomatous inflammation.",
+          "marks": 2,
+          "topics": [
+            "granulomatous-inflammation-granuloma-tubercle"
+          ]
+        },
+        {
+          "n": "6b",
+          "part": "A",
+          "text": "Structure of Platelet.",
+          "marks": 1,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "microbiology-7611-2011",
+      "subjectId": "microbiology",
+      "code": "7611",
+      "series": "2011",
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2011",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "Discuss in detail laboratory diagnosis of Diphtheria.",
+          "marks": 10,
+          "topics": [
+            "diphtheria-lab-diagnosis-prophylaxis"
+          ]
+        },
+        {
+          "n": "8a",
+          "part": "B",
+          "text": "Write briefly: Koch's postulates.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "8b",
+          "part": "B",
+          "text": "Write briefly: Anaphylaxis.",
+          "marks": 4,
+          "topics": [
+            "hypersensitivity-type-i-anaphylaxis"
+          ]
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Write briefly: (a) Opportunistic fungal infections (b) Pathogenicity of Plasmodium (c) Viral vaccines (d) Hydatid cyst disease.",
+          "marks": 12,
+          "topics": [
+            "malaria-lab-diagnosis-life-cycle",
+            "hydatid-cyst"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): Trichomonas tenax transmission except; lymphatic filariasis causes except; vaccine given at birth; defective satellite virus; shape of Rabies virus; bacteria transmitted by Rat fleas; transport medium for Vibrio cholerae; negative phase seen in; destruction/inhibition of microorganisms in living tissues; MacConkey medium example of.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-7809-2089",
+      "subjectId": "pathology",
+      "code": "7809",
+      "series": "2089",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2019",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Define inflammation. Enumerate chemical mediators of acute inflammation and discuss vascular changes in acute inflammation.",
+          "marks": 6,
+          "topics": [
+            "chemical-mediators-arachidonic-acid-classification",
+            "acute-inflammation-vascular-cellular-events"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Differentiate between: (a) Apoptosis and necrosis (b) Tuberculoid leprosy and lepromatous leprosy.",
+          "marks": 6,
+          "topics": [
+            "apoptosis-define-vs-necrosis"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Write short notes on: (a) Septic Shock (b) Metaplasia.",
+          "marks": 6,
+          "topics": [
+            "shock-types-septic-etiopathogenesis",
+            "metaplasia"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "Write short notes on: (a) Osteogenic sarcoma (b) Ameloblastoma (c) Haemophilia.",
+          "marks": 6,
+          "topics": [
+            "osteosarcoma-morphology",
+            "ameloblastoma",
+            "hemophilia"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "Discuss briefly: (a) Laboratory diagnosis of megaloblastic anemia (b) Pathogenesis of ischemic heart disease (c) Cardiac Vegetations.",
+          "marks": 9,
+          "topics": [
+            "megaloblastic-anemia-lab-diagnosis",
+            "myocardial-infarction-mi-ihd"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Multiple choice (4 items): infarcts least common in; receptor for IgE present on; Reed Sternberg cells believed to be; Warthin's Tumor most commonly seen in.",
+          "marks": 2,
+          "topics": [
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-7809-2089",
+      "subjectId": "microbiology",
+      "code": "7809",
+      "series": "2089",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2019",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "Write briefly on: (a) Bacterial growth curve (b) Type I hypersensitivity.",
+          "marks": 9,
+          "topics": [
+            "bacterial-growth-curve",
+            "hypersensitivity-type-i-anaphylaxis"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "Write short notes on: (a) Virulence tests for Corynebacterium diphtheriae (b) Laboratory diagnosis of meningococcal meningitis.",
+          "marks": 9,
+          "topics": []
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Write short notes on: (a) Mode of transmission and laboratory diagnosis of HIV (b) Oral manifestations of opportunistic fungi (c) Laboratory diagnosis of malaria.",
+          "marks": 12,
+          "topics": [
+            "hiv-aids-lab-diagnosis-pathogenesis",
+            "malaria-lab-diagnosis-life-cycle"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): flagellated bacteria; most resistant to sterilization; PCR cycle steps except; prozone phenomenon caused by; commonest cause of pharyngitis in children; MDR-TB defined as resistance to; oral lesions viral infections except; sharps segregation colour bag; fungus common cause of opportunistic mycoses; most severe form of malaria.",
+          "marks": 5,
+          "topics": [
+            "sore-throat-streptococcus-pyogenes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-6343-2027",
+      "subjectId": "pathology",
+      "code": "6343",
+      "series": "2027",
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2013",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Define Granuloma. Describe its pathogenesis and composition. Draw the labelled diagram of a tubercle.",
+          "marks": 8,
+          "topics": [
+            "granulomatous-inflammation-granuloma-tubercle"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Short notes: (a) Pathogenesis of edema (b) Formation and Fate of thrombus.",
+          "marks": 6,
+          "topics": [
+            "edema-pathogenesis-pulmonary-cardiac",
+            "thrombosis-fate-virchow-s-triad-pathogenesis"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Differentiate: (a) Benign and Malignant tumors (b) Type I and Type II Diabetes Mellitus.",
+          "marks": 4,
+          "topics": [
+            "benign-vs-malignant-tumors-differences",
+            "diabetes-mellitus-types-pathogenesis-renal-lesions"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "Discuss briefly: (a) Peripheral blood and bone marrow findings in CML (b) ITP.",
+          "marks": 7,
+          "topics": [
+            "leukemia-cml-chronic-myeloid-leukemia",
+            "itp-idiopathic-thrombocytopenic-purpura"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "Short notes: (a) Ameloblastoma (b) Morphology of Pleomorphic adenoma (c) Risk factors for ischemic heart disease.",
+          "marks": 8,
+          "topics": [
+            "ameloblastoma",
+            "pleomorphic-adenoma",
+            "myocardial-infarction-mi-ihd"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Multiple choice (4 items): calcification in necrotic tissue is called; cells that are not labile; brown tumor of bone seen in; cell not seen in Hodgkin's lymphoma.",
+          "marks": 2,
+          "topics": [
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6343-2027",
+      "subjectId": "microbiology",
+      "code": "6343",
+      "series": "2027",
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2013",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "Write briefly: (a) Bacterial growth curve (b) Type I Hypersensitivity.",
+          "marks": 9,
+          "topics": [
+            "bacterial-growth-curve",
+            "hypersensitivity-type-i-anaphylaxis"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "Short notes: (a) Lab. Diagnosis of Gonorrhoea (b) Role of Dental Hygiene in prevention of dental diseases.",
+          "marks": 9,
+          "topics": []
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Short notes: (a) Lab. Diagnosis of HIV infection (b) Oral lesions in systemic Mycoses (c) Entamoeba histolytica.",
+          "marks": 12,
+          "topics": [
+            "hiv-aids-lab-diagnosis-pathogenesis",
+            "entamoeba-histolytica-amoebiasis"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): all acid fast except; form of cold sterilization; largest immunoglobulin; Type I Hypersensitivity mediated by; characteristic of anaerobic bacteria; humans get infected by M. tuberculosis by; transmitted by respiratory route except; killed vaccine; germ tube test diagnostic for; stains used for blood films except.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-6901-2028",
+      "subjectId": "pathology",
+      "code": "6901",
+      "series": "2028",
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2017",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Define and classify necrosis, describe the caseous necrosis in detail.",
+          "marks": 8,
+          "topics": [
+            "necrosis-define-types-coagulative-caseous"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Write short notes on: (a) Cellular Changes in acute inflammation (b) Type-I hypersensitivity reaction.",
+          "marks": 6,
+          "topics": [
+            "acute-inflammation-vascular-cellular-events",
+            "hypersensitivity-type-i"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Differentiate between: (a) Hypertrophy and Hyperplasia (b) Hyperemia and Congestion.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "Describe briefly: (a) Lab diagnosis of microcytic hypochromic anaemia (b) FAB classification of AML.",
+          "marks": 7,
+          "topics": [
+            "iron-deficiency-anemia-lab-diagnosis",
+            "leukemia-aml-fab-classification"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "Short notes on: (a) Etiopathogenesis of Atherosclerosis (b) Morphology of Osteosarcoma (c) Morphology of Pleomorphic Adenoma.",
+          "marks": 8,
+          "topics": [
+            "atherosclerosis-pathogenesis-risk-factors",
+            "osteosarcoma-morphology",
+            "pleomorphic-adenoma"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Multiple choice (4 items): apoptosis features except; true statement about metaplasia; emboli most often lodged in; DNA hepatotropic virus.",
+          "marks": 2,
+          "topics": [
+            "metaplasia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6901-2028",
+      "subjectId": "microbiology",
+      "code": "6901",
+      "series": "2028",
+      "session": "Supplementary",
+      "regulation": null,
+      "year": "2017",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "Write briefly on: (a) Autoclave (b) Robert Koch.",
+          "marks": 9,
+          "topics": [
+            "sterilization-by-moist-heat-autoclave"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "Write briefly on: (a) Vincent's angina (b) MRSA.",
+          "marks": 9,
+          "topics": []
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Write short notes on: (a) Bacteriophage (b) Laboratory diagnosis of Candidiasis (c) Amoebic dysentery.",
+          "marks": 12,
+          "topics": [
+            "bacteriophage",
+            "candidiasis-oral-thrush",
+            "entamoeba-histolytica-amoebiasis"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): magnification at 100x/10x; largest immunoglobulin; serum sickness example of; coagulase test differentiates; Hepatitis E killed by; sexually transmitted except; true for E. histolytica except; pseudohyphae seen in; media for antimicrobial susceptibility of Pneumococcus; Blackwater fever caused by.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-020601-dec2023",
+      "subjectId": "pathology",
+      "code": "020601",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2023",
+      "yearNote": "'Dec 2023' written on the paper by hand",
+      "maxMarks": 30,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Define necrosis. Enumerate its types with examples. Mention the etiopathogenesis of Necrosis.",
+          "marks": 10,
+          "topics": [
+            "necrosis-define-types-coagulative-caseous"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Short notes: a) Mechanism of cancer metastasis b) Fate of thrombus c) Differences between Type I & Type II Diabetes mellitus d) Chronic myelocytic leukemia e) Etiopathogenesis of atherosclerosis.",
+          "marks": 20,
+          "topics": [
+            "metastasis-routes-mechanism",
+            "thrombosis-fate-virchow-s-triad-pathogenesis",
+            "diabetes-mellitus-types-pathogenesis-renal-lesions",
+            "leukemia-cml-chronic-myeloid-leukemia",
+            "atherosclerosis-pathogenesis-risk-factors"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-020601-dec2023",
+      "subjectId": "microbiology",
+      "code": "020601",
+      "series": null,
+      "session": "Annual",
+      "regulation": null,
+      "year": "2023",
+      "yearNote": "'Dec 2023' written on the paper by hand",
+      "maxMarks": 40,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "3",
+          "part": "B",
+          "text": "Classify Streptococci. Discuss pathogenesis and laboratory diagnosis of Streptococcal sore throat.",
+          "marks": 10,
+          "topics": [
+            "sore-throat-streptococcus-pyogenes"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "text": "Short notes: a) Genetic Engineering and its application b) Hepatitis B virus c) Laboratory diagnosis of Malaria d) Oral Candidiasis e) ELISA.",
+          "marks": 20,
+          "topics": [
+            "hepatitis-b-vaccination-lab-diagnosis",
+            "malaria-lab-diagnosis-life-cycle",
+            "candidiasis-oral-thrush",
+            "elisa-principle-applications"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "C",
+          "text": "Multiple choice (10 items): fixed specific gravity of urine seen in; most important cells in chronic inflammation; correct except regarding granuloma; Sun-ray appearance on X-ray seen in; all true about Amyloid except; dental caries caused by; sterilization of disposable plastic items; sun-ray appearance morphology characteristic of; infections caused by human herpes virus 1; compound not found in tears.",
+          "marks": 10,
+          "topics": [
+            "granulomatous-inflammation-granuloma-tubercle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-6350",
+      "subjectId": "microbiology",
+      "code": "6350",
+      "series": null,
+      "session": "Annual",
+      "regulation": "Old Syllabus",
+      "year": "2013",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "I",
+          "text": "Classify Mycobacteria. Discuss pathogenesis and laboratory diagnosis of Pulmonary tuberculosis.",
+          "marks": 10,
+          "topics": [
+            "pulmonary-tuberculosis-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "I",
+          "text": "Short notes: (a) Robert Koch (b) Autoclave (c) Type-I hypersensitivity reaction.",
+          "marks": 15,
+          "topics": [
+            "sterilization-by-moist-heat-autoclave",
+            "hypersensitivity-type-i-anaphylaxis"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "I",
+          "text": "Write briefly (any two): (a) Dental caries (b) Gas gangrene (c) Diphtheria.",
+          "marks": 10,
+          "topics": [
+            "dental-caries-strep-mutans",
+            "gas-gangrene-clostridium",
+            "diphtheria-lab-diagnosis-prophylaxis"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "II",
+          "text": "Discuss morphology, pathogenesis and laboratory diagnosis of Hepatitis B virus (HBV) infection.",
+          "marks": 10,
+          "topics": [
+            "hepatitis-b-vaccination-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "II",
+          "text": "Short notes: (a) Life-cycle of Entamoeba histolytica (b) Cysticercosis in humans (c) Interferons.",
+          "marks": 15,
+          "topics": [
+            "entamoeba-histolytica-amoebiasis"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "II",
+          "text": "Describe briefly: (a) Cryptococcal meningitis (b) Clinical manifestations of Candidiasis.",
+          "marks": 10,
+          "topics": [
+            "cryptococcus-neoformans",
+            "candidiasis-oral-thrush"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-7386-2025",
+      "subjectId": "pathology",
+      "code": "7386",
+      "series": "2025",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2015",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "What are the cardinal signs of inflammation? Describe the cellular events of acute inflammation in detail.",
+          "marks": 8,
+          "topics": [
+            "acute-inflammation-vascular-cellular-events"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Write short notes on: (a) Fatty change (b) Embolism.",
+          "marks": 6,
+          "topics": [
+            "fatty-change-liver",
+            "embolism-types"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Differentiate between: (a) Dry and Wet gangrene (b) Type I and Type II Diabetes Mellitus.",
+          "marks": 4,
+          "topics": [
+            "gangrene-dry-vs-wet",
+            "diabetes-mellitus-types-pathogenesis-renal-lesions"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "(a) Discuss briefly peripheral blood, biochemical and bone marrow findings in megaloblastic anaemia (b) Differentiate between Chronic myeloid leukemia and leukemoid reaction.",
+          "marks": 7,
+          "topics": [
+            "megaloblastic-anemia-lab-diagnosis",
+            "leukemia-cml-chronic-myeloid-leukemia",
+            "leukemoid-reaction"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "Write short notes on: (a) Evolution of morphologic changes in myocardial infarction (b) Morphology of Hodgkin's lymphoma (c) Ameloblastoma.",
+          "marks": 8,
+          "topics": [
+            "myocardial-infarction-mi-ihd",
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma",
+            "ameloblastoma"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Multiple choice (4 items): Virchow's triad of thrombosis includes all except; Type III hypersensitivity reaction is; prolonged bleeding time and normal platelet count seen in; Osteoclastoma arises from which part of long bones.",
+          "marks": 2,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "microbiology-7386-2025",
+      "subjectId": "microbiology",
+      "code": "7386",
+      "series": "2025",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2015",
+      "yearNote": null,
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "Discuss briefly: (a) Principle and applications of precipitation reactions (b) Type IV hypersensitivity reaction.",
+          "marks": 9,
+          "topics": [
+            "hypersensitivity-type-iv-delayed"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "Write short notes on: (a) Periodontal diseases (b) Streptococcus viridans.",
+          "marks": 9,
+          "topics": []
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Write short notes on: (a) Cerebral malaria (b) Diagnosis of HIV infection in new born and adult (c) Cryptococcus.",
+          "marks": 12,
+          "topics": [
+            "malaria-lab-diagnosis-life-cycle",
+            "hiv-aids-lab-diagnosis-pathogenesis",
+            "cryptococcus-neoformans"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): Pasteurization devised by; bacterial cell appendages except; immunoglobulins crossing placental barrier except; primary organs of immune system; Staph food poisoning onset time; CAMP reaction detects; vaccine given post-exposure; HIV transmission routes except; mycotoxins except; free living amoebae causing opportunistic infections except.",
+          "marks": 5,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pathology-7224-2088",
+      "subjectId": "pathology",
+      "code": "7224",
+      "series": "2088",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2018",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Define thrombosis, write down its pathogenesis and fate of thrombi.",
+          "marks": 8,
+          "topics": [
+            "thrombosis-fate-virchow-s-triad-pathogenesis"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "text": "Write short notes on: (a) Type I hypersensitivity reaction (b) Vascular events in acute inflammation.",
+          "marks": 6,
+          "topics": [
+            "hypersensitivity-type-i",
+            "acute-inflammation-vascular-cellular-events"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "A",
+          "text": "Differentiate between: (a) Benign vs. malignant tumours (b) Necrosis and apoptosis.",
+          "marks": 4,
+          "topics": [
+            "benign-vs-malignant-tumors-differences",
+            "apoptosis-define-vs-necrosis"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "A",
+          "text": "Write short notes on: (a) Osteoclastoma (b) Pleomorphic adenoma (c) Idiopathic thrombocytopenic purpura.",
+          "marks": 6,
+          "topics": [
+            "pleomorphic-adenoma",
+            "itp-idiopathic-thrombocytopenic-purpura"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "A",
+          "text": "Discuss briefly: (a) Laboratory diagnosis of microcytic hypochromic anemia (b) Pathogenesis of atherosclerosis (c) Reed Sternberg Cell (RS Cell).",
+          "marks": 9,
+          "topics": [
+            "iron-deficiency-anemia-lab-diagnosis",
+            "atherosclerosis-pathogenesis-risk-factors",
+            "reed-sternberg-rs-cell-hodgkin-s-lymphoma"
+          ]
+        },
+        {
+          "n": "6",
+          "part": "A",
+          "text": "Multiple choice (4 items): right heart failure characterized by all except; gum hypertrophy a feature of which FAB type of AML; massive splenomegaly causes except; most specific stain for demonstration of Amyloid.",
+          "marks": 2,
+          "topics": [
+            "leukemia-aml-fab-classification",
+            "splenomegaly-causes",
+            "amyloidosis-stains-pathogenesis-diagnosis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-7224-2088",
+      "subjectId": "microbiology",
+      "code": "7224",
+      "series": "2088",
+      "session": "Annual",
+      "regulation": null,
+      "year": "2018",
+      "yearNote": "written on the paper by hand",
+      "maxMarks": 35,
+      "hours": 3,
+      "format": "classic",
+      "incomplete": null,
+      "questions": [
+        {
+          "n": "7",
+          "part": "B",
+          "text": "Write briefly on: (a) Define sterilisation. Discuss sterilisation by moist heat in detail (b) Discuss Type IV hypersensitivity.",
+          "marks": 9,
+          "topics": [
+            "sterilization-by-moist-heat-autoclave",
+            "hypersensitivity-type-iv-delayed"
+          ]
+        },
+        {
+          "n": "8",
+          "part": "B",
+          "text": "Write short notes on: (a) Non-sporing anaerobes (b) Laboratory diagnosis of sore throat.",
+          "marks": 9,
+          "topics": [
+            "sore-throat-streptococcus-pyogenes"
+          ]
+        },
+        {
+          "n": "9",
+          "part": "B",
+          "text": "Write short notes on: (a) Oral manifestations of Herpes virus infections (b) Candidiasis (c) Laboratory diagnosis of leishmaniasis.",
+          "marks": 12,
+          "topics": [
+            "candidiasis-oral-thrush",
+            "leishmania-kala-azar"
+          ]
+        },
+        {
+          "n": "10",
+          "part": "B",
+          "text": "Multiple choice (10 items): temperature/time for hot air oven sterilization; hypersensitivity reaction with cell mediated response; DNA transfer by bacteriophage; non-suppurative complications of Strep. pyogenes except; aerobic bacteria except; virus associated with nasopharyngeal carcinoma; principal envelope spike antigen of HIV-1; diagnosis of fungal infections except; not a protozoan parasite; vaccine preventable viral infections except.",
+          "marks": 5,
+          "topics": [
+            "sore-throat-streptococcus-pyogenes"
           ]
         }
       ]
