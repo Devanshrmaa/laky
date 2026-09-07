@@ -12,6 +12,8 @@
   const KEY_PROGRESS = 'laky.pyq.progress.v2';
   const KEY_LEGACY = 'laky.pyq.progress.v1';
   const KEY_PREFS = 'laky.pyq.prefs.v1';
+  const KEY_STARS = 'laky.pyq.stars.v1';
+  const KEY_NOTES = 'laky.pyq.notes.v1';
 
   const CYCLE = { todo: 'revising', revising: 'done', done: 'todo' };
   const LABEL = { todo: 'Untouched', revising: 'Revising', done: 'Done' };
@@ -31,8 +33,12 @@
     view: 'checklist',
     tier: 'all',
     status: 'all',
+    flag: 'all',          // all | starred | noted
+    sort: 'syllabus',     // syllabus | weight | marks | cold
     query: '',
     progress: {},
+    starred: new Set(),   // topics pulled out for one last pass
+    notes: {},            // whatever the reader wants to remember about a topic
     prefs: {},
     openChapters: new Set(),
     openTopics: new Set(),
@@ -70,6 +76,8 @@
 
   const saveProgress = () => write(KEY_PROGRESS, state.progress);
   const savePrefs = () => write(KEY_PREFS, state.prefs);
+  const saveStars = () => write(KEY_STARS, [...state.starred]);
+  const saveNotes = () => write(KEY_NOTES, state.notes);
 
   const idOf = (subjectId, topicId) => `${subjectId}/${topicId}`;
 
@@ -88,6 +96,26 @@
     if (next === 'todo') delete state.progress[key];
     else state.progress[key] = { s: next, t: Date.now() };
     saveProgress();
+  }
+
+  /* Starring is a second axis, not a third status: "done" is where you got to,
+     a star is where you want to come back to on the last night. */
+  const isStarred = (subjectId, topicId) => state.starred.has(idOf(subjectId, topicId));
+
+  function toggleStar(subjectId, topicId) {
+    const key = idOf(subjectId, topicId);
+    state.starred.has(key) ? state.starred.delete(key) : state.starred.add(key);
+    saveStars();
+  }
+
+  const noteOf = (subjectId, topicId) => state.notes[idOf(subjectId, topicId)] || '';
+
+  function setNote(subjectId, topicId, text) {
+    const key = idOf(subjectId, topicId);
+    const clean = text.trim();
+    if (clean) state.notes[key] = clean;
+    else delete state.notes[key];
+    saveNotes();
   }
 
   /* =============================================================== shapes */
@@ -134,6 +162,9 @@
     'stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   const ICON_HALF =
     '<svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="4" fill="currentColor"/></svg>';
+  const ICON_STAR =
+    '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2.4l2.3 4.9 5.2.7-3.8 3.7.95 5.3L10 14.5l-4.65 2.5.95-5.3L2.5 8l5.2-.7z" ' +
+    'fill="currentColor" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></svg>';
 
   const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X',
     'XI', 'XII', 'XIII', 'XIV', 'XV'];
@@ -278,6 +309,18 @@
     detail.append(el('p', 'detail-h detail-h2',
       `Every sitting on record — ${topic.angles.length}`));
     detail.append(angleList(topic));
+
+    // Somewhere to put the mnemonic, the page number, the thing you keep
+    // forgetting. Saved as you type, on this device, with the ticks.
+    detail.append(el('p', 'detail-h detail-h2', 'Your note'));
+    const note = el('textarea', 'note-box');
+    note.rows = 2;
+    note.spellcheck = false;
+    note.placeholder = 'Mnemonic, page reference, the bit that never sticks…';
+    note.value = noteOf(subj.id, topic.id);
+    note.dataset.note = idOf(subj.id, topic.id);
+    note.setAttribute('aria-label', `Your note on ${topic.name}`);
+    detail.append(note);
     return detail;
   }
 
@@ -379,10 +422,12 @@
     const stats = bind('railStats');
     stats.replaceChildren(el('h3', 'rail-h', 'This subject'));
 
+    const starred = topicsOf(subj).filter((t) => isStarred(subj.id, t.id)).length;
     const rows = [
       ['Coverage', `${Math.round(cov.pct)}%`],
       ['High-weight left', String(topicsOf(subj)
         .filter((t) => t.tier === 'HIGH' && statusOf(subj.id, t.id) !== 'done').length)],
+      ['Starred', String(starred)],
       ['Sittings analysed', String(subj.papersAnalyzed)],
       ['Appearances', String(cov.total)],
     ];
@@ -434,8 +479,11 @@
 
   function topicRow(subj, topic) {
     const status = statusOf(subj.id, topic.id);
+    const starred = isStarred(subj.id, topic.id);
+    const note = noteOf(subj.id, topic.id);
     const row = el('div', 'topic');
     row.dataset.status = status;
+    if (starred) row.dataset.starred = 'true';
     row.id = `t-${subj.id}-${topic.id}`;
 
     const tick = el('button', 'tick');
@@ -464,29 +512,109 @@
     }
 
     if (topic.hasDiagram) tags.append(el('span', null, 'diagram'));
+    if (note) tags.append(el('span', 'note-tag', 'noted'));
     if (isStale(subj.id, topic.id)) {
       const days = Math.floor((Date.now() - stampOf(subj.id, topic.id)) / DAY);
       tags.append(el('span', 'stale-tag', `ticked ${days}d ago`));
     }
 
     body.append(name, tags);
-    row.append(tick, body, spine(topic));
+
+    const star = el('button', 'star');
+    star.type = 'button';
+    star.dataset.star = topic.id;
+    star.setAttribute('aria-pressed', String(starred));
+    star.title = starred ? 'Starred for one last pass' : 'Star it for one last pass';
+    star.setAttribute('aria-label', `${topic.name}: ${starred ? 'starred' : 'not starred'}`);
+    star.innerHTML = ICON_STAR;
+
+    row.append(tick, body, star, spine(topic));
 
     if (open) row.append(topicDetail(subj, topic));
     return row;
+  }
+
+  /** Every filter in the rail, in one place. */
+  function passes(subj, t) {
+    if (state.tier !== 'all' && t.tier !== state.tier) return false;
+    if (state.status !== 'all' && statusOf(subj.id, t.id) !== state.status) return false;
+    if (state.flag === 'starred' && !isStarred(subj.id, t.id)) return false;
+    if (state.flag === 'noted' && !noteOf(subj.id, t.id)) return false;
+    return true;
+  }
+
+  const SORTS = {
+    weight: {
+      label: 'Heaviest first',
+      note: 'Every topic in the subject, ordered by how often the papers asked it.',
+      cmp: byWeight,
+    },
+    marks: {
+      label: 'Most marks on paper',
+      note: 'Ordered by the marks these topics actually carried in the transcribed papers.',
+      cmp: (subj) => (a, b) =>
+        askedMarks(askedFor(subj.id, b.id)) - askedMarks(askedFor(subj.id, a.id)) ||
+        byWeight(a, b),
+    },
+    cold: {
+      label: 'Going cold',
+      note: 'Whatever you ticked longest ago comes first — then everything ' +
+            'still untouched, heaviest of those first.',
+      // An untouched topic was never warm, so it sorts after every ticked one
+      // rather than jumping the queue on a missing timestamp.
+      cmp: (subj) => (a, b) => {
+        const ta = stampOf(subj.id, a.id);
+        const tb = stampOf(subj.id, b.id);
+        if (ta && tb) return ta - tb;
+        if (ta) return -1;
+        if (tb) return 1;
+        return byWeight(a, b);
+      },
+    },
+  };
+
+  /** The flat, whole-subject list the non-syllabus sorts show. */
+  function paintSorted(subj, host) {
+    const spec = SORTS[state.sort];
+    const cmp = typeof spec.cmp === 'function' && spec.cmp.length === 1
+      ? spec.cmp(subj) : spec.cmp;
+    const topics = topicsOf(subj).filter((t) => passes(subj, t)).sort(cmp);
+
+    const card = el('section', 'chapter');
+    card.dataset.open = 'true';
+    const head = el('div', 'chapter-head chapter-head-static');
+    const title = el('div');
+    title.append(el('h3', 'chapter-name', spec.label));
+    title.append(el('p', 'chapter-blurb', spec.note));
+    head.append(el('span', 'chapter-idx', '—'), title,
+      el('span', 'chapter-tally', String(topics.length)));
+    card.append(head);
+
+    const body = el('div', 'chapter-body');
+    topics.forEach((t) => body.append(topicRow(subj, t)));
+    card.append(body);
+    host.append(card);
+    return topics.length;
   }
 
   function paintChapters() {
     const subj = current();
     const host = bind('chapters');
     host.replaceChildren();
-    const filtering = state.tier !== 'all' || state.status !== 'all';
+    const filtering = state.tier !== 'all' || state.status !== 'all' || state.flag !== 'all';
+
+    if (state.sort !== 'syllabus') {
+      const shown = paintSorted(subj, host);
+      const none = bind('voidState');
+      none.hidden = shown > 0;
+      none.textContent = 'Nothing in this subject matches those filters.';
+      return;
+    }
+
     let shown = 0;
 
     subj.chapters.forEach((ch, i) => {
-      const visible = ch.topics.filter((t) =>
-        (state.tier === 'all' || t.tier === state.tier) &&
-        (state.status === 'all' || statusOf(subj.id, t.id) === state.status));
+      const visible = ch.topics.filter((t) => passes(subj, t));
 
       if (filtering && !visible.length) return;
       shown += visible.length;
@@ -506,12 +634,30 @@
       title.append(el('h3', 'chapter-name', ch.name));
       if (ch.blurb) title.append(el('p', 'chapter-blurb', ch.blurb));
 
-      head.append(
-        el('span', 'chapter-idx', ROMAN[i] || String(i + 1)),
-        title,
-        el('span', 'chapter-tally', ch.topics.length ? `${done}/${ch.topics.length}` : '—'),
-      );
+      const tally = el('div', 'chapter-score');
+      tally.append(el('span', 'chapter-tally',
+        ch.topics.length ? `${done}/${ch.topics.length}` : '—'));
+      if (ch.topics.length) {
+        const bar = el('span', 'chapter-bar');
+        const fill = el('i');
+        fill.style.width = `${(done / ch.topics.length) * 100}%`;
+        bar.append(fill);
+        tally.append(bar);
+      }
+
+      head.append(el('span', 'chapter-idx', ROMAN[i] || String(i + 1)), title, tally);
       card.append(head);
+
+      // Marking a whole section off in one go — and taking it back the same way.
+      if (ch.topics.length) {
+        const all = done === ch.topics.length;
+        const bulk = el('button', 'chapter-bulk');
+        bulk.type = 'button';
+        bulk.dataset.bulk = ch.id;
+        bulk.dataset.mode = all ? 'clear' : 'done';
+        bulk.textContent = all ? 'Clear this section' : 'Mark the section done';
+        card.append(bulk);
+      }
 
       const body = el('div', 'chapter-body');
       if (!ch.topics.length) {
@@ -1014,7 +1160,14 @@
     if (active === 'plan') paintPlan();
 
     const box = bind('backup');
-    if (document.activeElement !== box) box.value = JSON.stringify(state.progress);
+    if (document.activeElement !== box) {
+      box.value = JSON.stringify({
+        v: 3,
+        progress: state.progress,
+        starred: [...state.starred],
+        notes: state.notes,
+      });
+    }
   }
 
   function say(message) {
@@ -1066,6 +1219,26 @@
       const subjectId = t.closest('[data-search-subject]')?.dataset.searchSubject
         || state.subjectId;
       setStatus(subjectId, d.tick, CYCLE[statusOf(subjectId, d.tick)]);
+      paintAll();
+      return;
+    }
+
+    if (d.star) {
+      const subjectId = t.closest('[data-search-subject]')?.dataset.searchSubject
+        || state.subjectId;
+      toggleStar(subjectId, d.star);
+      paintAll();
+      return;
+    }
+
+    if (d.bulk) {
+      const subj = current();
+      const chapter = subj.chapters.find((c) => c.id === d.bulk);
+      if (!chapter) return;
+      const clearing = t.dataset.mode === 'clear';
+      if (clearing && !confirm(`Clear every tick in ${chapter.name}?`)) return;
+      chapter.topics.forEach((topic) =>
+        setStatus(subj.id, topic.id, clearing ? 'todo' : 'done'));
       paintAll();
       return;
     }
@@ -1143,9 +1316,16 @@
         try {
           const parsed = JSON.parse(bind('backup').value);
           if (!parsed || typeof parsed !== 'object') throw new Error('bad shape');
-          state.progress = Object.fromEntries(Object.entries(parsed).map(([k, v]) =>
+          // v3 carries stars and notes as well; anything older is bare progress
+          const prog = parsed.progress && typeof parsed.progress === 'object'
+            ? parsed.progress : parsed;
+          state.progress = Object.fromEntries(Object.entries(prog).map(([k, v]) =>
             [k, typeof v === 'string' ? { s: v, t: null } : v]));
+          state.starred = new Set(Array.isArray(parsed.starred) ? parsed.starred : []);
+          state.notes = parsed.notes && typeof parsed.notes === 'object' ? parsed.notes : {};
           saveProgress();
+          saveStars();
+          saveNotes();
           paintAll();
           say('Restored.');
         } catch (err) {
@@ -1206,6 +1386,10 @@
       state.progress = readProgress();
       try { state.prefs = JSON.parse(localStorage.getItem(KEY_PREFS)) || {}; }
       catch (err) { state.prefs = {}; }
+      try { state.starred = new Set(JSON.parse(localStorage.getItem(KEY_STARS)) || []); }
+      catch (err) { state.starred = new Set(); }
+      try { state.notes = JSON.parse(localStorage.getItem(KEY_NOTES)) || {}; }
+      catch (err) { state.notes = {}; }
 
       const years = new Set();
       data.subjects.forEach((s) => s.chapters.forEach((c) => c.topics.forEach((t) =>
@@ -1220,6 +1404,14 @@
       document.getElementById('find').addEventListener('input', (e) => {
         state.query = e.target.value.trim().toLowerCase();
         paintAll();
+      });
+      // Notes save as they are typed. Deliberately no repaint — that would pull
+      // the caret out of the box mid-sentence; the row picks the tag up next time.
+      document.addEventListener('input', (e) => {
+        const key = e.target.dataset?.note;
+        if (!key) return;
+        const [subjectId, topicId] = key.split('/');
+        setNote(subjectId, topicId, e.target.value);
       });
       document.addEventListener('change', (e) => {
         if (e.target.id !== 'exam-date') return;

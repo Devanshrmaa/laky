@@ -29,6 +29,21 @@ and say plainly that no transcribed paper covers them yet. Every topic also
 carries an `N on paper · M marks` tag, so you can see at a glance which ones
 the papers have actually spent marks on.
 
+Four more things live in this view:
+
+- **Stars** — a second axis, separate from the tick. *Done* is where you got
+  to; a star is what you want in front of you on the last night. The rail
+  counts them and the `Starred` chip filters to them.
+- **Notes** — a box under every topic for the mnemonic, the page reference, the
+  bit that never sticks. Saved as you type; `Noted` filters to topics that have
+  one.
+- **Order** — the chapter headings are the syllabus' order, but *Heaviest
+  first*, *Most marks on paper* and *Going cold* drop them and run the whole
+  subject as one list. "Going cold" leads with whatever you ticked longest ago,
+  then everything still untouched.
+- **Section ticks** — a progress bar per chapter, and one button to mark a whole
+  section done (or take it back).
+
 **Papers** — two kinds. **Transcribed papers** are the real thing: 102 question
 papers read off photographs of the originals, with every question as printed and
 the marks it actually carries. Each question links to the topics it covers, so
@@ -74,9 +89,11 @@ transcripts: the transcribed set includes sittings the analysis never covered
 (and, in a few places, counts a sitting the analysis rolled up differently).
 Both numbers say where they came from rather than being reconciled into one.
 
-Progress is stored in the reader's own browser (`localStorage`). Nothing is
-uploaded, there is no account, and there is a backup box in the footer for
-moving ticks between a phone and a laptop.
+Progress — ticks, stars and notes alike — is stored in the reader's own browser
+(`localStorage`). Nothing is uploaded, there is no account, and there is a
+backup box in the footer for moving the lot between a phone and a laptop. The
+backup is a versioned envelope (`{v: 3, progress, starred, notes}`); pasting in
+an older bare-progress backup still works.
 
 ## Running it
 
@@ -117,6 +134,13 @@ sitting separates into its subjects at a glance.
 Green is reserved for *done* and rust for *going cold*; neither is ever reused
 for weight. Colour is never the only signal — every tier carries its word, every
 subject its name, every status its label.
+
+**The star is deliberately not a colour.** Every usable hue is spoken for —
+violet, teal, amber and rose by the subjects, green by *done*, rust by *going
+cold* — and the gaps left over sit too close to one of them to be told apart: a
+blue tested at ΔE 5.0 deutan against the Pathology violet, under the floor. So
+starring is carried by shape and fill instead, a filled glyph among hollow ones,
+which is a stronger signal than a fifth hue would have been anyway.
 
 The four hues were checked with the `dataviz` skill's validator rather than by
 eye, all-pairs, in both modes: lightness band, chroma floor, colour-blind

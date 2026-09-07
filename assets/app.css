@@ -37,6 +37,12 @@
   --mark-wash:#dbf0e7;
   --flag:     #b0442b;
   --flag-wash:#f7e3dd;
+  /* A star is a pen mark, not a fifth hue: violet, teal, amber and rose are
+     spoken for by the subjects, green by "done" and rust by "going cold", and
+     every hue left over sits too close to one of them to be told apart (a blue
+     measured ΔE 5.0 deutan against the Pathology violet). So starring is
+     carried by shape and fill instead — filled glyph against hollow ones. */
+  --star:     #14171f;
 
   --r:        3px;
   --shadow:   0 1px 0 rgb(20 23 31 / 0.04), 0 1px 3px rgb(20 23 31 / 0.05);
@@ -68,6 +74,7 @@
     --mark-wash: #14302a;
     --flag:   #e0836a;
     --flag-wash: #331d17;
+    --star:   #e9ecf4;
 
     --shadow: 0 1px 0 rgb(0 0 0 / 0.3), 0 1px 3px rgb(0 0 0 / 0.35);
   }
@@ -343,6 +350,7 @@ main { padding: 2rem 0 5rem; }
 .rail-stat b { font-family: var(--mono); font-weight: 500; color: var(--ink); }
 
 .chips { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-bottom: 0.45rem; }
+.chips-stack { flex-direction: column; align-items: start; }
 
 .chip {
   border: 1px solid var(--rule);
@@ -435,6 +443,35 @@ main { padding: 2rem 0 5rem; }
   color: var(--ink-3);
   white-space: nowrap;
 }
+
+.chapter-head-static { cursor: default; }
+.chapter-head-static:hover { background: none; }
+
+.chapter-score { display: grid; justify-items: end; gap: 0.25rem; }
+.chapter-bar {
+  display: block;
+  width: 3.4rem;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--sunk);
+  overflow: hidden;
+}
+.chapter-bar i { display: block; height: 100%; background: var(--mark); }
+
+.chapter-bulk {
+  display: block;
+  margin: 0 0.25rem 0.6rem auto;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-3);
+  border: 1px solid var(--rule);
+  border-radius: var(--r);
+  padding: 0.16rem 0.5rem;
+}
+.chapter-bulk:hover { color: var(--ink); border-color: var(--rule-2); }
+.chapter-bulk[data-mode="clear"]:hover { color: var(--flag); border-color: var(--flag); }
+.chapter[data-open="false"] .chapter-bulk { display: none; }
 .chapter[data-open="false"] .chapter-body { display: none; }
 .chapter-body { padding-bottom: 0.5rem; }
 
@@ -443,13 +480,29 @@ main { padding: 2rem 0 5rem; }
 /* ----------------------------------------------------------------- topic */
 .topic {
   display: grid;
-  grid-template-columns: 2.1rem minmax(0, 1fr) auto;
+  grid-template-columns: 2.1rem minmax(0, 1fr) 1.5rem auto;
   gap: 0.9rem;
   align-items: start;
   padding: 0.5rem 0.25rem;
   border-top: 1px dotted var(--rule);
 }
 .topic[data-status="done"] { background: var(--mark-wash); }
+.topic[data-starred="true"] { box-shadow: inset 2px 0 0 var(--star); }
+
+/* --------------------------------------------------- star: one last pass */
+.star {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: -0.05rem;
+  padding: 0.2rem;
+  color: var(--rule-2);
+  border-radius: var(--r);
+  line-height: 0;
+}
+.star svg { width: 100%; height: 100%; }
+.star:hover { color: var(--star); background: var(--mount); }
+.star[aria-pressed="true"] { color: var(--star); }
+.star[aria-pressed="false"] svg path { fill: none; }
 
 .tick {
   width: 1.15rem;
@@ -615,6 +668,24 @@ main { padding: 2rem 0 5rem; }
 }
 
 .ask-void { margin: 0; font-size: 0.84rem; color: var(--ink-3); }
+
+/* ------------------------------------------------------ your own notes */
+.note-box {
+  width: 100%;
+  resize: vertical;
+  font: inherit;
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--ink);
+  background: var(--glass);
+  border: 1px solid var(--rule);
+  border-radius: var(--r);
+  padding: 0.4rem 0.55rem;
+}
+.note-box:focus-visible { border-color: var(--stain); outline: none; }
+.note-box::placeholder { color: var(--ink-3); }
+
+.note-tag { color: var(--ink-2); }
 
 /* why a search result surfaced when its own name never says the word */
 .result-why {
@@ -1009,10 +1080,11 @@ main { padding: 2rem 0 5rem; }
   .views { overflow-x: auto; }
   .find { margin-left: 0; }
   .find input { width: 9rem; }
-  .topic, .chapter-head { grid-template-columns: 1.9rem minmax(0, 1fr); }
-  .spine-wrap { grid-column: 2; justify-items: start; margin-top: 0.35rem; }
+  .topic { grid-template-columns: 1.9rem minmax(0, 1fr) 1.4rem; gap: 0.5rem; }
+  .chapter-head { grid-template-columns: 1.9rem minmax(0, 1fr); }
+  .spine-wrap { grid-column: 2 / -1; justify-items: start; margin-top: 0.35rem; }
   .spine, .spine-axis { width: 100%; max-width: 14rem; }
-  .chapter-tally { grid-column: 2; }
+  .chapter-score { grid-column: 2; justify-items: start; }
   .angle { grid-template-columns: 3rem minmax(0, 1fr); }
   .angle-n { grid-column: 2; }
   .card { padding: 1.5rem 1.25rem; }

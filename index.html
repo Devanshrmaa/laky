@@ -68,7 +68,23 @@
             <button type="button" class="chip" data-filter="status" data-value="revising" aria-pressed="false">Revising</button>
             <button type="button" class="chip" data-filter="status" data-value="done" aria-pressed="false">Done</button>
           </div>
+          <div class="chips" role="group" aria-label="Filter by mark">
+            <button type="button" class="chip" data-filter="flag" data-value="all" aria-pressed="true">Everything</button>
+            <button type="button" class="chip" data-filter="flag" data-value="starred" aria-pressed="false">Starred</button>
+            <button type="button" class="chip" data-filter="flag" data-value="noted" aria-pressed="false">Noted</button>
+          </div>
           <button type="button" class="link-btn" data-act="collapse">Collapse all sections</button>
+        </div>
+
+        <div class="rail-block">
+          <h3 class="rail-h">Order</h3>
+          <div class="chips chips-stack" role="group" aria-label="Order the topics">
+            <button type="button" class="chip" data-filter="sort" data-value="syllabus" aria-pressed="true">Syllabus order</button>
+            <button type="button" class="chip" data-filter="sort" data-value="weight" aria-pressed="false">Heaviest first</button>
+            <button type="button" class="chip" data-filter="sort" data-value="marks" aria-pressed="false">Most marks on paper</button>
+            <button type="button" class="chip" data-filter="sort" data-value="cold" aria-pressed="false">Going cold</button>
+          </div>
+          <p class="rail-note">The last three drop the chapter headings and list the whole subject in one run.</p>
         </div>
 
         <div class="rail-block legend">
@@ -126,7 +142,7 @@
         </details>
         <details>
           <summary>Move your progress to another device</summary>
-          <p class="muted">Ticks live in this browser only — nothing is uploaded. Copy this out, paste it in on the other device.</p>
+          <p class="muted">Ticks, stars and notes live in this browser only — nothing is uploaded. Copy this out, paste it in on the other device.</p>
           <textarea data-bind="backup" rows="3" spellcheck="false" aria-label="Progress backup"></textarea>
           <div class="foot-actions">
             <button type="button" class="link-btn" data-act="copy">Copy</button>
