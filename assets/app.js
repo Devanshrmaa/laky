@@ -25,6 +25,7 @@
   const state = {
     data: null,
     papers: [],          // real transcribed papers, when data/papers.json is present
+    asked: new Map(),    // "subject/topic" -> the real questions that asked it
     paperId: null,
     subjectId: null,
     view: 'checklist',
@@ -187,6 +188,97 @@
       return li;
     }));
     return list;
+  }
+
+  /* ------------------------------------------- how a topic was really asked */
+
+  /** Index the transcribed papers by the topics their questions carry, so every
+   *  topic can show the wording that actually came up rather than a count.
+   *  Nothing here is written back to topics.json — it is read each load. */
+  function indexAsked() {
+    const map = new Map();
+    state.papers.forEach((paper) => {
+      paper.questions.forEach((q) => {
+        q.topics.forEach((topicId) => {
+          const key = idOf(paper.subjectId, topicId);
+          if (!map.has(key)) map.set(key, []);
+          map.get(key).push({ paper, q });
+        });
+      });
+    });
+    // newest first, then by paper code so an undated sitting still sorts stably
+    map.forEach((list) => list.sort((a, b) =>
+      (b.paper.year || '').localeCompare(a.paper.year || '') ||
+      a.paper.code.localeCompare(b.paper.code) ||
+      String(a.q.n).localeCompare(String(b.q.n))));
+    state.asked = map;
+  }
+
+  const askedFor = (subjectId, topicId) => state.asked.get(idOf(subjectId, topicId)) || [];
+
+  const askedMarks = (hits) => hits.reduce((sum, h) => sum + (h.q.marks || 0), 0);
+
+  /** The paper a question came off, said the way the paper says it. */
+  function askSource(paper) {
+    const bits = [];
+    if (paper.year) bits.push(paper.year);
+    bits.push(paper.session);
+    bits.push(`code ${paper.code}`);
+    return bits.join(' · ');
+  }
+
+  /** "How it was asked": the verbatim questions, each one clickable through to
+   *  the paper it came off. */
+  function askedList(subj, hits, opts = {}) {
+    const limit = opts.limit || hits.length;
+    const list = el('ol', 'asked');
+    list.replaceChildren(...hits.slice(0, limit).map(({ paper, q }) => {
+      const li = el('li', 'ask');
+
+      const head = el('div', 'ask-head');
+      const src = el('button', 'ask-src');
+      src.type = 'button';
+      src.dataset.gopaper = `${paper.subjectId}/${paper.id}`;
+      src.title = 'Open this paper in the Papers view';
+      src.textContent = askSource(paper);
+      head.append(src, el('span', 'ask-marks', q.marks ? `${q.marks} marks` : ''));
+
+      li.append(head, el('p', 'ask-text', q.text));
+      if (q.part) li.dataset.part = q.part;
+      return li;
+    }));
+
+    if (hits.length > limit) {
+      const more = el('li', 'ask-more');
+      more.textContent = `+ ${hits.length - limit} more in the Papers view`;
+      list.append(more);
+    }
+    return list;
+  }
+
+  /** The block that goes under a topic wherever a topic is opened up: what the
+   *  papers actually wrote, then every sitting the analysis recorded. */
+  function topicDetail(subj, topic) {
+    const detail = el('div', 'detail');
+    const hits = askedFor(subj.id, topic.id);
+
+    if (hits.length) {
+      const marks = askedMarks(hits);
+      detail.append(el('p', 'detail-h',
+        `How it was asked — ${hits.length} question${hits.length === 1 ? '' : 's'} ` +
+        `off the real papers${marks ? `, ${marks} marks` : ''}`));
+      detail.append(askedList(subj, hits, { limit: 6 }));
+    } else {
+      detail.append(el('p', 'detail-h', 'How it was asked'));
+      detail.append(el('p', 'ask-void',
+        'No transcribed paper covers this one yet — the sittings below are what ' +
+        'the frequency analysis recorded.'));
+    }
+
+    detail.append(el('p', 'detail-h detail-h2',
+      `Every sitting on record — ${topic.angles.length}`));
+    detail.append(angleList(topic));
+    return detail;
   }
 
   /* ============================================================== masthead */
@@ -362,6 +454,15 @@
 
     const tags = el('div', 'topic-tags');
     tags.append(tierTag(topic), el('span', null, `asked ${topic.timesAsked}×`));
+
+    // What the transcribed papers hold for this topic, if anything yet.
+    const hits = askedFor(subj.id, topic.id);
+    if (hits.length) {
+      const marks = askedMarks(hits);
+      tags.append(el('span', 'asked-tag',
+        `${hits.length} on paper${marks ? ` · ${marks} marks` : ''}`));
+    }
+
     if (topic.hasDiagram) tags.append(el('span', null, 'diagram'));
     if (isStale(subj.id, topic.id)) {
       const days = Math.floor((Date.now() - stampOf(subj.id, topic.id)) / DAY);
@@ -371,11 +472,7 @@
     body.append(name, tags);
     row.append(tick, body, spine(topic));
 
-    if (open) {
-      const detail = el('div', 'detail');
-      detail.append(el('p', 'detail-h', 'How it came up'), angleList(topic));
-      row.append(detail);
-    }
+    if (open) row.append(topicDetail(subj, topic));
     return row;
   }
 
@@ -707,8 +804,16 @@
       card.append(acts);
     } else {
       const reveal = el('div', 'card-reveal');
-      reveal.append(el('p', 'detail-h', `${topic.angles.length} recorded appearances`),
-        angleList(topic));
+      const hits = askedFor(subj.id, topic.id);
+      if (hits.length) {
+        const marks = askedMarks(hits);
+        reveal.append(el('p', 'detail-h',
+          `Asked ${hits.length} time${hits.length === 1 ? '' : 's'} in the real papers` +
+          `${marks ? ` · ${marks} marks` : ''}`));
+        reveal.append(askedList(subj, hits, { limit: 4 }));
+      }
+      reveal.append(el('p', `detail-h${hits.length ? ' detail-h2' : ''}`,
+        `${topic.angles.length} recorded appearances`), angleList(topic));
       card.append(reveal);
 
       const acts = el('div', 'card-actions');
@@ -853,17 +958,32 @@
     let hits = 0;
 
     state.data.subjects.forEach((subj) => {
-      const found = topicsOf(subj).filter((t) =>
-        `${t.name} ${t.years.join(' ')}`.toLowerCase().includes(q));
+      // A topic matches on its own name, or on the wording of any real question
+      // that asked it — so searching "amyloid" finds the papers, not just titles.
+      const found = topicsOf(subj)
+        .map((t) => {
+          const byName = `${t.name} ${t.years.join(' ')}`.toLowerCase().includes(q);
+          const inPaper = askedFor(subj.id, t.id)
+            .find((h) => h.q.text.toLowerCase().includes(q));
+          return byName || inPaper ? { topic: t, byName, inPaper } : null;
+        })
+        .filter(Boolean);
       if (!found.length) return;
       hits += found.length;
 
       const group = el('div', 'result-group');
       group.dataset.hue = subj.id;
       group.append(el('h3', null, `${subj.name} — ${found.length}`));
-      found.sort(byWeight).forEach((t) => {
-        const wrapper = topicRow(subj, t);
+      found.sort((a, b) => byWeight(a.topic, b.topic)).forEach(({ topic, byName, inPaper }) => {
+        const wrapper = topicRow(subj, topic);
         wrapper.dataset.searchSubject = subj.id;
+        // say why a topic surfaced when its own name never mentions the word
+        if (!byName && inPaper) {
+          const why = el('p', 'result-why');
+          why.append(el('span', 'result-why-src', askSource(inPaper.paper)),
+            el('span', null, inPaper.q.text));
+          wrapper.append(why);
+        }
         group.append(wrapper);
       });
       pane.append(group);
@@ -915,6 +1035,20 @@
       if (d.view === 'drill') buildQueue();
       if (d.view !== 'checklist') { state.query = ''; document.getElementById('find').value = ''; }
       paintAll();
+      return;
+    }
+
+    // "asked this way in ..." — straight from the topic to the paper it came off
+    if (d.gopaper) {
+      const [subjectId, paperId] = d.gopaper.split('/');
+      state.subjectId = subjectId;
+      state.paperId = paperId;
+      state.sitting = null;
+      state.view = 'papers';
+      state.query = '';
+      document.getElementById('find').value = '';
+      paintAll();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
       return;
     }
 
@@ -1067,6 +1201,7 @@
     .then(([data, papers]) => {
       state.data = data;
       state.papers = papers && Array.isArray(papers.papers) ? papers.papers : [];
+      indexAsked();
       state.subjectId = data.subjects[0].id;
       state.progress = readProgress();
       try { state.prefs = JSON.parse(localStorage.getItem(KEY_PREFS)) || {}; }

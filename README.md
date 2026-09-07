@@ -21,6 +21,14 @@ asked, what actually keeps getting asked — and how much of it have I covered?*
 (untouched → revising → done). "Worth the most right now" ranks what's left by
 how much of the paper it actually buys you.
 
+Open any topic and it shows **how it was asked** — the verbatim questions off
+the real papers, newest first, each with the marks it carried and a link
+straight through to the paper it came off. 163 of the 181 topics carry real
+wording this way; the rest show the sittings the frequency analysis recorded
+and say plainly that no transcribed paper covers them yet. Every topic also
+carries an `N on paper · M marks` tag, so you can see at a glance which ones
+the papers have actually spent marks on.
+
 **Papers** — two kinds. **Transcribed papers** are the real thing: 102 question
 papers read off photographs of the originals, with every question as printed and
 the marks it actually carries. Each question links to the topics it covers, so
@@ -29,15 +37,19 @@ rebuilt from the topics the frequency analysis recorded against each sitting.
 Either way, this is the view for mock practice.
 
 **Drill** — active recall, heaviest topic first. The topic name comes up alone;
-you answer it out loud, then turn it over to see every sitting that asked it and
-how it was phrased. `space` reveals, `1` / `2` / `3` for *had it* / *shaky* /
-*skip*.
+you answer it out loud, then turn it over to see the four most recent times a
+real paper asked it — word for word, with marks — followed by every sitting on
+record. `space` reveals, `1` / `2` / `3` for *had it* / *shaky* / *skip*.
 
 **Plan** — set an exam date and it works out the pace: topics left, days left,
 how many a day, coverage per subject. It also tracks *going cold* — anything
 ticked more than three weeks ago, resurfaced for one more pass.
 
-Typing in the search box searches all four subjects at once. `/` jumps to it.
+Typing in the search box searches all four subjects at once — **topic names and
+the real question wording both**. Searching `amyloid` turns up eleven Pathology
+topics, only one of which has "amyloid" in its name; the other ten surface
+because a paper asked about it under another heading, and each one quotes the
+question that matched. `/` jumps to the box.
 
 ## Coverage is weighted, and that matters
 
@@ -52,6 +64,15 @@ everything that subject has ever asked — the app says so, on the front page.
 The papers were analysed **once** into `data/topics.json`. That file is the
 source of truth. The page only reads and displays it — it never recomputes a
 tier or a frequency. If a number looks wrong, fix the JSON, not the JavaScript.
+
+The "how it was asked" wording comes from the other direction: each question in
+`data/papers.json` names the topics it covers, and the page inverts that list at
+load to give every topic its questions. Nothing is written back — `topics.json`
+never learns about the papers, so the two counts stay independent. That is why a
+topic can read `asked 12×` from the analysis and `13 on paper` from the
+transcripts: the transcribed set includes sittings the analysis never covered
+(and, in a few places, counts a sitting the analysis rolled up differently).
+Both numbers say where they came from rather than being reconciled into one.
 
 Progress is stored in the reader's own browser (`localStorage`). Nothing is
 uploaded, there is no account, and there is a backup box in the footer for
