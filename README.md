@@ -15,7 +15,7 @@ asked, what actually keeps getting asked — and how much of it have I covered?*
 | Pharmacology | 50 | 28 |
 | Dental Materials | 49 | 18 |
 
-## The four views
+## The five views
 
 **Checklist** — every topic, by chapter, with a three-state tick
 (untouched → revising → done). "Worth the most right now" ranks what's left by
@@ -50,6 +50,21 @@ the marks it actually carries. Each question links to the topics it covers, so
 you can tick straight from the paper. **Reconstructed sittings** are the rest,
 rebuilt from the topics the frequency analysis recorded against each sitting.
 Either way, this is the view for mock practice.
+
+**Scored** — the checklist marking its own homework. Once a paper has been sat,
+it is read back question by question: did the list already carry the topic this
+question asks for, or not? Paper 020601 (set A) — Pathology and Microbiology —
+scores **50 of the 60 marks you actually write, 83%**, and the view shows where
+each of those marks came from: the mark ledger, the split by tier, the verdict
+on every question, the topics the paper exposed as gaps, and the heavy topics it
+never asked. The two halves did not behave alike — Part B is 100% covered,
+Part A 67%, and no HIGH-tier Pathology topic appears on the paper at all.
+
+The arithmetic is not stored. `data/scored.json` holds one verdict per question
+and nothing else; every total on the page is summed from those rows against
+`topics.json`, so the headline figure can never drift from the questions printed
+beneath it. The long-form write-up lives in
+[`analysis/020601-set-a-vs-checklist.md`](analysis/020601-set-a-vs-checklist.md).
 
 **Drill** — active recall, heaviest topic first. The topic name comes up alone;
 you answer it out loud, then turn it over to see the four most recent times a
@@ -303,7 +318,8 @@ the two it missed are the reason to read it.
 ```
 index.html          the page
 assets/app.css      design system, light + dark, print
-assets/app.js       four views, coverage maths, progress
+assets/app.js       five views, coverage maths, progress
 data/topics.json    topic frequency analysis — source of truth for tiers
 data/papers.json    real question papers, transcribed (optional, additive)
+data/scored.json    papers already sat, read back against the checklist
 ```

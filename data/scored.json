@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "source": "Hand-scored against the frequency analysis in topics.json, question by question.",
+    "note": "A paper is scored once it has been sat. Marks are the paper's own; the verdict says whether the checklist already carried the topic the question asks for. Every total on the page is summed from these questions — nothing is stored twice.",
+    "verdicts": {
+      "on": "The checklist already carried this topic.",
+      "partly": "The chapter is on the list, but not the angle this question takes.",
+      "off": "Nothing on the checklist points at this."
+    }
+  },
+  "scored": [
+    {
+      "id": "020601-setA",
+      "name": "Paper 020601 (set A)",
+      "label": "Pathology & Microbiology",
+      "sat": true,
+      "parts": [
+        {
+          "part": "A",
+          "subjectId": "pathology",
+          "name": "Pathology",
+          "paperId": "pathology-020601-setA"
+        },
+        {
+          "part": "B",
+          "subjectId": "microbiology",
+          "name": "Microbiology",
+          "paperId": "microbiology-020601-setA"
+        }
+      ],
+      "choice": "Question 4 prints five parts for 5×4=20, so four of the five get written.",
+      "caveat": "Scored on a photograph of page 2 only. The paper's year and session are not printed on that page, and any further section — the other 020601 papers carry a Part C of MCQs — is not in the photograph.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "marks": 10,
+          "verdict": "on",
+          "text": "Define oedema. Write down its pathogenesis. Write in detail about renal oedema.",
+          "topics": [
+            "edema-pathogenesis-pulmonary-cardiac"
+          ],
+          "note": "Five transcribed papers ask the first two thirds word for word. The renal third is new — the topic is scoped to pulmonary and cardiac."
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "marks": 5,
+          "verdict": "on",
+          "text": "Granuloma.",
+          "topics": [
+            "granulomatous-inflammation-granuloma-tubercle"
+          ],
+          "note": ""
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "marks": 5,
+          "verdict": "off",
+          "text": "Oncogenes.",
+          "topics": [],
+          "note": "One MCQ mention on record — “oncogenic viruses in humans”, 2021. No written question, ever. The nearest topic, Carcinogenesis (Chemical, Radiation), is a different answer."
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "marks": 5,
+          "verdict": "off",
+          "text": "Leukoplakia.",
+          "topics": [],
+          "note": "A total blind spot: zero mentions in the checklist and zero across all 104 transcribed papers. Nothing on the list points at premalignant oral lesions."
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "marks": 5,
+          "verdict": "on",
+          "text": "Lab diagnosis of diabetes mellitus.",
+          "topics": [
+            "diabetes-mellitus-types-pathogenesis-renal-lesions"
+          ],
+          "note": "This paper code opened with it in 2022 — “Define WHO criteria for diagnosis of diabetes mellitus.”"
+        },
+        {
+          "n": "3",
+          "part": "B",
+          "marks": 10,
+          "verdict": "on",
+          "text": "Give a brief note on types and pathogenesis of tuberculosis. Describe their laboratory diagnosis and prevention.",
+          "topics": [
+            "pulmonary-tuberculosis-lab-diagnosis"
+          ],
+          "note": "Joint-heaviest topic in the subject, and asked in eight transcribed papers besides."
+        },
+        {
+          "n": "4a",
+          "part": "B",
+          "marks": 5,
+          "verdict": "on",
+          "text": "Give a short note on moist heat sterilization.",
+          "topics": [
+            "sterilization-by-moist-heat-autoclave"
+          ],
+          "note": "The other joint-heaviest, and asked in almost these words nine times in the transcribed set alone."
+        },
+        {
+          "n": "4b",
+          "part": "B",
+          "marks": 5,
+          "verdict": "partly",
+          "optional": true,
+          "text": "What is mycosis? Describe types of Mycoses.",
+          "topics": [],
+          "note": "The Mycology chapter is four named organisms — Candidiasis, Cryptococcus, oral lesions in systemic mycoses, dermatophytes. There is no “define and classify mycoses” entry, and the same framing went unmapped once before, in 2011."
+        },
+        {
+          "n": "4c",
+          "part": "B",
+          "marks": 5,
+          "verdict": "on",
+          "text": "Describe pathogenesis of Herpes Virus.",
+          "topics": [
+            "herpes-simplex-virus-hsv"
+          ],
+          "note": "The cheapest five marks on the paper, and exactly the topic a frequency ranking tells you to leave until last."
+        },
+        {
+          "n": "4d",
+          "part": "B",
+          "marks": 5,
+          "verdict": "on",
+          "text": "Differentiate between acquired and innate immunity.",
+          "topics": [
+            "innate-vs-acquired-immunity"
+          ],
+          "note": "Asked as printed in 2012, 2013, 2016 and again on this paper code in 2023."
+        },
+        {
+          "n": "4e",
+          "part": "B",
+          "marks": 5,
+          "verdict": "on",
+          "text": "Describe any two commonly known protozoan disease.",
+          "topics": [
+            "malaria-lab-diagnosis-life-cycle",
+            "entamoeba-histolytica-amoebiasis"
+          ],
+          "note": "The two heaviest topics in Parasitology are, between them, the whole answer."
+        }
+      ],
+      "gaps": [
+        {
+          "name": "Leukoplakia",
+          "cost": "5 marks",
+          "subjectId": "pathology",
+          "note": "Zero mentions in the checklist and zero across all 104 transcribed papers. Nothing on the list points at premalignant oral lesions. Worth its own topic under Neoplasia."
+        },
+        {
+          "name": "Oncogenes",
+          "cost": "5 marks",
+          "subjectId": "pathology",
+          "note": "One MCQ mention on record, no written question ever. Either a new topic for the molecular basis of cancer, or widen Carcinogenesis to name them."
+        },
+        {
+          "name": "Renal oedema",
+          "cost": "part of 10",
+          "subjectId": "pathology",
+          "note": "Part of question 1. The topic exists but is scoped to pulmonary and cardiac — widen it to Pulmonary/Cardiac/Renal."
+        },
+        {
+          "name": "Classification of mycoses",
+          "cost": "5 marks",
+          "subjectId": "microbiology",
+          "note": "The Mycology chapter names four organisms and never asks you to define or classify the group. Skippable here, but cheap to add."
+        }
+      ]
+    }
+  ]
+}
