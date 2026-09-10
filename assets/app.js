@@ -27,6 +27,7 @@
   const state = {
     data: null,
     papers: [],          // real transcribed papers, when data/papers.json is present
+    scored: [],          // papers already sat, read back against the checklist
     asked: new Map(),    // "subject/topic" -> the real questions that asked it
     paperId: null,
     subjectId: null,
@@ -880,6 +881,271 @@
     });
   }
 
+  /* ================================================================ scored */
+
+  /* A paper that has been sat, read back against the checklist. Every total
+     here is summed from data/scored.json's questions — the file stores the
+     verdict on each question and nothing else, so the arithmetic can never
+     drift from the rows it is printed beside. */
+  function scoreCard(sat) {
+    const subjectOf = {};
+    sat.parts.forEach((p) => { subjectOf[p.part] = p.subjectId; });
+
+    const written = sat.questions.filter((q) => !q.optional);
+    const marks = (list) => list.reduce((sum, q) => sum + q.marks, 0);
+    const on = written.filter((q) => q.verdict === 'on');
+
+    // A question's tier is the best tier among the topics it maps to: 4e sits
+    // on two HIGH topics and counts once, as HIGH.
+    const tiers = { HIGH: 0, MEDIUM: 0, LOW: 0 };
+    const hit = new Set();
+    written.forEach((q) => {
+      const subj = subjectById(subjectOf[q.part]);
+      const topics = q.topics
+        .map((tid) => topicsOf(subj).find((t) => t.id === tid))
+        .filter(Boolean);
+      topics.forEach((t) => hit.add(idOf(subj.id, t.id)));
+      if (q.verdict !== 'on' || !topics.length) return;
+      tiers[topics.reduce((best, t) =>
+        (RANK[t.tier] < RANK[best.tier] ? t : best)).tier] += q.marks;
+    });
+
+    // What the checklist ranks heaviest and this paper never asked.
+    const noShows = sat.parts
+      .flatMap((p) => topicsOf(subjectById(p.subjectId))
+        .filter((t) => t.tier === 'HIGH' && !hit.has(idOf(p.subjectId, t.id)))
+        .map((t) => ({ subjectId: p.subjectId, topic: t })))
+      .sort((a, b) => b.topic.timesAsked - a.topic.timesAsked);
+
+    return {
+      subjectOf,
+      written,
+      printedMarks: marks(sat.questions),
+      writtenMarks: marks(written),
+      onMarks: marks(on),
+      offMarks: marks(written.filter((q) => q.verdict === 'off')),
+      tiers,
+      noShows,
+      parts: sat.parts.map((p) => {
+        const mine = written.filter((q) => q.part === p.part);
+        return {
+          ...p,
+          marks: marks(mine),
+          printed: marks(sat.questions.filter((q) => q.part === p.part)),
+          onMarks: marks(mine.filter((q) => q.verdict === 'on')),
+        };
+      }),
+    };
+  }
+
+  const VERDICT = { on: 'On the list', partly: 'Partly', off: 'Not on it' };
+
+  /* The mark ledger: one segment per question, in the order the paper prints
+     them, as wide as the marks it carries. */
+  function ledger(card, sat) {
+    const strip = el('div', 'ledger-strip');
+    strip.setAttribute('role', 'img');
+    strip.setAttribute('aria-label',
+      `${card.writtenMarks} marks: ${card.onMarks} already on the checklist, ` +
+      `${card.offMarks} not on it.`);
+    card.written.forEach((q) => {
+      const seg = el('span', 'ledger-seg');
+      seg.dataset.verdict = q.verdict;
+      seg.style.flex = String(q.marks);
+      seg.title = `Q${q.n} — ${q.marks} marks, ${VERDICT[q.verdict].toLowerCase()}`;
+      strip.append(seg);
+    });
+
+    const key = el('ul', 'ledger-key');
+    [['on', card.onMarks, 'already on the checklist'],
+      ['off', card.offMarks, 'nowhere on it']].forEach(([verdict, m, words]) => {
+      const li = el('li');
+      const sw = el('span', 'ledger-sw');
+      sw.dataset.verdict = verdict;
+      li.append(sw, document.createTextNode(`${m} marks ${words}`));
+      key.append(li);
+    });
+
+    const wrap = el('div', 'ledger');
+    wrap.append(strip, key);
+    return wrap;
+  }
+
+  function paintScored() {
+    const pane = bind('scoredPane');
+    pane.replaceChildren();
+
+    if (!state.scored.length) {
+      pane.append(el('p', 'void',
+        'No paper has been scored yet. A paper is read back against the checklist ' +
+        'once it has been sat.'));
+      return;
+    }
+
+    state.scored.forEach((sat) => {
+      const card = scoreCard(sat);
+      const pct = Math.round((card.onMarks / card.writtenMarks) * 100);
+
+      const head = el('div', 'scored-head');
+      head.append(el('p', 'paper-kicker',
+        `${sat.sat ? 'Sat' : 'Scored'} · ${sat.label} · ${sat.name}`));
+      head.append(el('h2', 'scored-figure',
+        `${card.onMarks} of the ${card.writtenMarks} marks were already on the checklist`));
+      head.append(el('p', 'scored-lede',
+        `${pct}% of what this paper asked you to write. ${sat.choice}`));
+      head.append(ledger(card, sat));
+      pane.append(head);
+
+      /* per part — each in its own subject's stain, which is the point: the
+         two halves of this paper did not behave alike */
+      const parts = el('div', 'scored-parts');
+      card.parts.forEach((p) => {
+        const box = el('div', 'scored-part');
+        box.dataset.hue = p.subjectId;
+        box.append(el('h3', 'rail-h', `Part ${p.part} · ${p.name}`));
+        box.append(el('p', 'scored-part-figure', `${p.onMarks} / ${p.marks}`));
+        box.append(el('p', 'scored-part-note',
+          `${Math.round((p.onMarks / p.marks) * 100)}% on the list` +
+          (p.printed !== p.marks ? ` · ${p.printed} marks printed` : '')));
+        parts.append(box);
+      });
+      pane.append(parts);
+
+      /* where the marks came from */
+      const tierBox = el('div', 'scored-block');
+      tierBox.append(el('h3', 'scored-h', 'Where the marks came from'));
+      const bar = el('div', 'tier-strip');
+      bar.setAttribute('role', 'img');
+      bar.setAttribute('aria-label',
+        `Of ${card.writtenMarks} marks: ${card.tiers.HIGH} from HIGH-tier topics, ` +
+        `${card.tiers.MEDIUM} MEDIUM, ${card.tiers.LOW} LOW, ${card.offMarks} not on the checklist.`);
+      const bands = [['HIGH', card.tiers.HIGH], ['MEDIUM', card.tiers.MEDIUM],
+        ['LOW', card.tiers.LOW], ['OFF', card.offMarks]];
+      bands.forEach(([band, m]) => {
+        if (!m) return;
+        const seg = el('span');
+        seg.dataset.band = band;
+        seg.style.flex = String(m);
+        bar.append(seg);
+      });
+      const tierKey = el('ul', 'tier-key');
+      bands.forEach(([band, m]) => {
+        const li = el('li');
+        const sw = el('span', 'tier-sw');
+        sw.dataset.band = band;
+        li.append(sw, el('b', null, `${m} marks`), document.createTextNode(
+          band === 'OFF' ? ' — not on the checklist' : ` — ${band} tier`));
+        tierKey.append(li);
+      });
+      tierBox.append(bar, tierKey);
+      pane.append(tierBox);
+
+      /* question by question */
+      card.parts.forEach((p) => {
+        const subj = subjectById(p.subjectId);
+        const group = el('div', 'scored-block');
+        group.dataset.hue = p.subjectId;
+        // the tick buttons below read their subject off this, as search rows do
+        group.dataset.searchSubject = p.subjectId;
+
+        const h = el('h3', 'scored-h');
+        h.append(el('span', null, `Part ${p.part} — ${p.name}`),
+          el('span', 'part-marks', `${p.marks} marks`));
+        group.append(h);
+
+        const list = el('div', 'scored-qs');
+        sat.questions.filter((q) => q.part === p.part).forEach((q) => {
+          const row = el('div', 'scored-q');
+          row.dataset.verdict = q.verdict;
+
+          const n = el('span', 'scored-n');
+          n.append(el('b', null, q.n), document.createTextNode(`${q.marks}m`));
+          row.append(n);
+
+          const body = el('div', 'scored-body');
+          const text = el('p', 'scored-text', q.text);
+          if (q.optional) text.append(' ', el('span', 'scored-skip', '— the one to skip'));
+          body.append(text);
+
+          if (q.topics.length) {
+            const chips = el('div', 'qtopics');
+            q.topics.forEach((tid) => {
+              const topic = topicsOf(subj).find((t) => t.id === tid);
+              if (!topic) return;
+              const chip = el('button', 'qtopic', topic.name);
+              chip.type = 'button';
+              chip.dataset.tick = tid;
+              chip.dataset.status = statusOf(subj.id, tid);
+              chip.title = `${LABEL[statusOf(subj.id, tid)]} — click to change`;
+              chips.append(chip);
+              const meta = el('span', 'scored-meta');
+              meta.append(tierTag(topic), document.createTextNode(` ${topic.timesAsked}×`));
+              chips.append(meta);
+            });
+            body.append(chips);
+          }
+          if (q.note) body.append(el('p', 'scored-note', q.note));
+          row.append(body);
+
+          const verdict = el('span', 'verdict', VERDICT[q.verdict]);
+          verdict.dataset.verdict = q.verdict;
+          row.append(verdict);
+          list.append(row);
+        });
+        group.append(list);
+
+        if (p.paperId) {
+          const go = el('button', 'link-btn', `Read Part ${p.part} as it was printed`);
+          go.type = 'button';
+          go.dataset.gopaper = `${p.subjectId}/${p.paperId}`;
+          group.append(go);
+        }
+        pane.append(group);
+      });
+
+      /* what it exposed */
+      if (sat.gaps?.length) {
+        const gaps = el('div', 'scored-block');
+        gaps.append(el('h3', 'scored-h', 'What the paper exposed'));
+        gaps.append(el('p', 'scored-sub',
+          'Questions the checklist has no answer for, in the order of what they cost.'));
+        const rows = el('div', 'gap-list');
+        sat.gaps.forEach((g) => {
+          const row = el('div', 'gap');
+          row.dataset.hue = g.subjectId;
+          row.append(el('span', 'gap-cost', g.cost));
+          const body = el('div');
+          body.append(el('h4', null, g.name), el('p', null, g.note));
+          row.append(body);
+          rows.append(row);
+        });
+        gaps.append(rows);
+        pane.append(gaps);
+      }
+
+      /* the other side of the ledger */
+      if (card.noShows.length) {
+        const box = el('div', 'scored-block');
+        box.append(el('h3', 'scored-h', 'The other side of the ledger'));
+        box.append(el('p', 'scored-sub',
+          'The checklist is a bet placed across every sitting, not a prediction of one paper. ' +
+          'These are the topics it ranks heaviest that this paper simply did not ask — still ' +
+          'the list you owe.'));
+        const chips = el('ul', 'noshow');
+        card.noShows.forEach(({ subjectId, topic }) => {
+          const li = el('li');
+          li.dataset.hue = subjectId;
+          li.append(el('b', null, `${topic.timesAsked}×`), document.createTextNode(topic.name));
+          chips.append(li);
+        });
+        box.append(chips);
+        pane.append(box);
+      }
+
+      if (sat.caveat) pane.append(el('p', 'paper-warn', sat.caveat));
+    });
+  }
+
   /* ================================================================= drill */
 
   function buildQueue() {
@@ -1147,7 +1413,7 @@
 
     const searching = state.view === 'checklist' && state.query.length > 0;
     const active = searching ? 'search' : state.view;
-    ['checklist', 'papers', 'drill', 'plan', 'search'].forEach((v) => {
+    ['checklist', 'papers', 'scored', 'drill', 'plan', 'search'].forEach((v) => {
       panel(v).hidden = v !== active;
     });
     document.querySelectorAll('[data-view]').forEach((b) =>
@@ -1156,6 +1422,7 @@
     if (active === 'search') { paintSearch(); paintRail(); }
     if (active === 'checklist') { paintRail(); paintNextUp(); paintChapters(); }
     if (active === 'papers') paintPapers();
+    if (active === 'scored') paintScored();
     if (active === 'drill') paintDrill();
     if (active === 'plan') paintPlan();
 
@@ -1377,10 +1644,13 @@
     }),
     // Optional: the site still works as a checklist without the paper transcripts.
     fetch('data/papers.json').then((r) => (r.ok ? r.json() : null)).catch(() => null),
+    // Optional: present once a paper has been sat and read back.
+    fetch('data/scored.json').then((r) => (r.ok ? r.json() : null)).catch(() => null),
   ])
-    .then(([data, papers]) => {
+    .then(([data, papers, scored]) => {
       state.data = data;
       state.papers = papers && Array.isArray(papers.papers) ? papers.papers : [];
+      state.scored = scored && Array.isArray(scored.scored) ? scored.scored : [];
       indexAsked();
       state.subjectId = data.subjects[0].id;
       state.progress = readProgress();
