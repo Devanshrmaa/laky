@@ -3,14 +3,14 @@
     "source": "Photographs of the original BDS question papers.",
     "note": "Questions are transcribed as printed, with the marks the paper awards them. Papers are identified by their printed paper code; a year is only recorded where one is legibly written on the paper.",
     "subjects": {
-      "pharmacology": 19,
+      "pharmacology": 20,
       "dental-materials": 18,
       "pathology": 32,
       "microbiology": 33
     },
-    "totalPapers": 102,
-    "totalQuestions": 874,
-    "totalMarks": 4999.0
+    "totalPapers": 103,
+    "totalQuestions": 887,
+    "totalMarks": 5069.0
   },
   "papers": [
     {
@@ -2213,6 +2213,134 @@
           "text": "Multiple choice questions (10 items): high plasma protein binding; adrenaline with a local anaesthetic; drug for absence seizure; H2 receptor blocker; low dose aspirin; ondansetron; skeletal muscle relaxant; second gas effect; most effective drug in parkinsonism; most important toxicity of amphotericin B.",
           "marks": 10,
           "topics": []
+        }
+      ]
+    },
+    {
+      "id": "pharmacology-020501-undated",
+      "subjectId": "pharmacology",
+      "code": "020501",
+      "series": null,
+      "session": "Annual/Supplementary",
+      "regulation": null,
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 70,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": "Photographed as pages 2 and 3 only. The cover page — which is where the sitting and date are written — was not included, and MCQ items 3 to 10 are on page 4, so only the first two are recorded here.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "text": "Classify drugs used in the treatment of diabetes mellitus. Describe in detail role of traditional and newer insulins in management of diabetes.",
+          "marks": 10,
+          "topics": [
+            "diabetes-insulin-oral-hypoglycemics-metformin-sulfonylureas"
+          ]
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "text": "Short note: Propranolol.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "text": "Short note: Styptics.",
+          "marks": 4,
+          "topics": [
+            "styptics-local-hemostatics"
+          ]
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "text": "Short note: Low Molecular weight heparins.",
+          "marks": 4,
+          "topics": [
+            "coagulants-anticoagulants-heparin-lmwh-warfarin-vit-k"
+          ]
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "text": "Short note: Selective Serotonin Reuptake Inhibitors.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "text": "Short note: Transdermal Therapeutic Systems for Drug Delivery.",
+          "marks": 4,
+          "topics": [
+            "routes-of-administration-parenteral-advantages-disadvantages"
+          ]
+        },
+        {
+          "n": "3",
+          "part": "B",
+          "text": "Classify diuretic drugs. Describe uses and adverse effects of thiazide and loop diuretics.",
+          "marks": 10,
+          "topics": [
+            "diuretics-frusemide-thiazides-high-ceiling"
+          ]
+        },
+        {
+          "n": "4a",
+          "part": "B",
+          "text": "Short note: Amoxycillin-Clavulanic Acid.",
+          "marks": 4,
+          "topics": [
+            "penicillins-classify-amoxicillin-extended-spectrum"
+          ]
+        },
+        {
+          "n": "4b",
+          "part": "B",
+          "text": "Short note: Anti plaque agents.",
+          "marks": 4,
+          "topics": [
+            "dental-caries-plaque-drugs"
+          ]
+        },
+        {
+          "n": "4c",
+          "part": "B",
+          "text": "Short note: Paracetamol.",
+          "marks": 4,
+          "topics": []
+        },
+        {
+          "n": "4d",
+          "part": "B",
+          "text": "Short note: Lignocaine.",
+          "marks": 4,
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques"
+          ]
+        },
+        {
+          "n": "4e",
+          "part": "B",
+          "text": "Short note: Dentifrices.",
+          "marks": 4,
+          "topics": [
+            "dentifrices"
+          ]
+        },
+        {
+          "n": "5",
+          "part": "C",
+          "text": "Multiple choice (10 items, 1 mark each). The two on the photographed page: epinephrine is added to local anaesthetics to (increase bleeding / reduce the duration of anaesthesia / reduce systemic absorption / decrease potency); which of the following is a bactericidal antibiotic (tetracycline / penicillin / erythromycin / chloramphenicol). Items 3 to 10 are on the page that was not photographed.",
+          "marks": 10,
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques",
+            "penicillins-classify-amoxicillin-extended-spectrum"
+          ]
         }
       ]
     },
