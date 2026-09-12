@@ -53,12 +53,20 @@ Either way, this is the view for mock practice.
 
 **Scored** — the checklist marking its own homework. Once a paper has been sat,
 it is read back question by question: did the list already carry the topic this
-question asks for, or not? Paper 020601 (set A) — Pathology and Microbiology —
-scores **50 of the 60 marks you actually write, 83%**, and the view shows where
-each of those marks came from: the mark ledger, the split by tier, the verdict
-on every question, the topics the paper exposed as gaps, and the heavy topics it
-never asked. The two halves did not behave alike — Part B is 100% covered,
-Part A 67%, and no HIGH-tier Pathology topic appears on the paper at all.
+question asks for, or not? The view shows where each mark came from: the mark
+ledger, the split by tier, the verdict on every question, the topics the paper
+exposed as gaps, and the heavy topics it never asked.
+
+Two papers are scored, and both land on **50 of the 60 marks you actually write,
+83%** — from opposite directions.
+
+- **020601 (set A)**, Pathology and Microbiology. The halves did not behave
+  alike: Part B 100% covered, Part A 67%, and no HIGH-tier Pathology topic
+  appears on the paper at all.
+- **020501**, Pharmacology. Again Part B 100% and Part A 67%, and 45 of the 50
+  covered marks came from HIGH-tier topics — the weighting did its job. The one
+  outright miss is Propranolol, from the one chapter in the whole analysis that
+  has no topics under it.
 
 The arithmetic is not stored. `data/scored.json` holds one verdict per question
 and nothing else; every total on the page is summed from those rows against
@@ -260,10 +268,11 @@ changes the frequency counts in `topics.json`.
 | Pathology | 33 | 205 |
 | Microbiology | 34 | 155 |
 
-One of them has been scored against the checklist in
-[`analysis/020601-set-a-vs-checklist.md`](analysis/020601-set-a-vs-checklist.md):
-50 of the 60 marks that paper asks you to write were already on the list — and
-the two it missed are the reason to read it.
+Two of them have been scored against the checklist in the Scored view — 020601
+set A, written up in
+[`analysis/020601-set-a-vs-checklist.md`](analysis/020601-set-a-vs-checklist.md),
+and the Pharmacology 020501. Each put 50 of its 60 written marks on the list;
+what each one missed is the reason to read it.
 
 ```jsonc
 {

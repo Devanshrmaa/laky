@@ -175,6 +175,184 @@
           "note": "The Mycology chapter names four organisms and never asks you to define or classify the group. Skippable here, but cheap to add."
         }
       ]
+    },
+    {
+      "id": "020501-pharmacology",
+      "name": "Paper 020501",
+      "label": "Pharmacology",
+      "sat": true,
+      "parts": [
+        {
+          "part": "A",
+          "subjectId": "pharmacology",
+          "name": "Pharmacology",
+          "paperId": "pharmacology-020501-undated"
+        },
+        {
+          "part": "B",
+          "subjectId": "pharmacology",
+          "name": "Pharmacology",
+          "paperId": "pharmacology-020501-undated"
+        }
+      ],
+      "choice": "Questions 2 and 4 each print five short notes for 4×5=20, so four of the five get written.",
+      "caveat": "Scored on photographs of pages 2 and 3. Part C — ten one-mark MCQs — is left out of the scoring entirely rather than judged on a fifth of itself: only two of its ten items were photographed. Both of those two were answerable off the checklist (adrenaline with a local anaesthetic, and penicillin as a bactericidal). The cover page carrying the sitting and date was not photographed either.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "marks": 10,
+          "verdict": "on",
+          "text": "Classify drugs used in the treatment of diabetes mellitus. Describe in detail role of traditional and newer insulins in management of diabetes.",
+          "topics": [
+            "diabetes-insulin-oral-hypoglycemics-metformin-sulfonylureas"
+          ],
+          "note": "Called exactly. A HIGH topic at 10× that has opened three other transcribed papers with almost this stem — 6334, 7223 and 7190 all say classify the antidiabetics. The one new turn is \"newer insulins\": the analogues have never been asked before, and the topic's own name leans on the oral drugs, metformin and the sulfonylureas."
+        },
+        {
+          "n": "2a",
+          "part": "A",
+          "marks": 5,
+          "verdict": "off",
+          "text": "Propranolol.",
+          "topics": [],
+          "note": "The one real miss, and not a new one. Propranolol has now been asked seven times across the transcribed papers — including two full 10-mark openers, \"classify beta blockers\", in 7808 and 6499 — and there is still no topic to tick, because the source analysis lists an Autonomic Nervous System chapter and puts no table under it."
+        },
+        {
+          "n": "2b",
+          "part": "A",
+          "marks": 5,
+          "verdict": "on",
+          "text": "Styptics.",
+          "topics": [
+            "styptics-local-hemostatics"
+          ],
+          "note": "HIGH at 7×, and asked as a short note in four other papers on file. Free marks."
+        },
+        {
+          "n": "2c",
+          "part": "A",
+          "marks": 5,
+          "verdict": "on",
+          "text": "Low Molecular weight heparins.",
+          "topics": [
+            "coagulants-anticoagulants-heparin-lmwh-warfarin-vit-k"
+          ],
+          "note": "The topic names LMWH outright. The December 2023 paper under this same code asked for it in the same words, one sitting ago."
+        },
+        {
+          "n": "2d",
+          "part": "A",
+          "marks": 5,
+          "verdict": "off",
+          "text": "Selective Serotonin Reuptake Inhibitors.",
+          "topics": [],
+          "note": "A genuine first: no transcribed paper has ever printed the word serotonin, and the CNS chapter carries no antidepressant topic at all. Less a failure of the checklist than a new arrival — and with four of five to write, the one to leave.",
+          "optional": true
+        },
+        {
+          "n": "2e",
+          "part": "A",
+          "marks": 5,
+          "verdict": "partly",
+          "text": "Transdermal Therapeutic Systems for Drug Delivery.",
+          "topics": [
+            "routes-of-administration-parenteral-advantages-disadvantages"
+          ],
+          "note": "The chapter is there but the angle is not. Routes of Administration is the lightest topic in General Pharmacology at 3×, and it is scoped to the parenteral routes — transdermal has never been asked before, in any paper on file."
+        },
+        {
+          "n": "3",
+          "part": "B",
+          "marks": 10,
+          "verdict": "on",
+          "text": "Classify diuretic drugs. Describe uses and adverse effects of thiazide and loop diuretics.",
+          "topics": [
+            "diuretics-frusemide-thiazides-high-ceiling"
+          ],
+          "note": "HIGH at 9×, and the topic names frusemide, thiazides and high-ceiling — all three halves of the question. Worth noting the promotion: every previous appearance was a 4-mark short note on high ceiling diuretics. This is the first time it has carried a 10-mark question."
+        },
+        {
+          "n": "4a",
+          "part": "B",
+          "marks": 5,
+          "verdict": "on",
+          "text": "Amoxycillin-Clavulanic Acid.",
+          "topics": [
+            "penicillins-classify-amoxicillin-extended-spectrum"
+          ],
+          "note": "Penicillins is the heaviest thing in Chemotherapy at 12× and the topic names amoxicillin. The clavulanic acid pairing is new wording, but it is one line of beta-lactamase inhibition on top of an answer the checklist already had."
+        },
+        {
+          "n": "4b",
+          "part": "B",
+          "marks": 5,
+          "verdict": "on",
+          "text": "Anti plaque agents.",
+          "topics": [
+            "dental-caries-plaque-drugs"
+          ],
+          "note": "Paper 7496 asked for \"drugs for dental plaque\" in almost these words."
+        },
+        {
+          "n": "4c",
+          "part": "B",
+          "marks": 5,
+          "verdict": "partly",
+          "text": "Paracetamol.",
+          "topics": [],
+          "note": "No topic of its own. NSAIDs / Aspirin is HIGH at 10× and covers the ground around it, but paracetamol is not an NSAID and the topic is written around aspirin. It has come up bare once before, on 7172, plus the N-acetylcysteine poisoning angle. The weakest of these five, so the one to drop.",
+          "optional": true
+        },
+        {
+          "n": "4d",
+          "part": "B",
+          "marks": 5,
+          "verdict": "on",
+          "text": "Lignocaine.",
+          "topics": [
+            "local-anaesthetics-lignocaine-classify-moa-uses-ae-techniques"
+          ],
+          "note": "The single heaviest topic in the subject: 14× in the analysis, 15 questions across the transcribed papers. If anything was safe, it was this."
+        },
+        {
+          "n": "4e",
+          "part": "B",
+          "marks": 5,
+          "verdict": "on",
+          "text": "Dentifrices.",
+          "topics": [
+            "dentifrices"
+          ],
+          "note": "HIGH at 8×, asked outright in 5743 and 6499."
+        }
+      ],
+      "gaps": [
+        {
+          "name": "Beta blockers / Propranolol",
+          "cost": "5 marks",
+          "subjectId": "pharmacology",
+          "note": "The structural hole. The Autonomic Nervous System chapter exists in the analysis with no topics under it, yet propranolol and adrenaline between them account for fifteen questions across the transcribed papers, two of them 10-mark openers. Everything else here is a wording gap; this one is a missing chapter."
+        },
+        {
+          "name": "Transdermal drug delivery",
+          "cost": "5 marks",
+          "subjectId": "pharmacology",
+          "note": "Routes of Administration is on the list but scoped to parenteral, and sits at LOW. Widening it to name the transdermal and oral routes would have covered this."
+        },
+        {
+          "name": "Paracetamol",
+          "cost": "5 marks",
+          "subjectId": "pharmacology",
+          "note": "Asked bare twice now and still has no topic. Either its own entry or a rename of NSAIDs / Aspirin to take in the non-NSAID analgesics."
+        },
+        {
+          "name": "SSRIs / antidepressants",
+          "cost": "5 marks",
+          "subjectId": "pharmacology",
+          "note": "Zero appearances in any paper on file before today, so there was nothing to predict it with. Worth adding now that it has been asked once."
+        }
+      ]
     }
   ]
 }

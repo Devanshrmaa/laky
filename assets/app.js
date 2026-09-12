@@ -910,11 +910,14 @@
         (RANK[t.tier] < RANK[best.tier] ? t : best)).tier] += q.marks;
     });
 
-    // What the checklist ranks heaviest and this paper never asked.
-    const noShows = sat.parts
-      .flatMap((p) => topicsOf(subjectById(p.subjectId))
-        .filter((t) => t.tier === 'HIGH' && !hit.has(idOf(p.subjectId, t.id)))
-        .map((t) => ({ subjectId: p.subjectId, topic: t })))
+    // What the checklist ranks heaviest and this paper never asked. One paper
+    // can print several parts out of the same subject — Pharmacology runs its
+    // A, B and C off one syllabus — so walk distinct subjects, not parts, or
+    // every topic below would be listed once per part.
+    const noShows = [...new Set(sat.parts.map((p) => p.subjectId))]
+      .flatMap((subjectId) => topicsOf(subjectById(subjectId))
+        .filter((t) => t.tier === 'HIGH' && !hit.has(idOf(subjectId, t.id)))
+        .map((t) => ({ subjectId, topic: t })))
       .sort((a, b) => b.topic.timesAsked - a.topic.timesAsked);
 
     return {
@@ -923,6 +926,7 @@
       printedMarks: marks(sat.questions),
       writtenMarks: marks(written),
       onMarks: marks(on),
+      partlyMarks: marks(written.filter((q) => q.verdict === 'partly')),
       offMarks: marks(written.filter((q) => q.verdict === 'off')),
       tiers,
       noShows,
@@ -947,6 +951,7 @@
     strip.setAttribute('role', 'img');
     strip.setAttribute('aria-label',
       `${card.writtenMarks} marks: ${card.onMarks} already on the checklist, ` +
+      (card.partlyMarks ? `${card.partlyMarks} only half on it, ` : '') +
       `${card.offMarks} not on it.`);
     card.written.forEach((q) => {
       const seg = el('span', 'ledger-seg');
@@ -958,7 +963,9 @@
 
     const key = el('ul', 'ledger-key');
     [['on', card.onMarks, 'already on the checklist'],
+      ['partly', card.partlyMarks, 'on the chapter but not the angle'],
       ['off', card.offMarks, 'nowhere on it']].forEach(([verdict, m, words]) => {
+      if (!m) return;   // a paper with nothing half-covered says nothing about it
       const li = el('li');
       const sw = el('span', 'ledger-sw');
       sw.dataset.verdict = verdict;
@@ -1018,9 +1025,13 @@
       bar.setAttribute('role', 'img');
       bar.setAttribute('aria-label',
         `Of ${card.writtenMarks} marks: ${card.tiers.HIGH} from HIGH-tier topics, ` +
-        `${card.tiers.MEDIUM} MEDIUM, ${card.tiers.LOW} LOW, ${card.offMarks} not on the checklist.`);
+        `${card.tiers.MEDIUM} MEDIUM, ${card.tiers.LOW} LOW, ` +
+        (card.partlyMarks ? `${card.partlyMarks} only half covered, ` : '') +
+        `${card.offMarks} not on the checklist.`);
+      // PARTLY earns a band of its own so the strip still adds up to every mark
+      // written: a half-covered question belongs to no tier, but it was sat.
       const bands = [['HIGH', card.tiers.HIGH], ['MEDIUM', card.tiers.MEDIUM],
-        ['LOW', card.tiers.LOW], ['OFF', card.offMarks]];
+        ['LOW', card.tiers.LOW], ['PARTLY', card.partlyMarks], ['OFF', card.offMarks]];
       bands.forEach(([band, m]) => {
         if (!m) return;
         const seg = el('span');
@@ -1029,12 +1040,17 @@
         bar.append(seg);
       });
       const tierKey = el('ul', 'tier-key');
+      const BAND_WORDS = {
+        OFF: ' — not on the checklist',
+        PARTLY: ' — on the chapter, not the angle',
+      };
       bands.forEach(([band, m]) => {
+        if (!m && BAND_WORDS[band]) return;
         const li = el('li');
         const sw = el('span', 'tier-sw');
         sw.dataset.band = band;
-        li.append(sw, el('b', null, `${m} marks`), document.createTextNode(
-          band === 'OFF' ? ' — not on the checklist' : ` — ${band} tier`));
+        li.append(sw, el('b', null, `${m} marks`),
+          document.createTextNode(BAND_WORDS[band] || ` — ${band} tier`));
         tierKey.append(li);
       });
       tierBox.append(bar, tierKey);

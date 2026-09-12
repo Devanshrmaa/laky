@@ -276,7 +276,10 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   border-bottom-color: var(--stain);
 }
 
-.find { margin-left: auto; display: flex; align-items: center; }
+/* position:relative keeps the visually-hidden label inside the tab strip —
+   without it the absolutely-positioned span resolves against the page and
+   pushes it a few pixels wide once the strip starts scrolling on a phone. */
+.find { margin-left: auto; display: flex; align-items: center; position: relative; }
 .find input {
   font: inherit;
   font-size: 0.85rem;
@@ -1058,6 +1061,7 @@ main { padding: 2rem 0 5rem; }
 .ledger-sw { width: 9px; height: 13px; border-radius: 1px; flex: none; }
 .ledger-sw[data-verdict="on"] { background: var(--mark); }
 .ledger-sw[data-verdict="off"] { background: var(--flag); }
+.ledger-sw[data-verdict="partly"] { background: var(--rule-2); }
 
 .scored-parts {
   display: grid;
@@ -1115,6 +1119,7 @@ main { padding: 2rem 0 5rem; }
 .tier-strip [data-band="HIGH"],   .tier-sw[data-band="HIGH"]   { background: var(--h3); }
 .tier-strip [data-band="MEDIUM"], .tier-sw[data-band="MEDIUM"] { background: var(--h2); }
 .tier-strip [data-band="LOW"],    .tier-sw[data-band="LOW"]    { background: var(--h1); }
+.tier-strip [data-band="PARTLY"], .tier-sw[data-band="PARTLY"] { background: var(--rule-2); }
 .tier-strip [data-band="OFF"],    .tier-sw[data-band="OFF"]    { background: var(--flag); }
 
 .tier-key {
