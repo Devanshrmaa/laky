@@ -35,6 +35,7 @@
     <nav class="views shell" aria-label="Views">
       <button type="button" class="view-tab" data-view="checklist" aria-current="true">Checklist</button>
       <button type="button" class="view-tab" data-view="papers">Papers</button>
+      <button type="button" class="view-tab" data-view="scored">Scored</button>
       <button type="button" class="view-tab" data-view="drill">Drill</button>
       <button type="button" class="view-tab" data-view="plan">Plan</button>
       <label class="find">
@@ -113,6 +114,11 @@
         </div>
       </aside>
       <section class="work" data-bind="paperPane"></section>
+    </div>
+
+    <!-- ---------------------------------------------------------- scored -->
+    <div data-panel="scored" hidden>
+      <section class="scored" data-bind="scoredPane"></section>
     </div>
 
     <!-- ----------------------------------------------------------- drill -->

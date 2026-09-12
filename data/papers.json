@@ -5,12 +5,12 @@
     "subjects": {
       "pharmacology": 20,
       "dental-materials": 18,
-      "pathology": 32,
-      "microbiology": 33
+      "pathology": 33,
+      "microbiology": 34
     },
-    "totalPapers": 103,
-    "totalQuestions": 887,
-    "totalMarks": 5069.0
+    "totalPapers": 105,
+    "totalQuestions": 891,
+    "totalMarks": 5129.0
   },
   "papers": [
     {
@@ -9487,6 +9487,79 @@
           "marks": 5,
           "topics": [
             "sore-throat-streptococcus-pyogenes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-020601-setA",
+      "subjectId": "pathology",
+      "code": "020601",
+      "series": null,
+      "session": "Undated",
+      "regulation": null,
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 30,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": "Transcribed from a photograph of page 2 only — the page carrying Part A and Part B. The paper's year and session are not visible, and any further section (the other 020601 papers carry a Part C of MCQs) is not in the photograph. Question 4 prints five parts for 5×4=20, so four of the five are answered.",
+      "questions": [
+        {
+          "n": "1",
+          "part": "A",
+          "marks": 10,
+          "text": "Define oedema. Write down its pathogenesis. Write in detail about renal oedema.",
+          "topics": [
+            "edema-pathogenesis-pulmonary-cardiac"
+          ]
+        },
+        {
+          "n": "2",
+          "part": "A",
+          "marks": 20,
+          "text": "Write short notes on the following: a) Granuloma b) Oncogenes c) Leukoplakia d) Lab diagnosis of diabetes mellitus.",
+          "topics": [
+            "granulomatous-inflammation-granuloma-tubercle",
+            "diabetes-mellitus-types-pathogenesis-renal-lesions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology-020601-setA",
+      "subjectId": "microbiology",
+      "code": "020601",
+      "series": null,
+      "session": "Undated",
+      "regulation": null,
+      "year": null,
+      "yearNote": null,
+      "maxMarks": 30,
+      "hours": 3,
+      "format": "modern",
+      "incomplete": "Transcribed from a photograph of page 2 only — the page carrying Part A and Part B. The paper's year and session are not visible, and any further section (the other 020601 papers carry a Part C of MCQs) is not in the photograph. Question 4 prints five parts for 5×4=20, so four of the five are answered.",
+      "questions": [
+        {
+          "n": "3",
+          "part": "B",
+          "marks": 10,
+          "text": "Give a brief note on types and pathogenesis of tuberculosis. Describe their laboratory diagnosis and prevention.",
+          "topics": [
+            "pulmonary-tuberculosis-lab-diagnosis"
+          ]
+        },
+        {
+          "n": "4",
+          "part": "B",
+          "marks": 20,
+          "text": "Write short notes on the following: a) Give a short note on moist heat sterilization. b) What is mycosis? Describe types of Mycoses. c) Describe pathogenesis of Herpes Virus. d) Differentiate between acquired and innate immunity. e) Describe any two commonly known protozoan disease.",
+          "topics": [
+            "sterilization-by-moist-heat-autoclave",
+            "herpes-simplex-virus-hsv",
+            "innate-vs-acquired-immunity",
+            "malaria-lab-diagnosis-life-cycle",
+            "entamoeba-histolytica-amoebiasis"
           ]
         }
       ]
