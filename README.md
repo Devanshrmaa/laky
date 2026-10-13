@@ -331,4 +331,19 @@ assets/app.js       five views, coverage maths, progress
 data/topics.json    topic frequency analysis — source of truth for tiers
 data/papers.json    real question papers, transcribed (optional, additive)
 data/scored.json    papers already sat, read back against the checklist
+tools/export_questions.py   writes export/ from the three data files
+export/             every question, exported — CSV, JSON and one readable file per subject
+```
+
+## Taking the questions elsewhere
+
+`export/` holds every question on the site in forms that don't need this page:
+a readable file per subject (each topic with every question that asked it, word
+for word, then every paper in full), `questions.csv` / `questions.json` with one
+row per question, `topics.csv` for the checklist, and `all-data.json` with the
+three data files in one. [`export/README.md`](export/README.md) says which file
+is for what. It is generated — after changing anything in `data/`, run:
+
+```sh
+python3 tools/export_questions.py
 ```
